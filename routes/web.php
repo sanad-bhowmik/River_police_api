@@ -26,6 +26,12 @@ Route::get('/review', function () {
 Route::get('/mission', function () {
     return view('mission');
 });
+Route::get('/plumbing', function () {
+    return view('plumbing');
+});
+Route::get('/electric', function () {
+    return view('electric');
+});
 
 
 
