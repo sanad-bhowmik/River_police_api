@@ -319,12 +319,12 @@
                         <div class="submenu absolute left-0 mt-1 bg-white shadow-lg rounded-lg p-2 hidden group-hover:block z-20">
                             <a href="/plumbing" class="block px-4 py-2 hover:bg-gray-200">Plumber</a>
                             <a href="/electric" class="block px-4 py-2 hover:bg-gray-200">Electrician</a>
-                            <a href="/" class="block px-4 py-2 hover:bg-gray-200">Handyman</a>
-                            <a href="/" class="block px-4 py-2 hover:bg-gray-200">Deep Cleaning</a>
-                            <a href="/" class="block px-4 py-2 hover:bg-gray-200">Floor Polishing</a>
-                            <a href="/" class="block px-4 py-2 hover:bg-gray-200">Floor Cleaning</a>
-                            <a href="/" class="block px-4 py-2 hover:bg-gray-200">Wood Varnishing</a>
-                            <a href="/" class="block px-4 py-2 hover:bg-gray-200">Decking</a>
+                            <a href="/handyman" class="block px-4 py-2 hover:bg-gray-200">Handyman</a>
+                            <a href="/deepclean" class="block px-4 py-2 hover:bg-gray-200">Deep Cleaning</a>
+                            <a href="/floorpolish" class="block px-4 py-2 hover:bg-gray-200">Floor Polishing</a>
+                            <a href="/floorclean" class="block px-4 py-2 hover:bg-gray-200">Floor Cleaning</a>
+                            <a href="/wood" class="block px-4 py-2 hover:bg-gray-200">Wood Varnishing</a>
+                            <a href="/decking" class="block px-4 py-2 hover:bg-gray-200">Decking</a>
                         </div>
                     </div>
                     <a href="/price">Price</a>

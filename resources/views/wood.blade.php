@@ -413,7 +413,7 @@
                                     </div>
                                     <h6 class="text-xl mb-1 font-semibold">ELECTRICAL EXPERTS</h6>
                                     <p class="mb-4 text-blueGray-500">
-                                    Our electricians have over 35 years of experience in the industry, serving 1000s of residential & commercial estates.
+                                        Our electricians have over 35 years of experience in the industry, serving 1000s of residential & commercial estates.
                                     </p>
                                 </div>
                             </div>
@@ -423,10 +423,10 @@
                                         <img src={{ url('img/under-construction.gif') }} alt="">
                                     </div>
                                     <h6 class="text-xl mb-1 font-semibold">
-                                    FULL 1-STOP ELECTRICAL SERVICES
+                                        FULL 1-STOP ELECTRICAL SERVICES
                                     </h6>
                                     <p class="mb-4 text-blueGray-500">
-                                    Our top-to-bottom electrical service is designed to be fuss-free for you. Besides providing the electrical service, we can also supply you the lights, power sockets & bulbs required for the service!
+                                        Our top-to-bottom electrical service is designed to be fuss-free for you. Besides providing the electrical service, we can also supply you the lights, power sockets & bulbs required for the service!
                                     </p>
                                 </div>
                             </div>

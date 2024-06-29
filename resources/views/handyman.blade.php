@@ -16,12 +16,12 @@
 <style>
     hr.hr-1 {
         border: 0;
-        height: 1px;
+        height: .0625rem;
         background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
     }
 
     #nav1 {
-        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1000%26quot%3b)' fill='none'%3e%3cpath d='M419.6053010003687 163.3661663577806L460.0172446068905 230.62293494402098 540.6964256829901 136.3766352411181z' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M832.647%2c268.098C850.153%2c267.956%2c865.16%2c258.158%2c875.221%2c243.831C887.506%2c226.338%2c900.103%2c204.959%2c890.341%2c185.942C880.079%2c165.952%2c855.111%2c160.385%2c832.647%2c160.899C811.214%2c161.39%2c789.297%2c169.489%2c779.353%2c188.482C769.932%2c206.476%2c777.563%2c227.653%2c788.861%2c244.532C798.743%2c259.295%2c814.883%2c268.242%2c832.647%2c268.098' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M924.2167904606458-69.39989263033448L802.0358488286402 36.81037954426655 1030.4270626352468 52.78104900167121z' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M883.4503129161776 145.9319053284218L991.5423983336607 104.43924126467385 841.9576488524297 37.839819910938715z' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M843.68 491.95 a161.12 161.12 0 1 0 322.24 0 a161.12 161.12 0 1 0 -322.24 0z' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M762.4664758135211 349.5036480581027L651.3413188206356 468.6707893138538 770.5084600763867 579.7959463067393 881.6336170692722 460.6288050509883z' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M167.625%2c166.733C197.209%2c166.479%2c220.899%2c144.616%2c235.025%2c118.621C248.452%2c93.912%2c249.417%2c64.92%2c236.533%2c39.924C222.396%2c12.497%2c198.456%2c-10.901%2c167.625%2c-12.144C134.897%2c-13.464%2c103.626%2c4.965%2c88.372%2c33.951C73.996%2c61.269%2c82.37%2c93.289%2c98.191%2c119.796C113.537%2c145.507%2c137.683%2c166.99%2c167.625%2c166.733' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M852.5273925112068 449.94057081914406L969.5194397284837 481.28849539187723 1000.8673643012169 364.2964481746003 883.87531708394 332.9485236018671z' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M654.7218892975667 413.88063108446335L740.3231740574574 440.05157020784156 736.7789403625793 298.5641735063165z' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1039.4221823438097 184.18131092343668L918.302514958343 268.9902150521932 1003.1114190870995 390.10988243765996 1124.2310864725662 305.30097830890344z' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M484.6223913901636 418.69155680193126L507.69913879861855 527.7701765678157 581.2549366066957 463.82909704376243z' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M700.7129912812588 487.1877231557661L800.5494979470236 354.7002039762914 668.0619787675489 254.86369731052667 568.2254721017841 387.3512164900014z' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M194.64034498289436 416.72315197868386L353.3951998313218 462.2453740732798 398.9174219259177 303.49051922485233 240.16256707749028 257.9682971302564z' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M-41.93706318769925 78.44152557562158L51.65387791988694 217.19580186810322 190.40815421236857 123.60486076051701 96.81721310478237-15.149415531964607z' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M616.8463150881507 25.144255406657948L602.3479771820636 143.22374194366773 720.4274637190733 157.72207984975492 734.9258016251605 39.64259331274513z' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M547.23 61.34 a169.03 169.03 0 1 0 338.06 0 a169.03 169.03 0 1 0 -338.06 0z' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M930.55 151.07 a130.08 130.08 0 1 0 260.16 0 a130.08 130.08 0 1 0 -260.16 0z' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M177.51874183477418 176.92069846295792L321.06365536532667 177.0574998664828 260.2293139012762 67.30944270484724z' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M178.89008021283894 65.4963141947672L231.25290241968779 26.038097445983716 145.88416619308816-32.777027489897804z' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M127.202%2c745.821C184.825%2c747.403%2c227.356%2c696.273%2c252.821%2c644.558C275.183%2c599.144%2c271.525%2c547.155%2c246.771%2c502.999C221.39%2c457.725%2c179.103%2c420.948%2c127.202%2c420.482C74.615%2c420.01%2c28.308%2c454.259%2c3.858%2c500.819C-18.974%2c544.297%2c-9.092%2c594.109%2c12.99%2c637.972C38.226%2c688.099%2c71.102%2c744.28%2c127.202%2c745.821' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1000'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1000%26quot%3b)' fill='none'%3e%3cpath d='M419.6053010003687 163.3661663577806L460.0172446068905 230.62293494402098 540.6964256829901 136.3766352411181z' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M832.647%2c268.098C850.153%2c267.956%2c865.16%2c258.158%2c875.221%2c243.831C887.506%2c226.338%2c900.103%2c204.959%2c890.341%2c185.942C880.079%2c165.952%2c855.111%2c160.385%2c832.647%2c160.899C811.214%2c161.39%2c789.297%2c169.489%2c779.353%2c188.482C769.932%2c206.476%2c777.563%2c227.653%2c788.861%2c244.532C798.743%2c259.295%2c814.883%2c268.242%2c832.647%2c268.098' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M924.2167904606458-69.39989263033448L802.0358488286402 36.81037954426655 1030.4270626352468 52.78104900167121z' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M883.4503129161776 145.9319053284218L991.5423983336607 104.43924126467385 841.9576488524297 37.839819910938715z' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M843.68 491.95 a161.12 161.12 0 1 0 322.24 0 a161.12 161.12 0 1 0 -322.24 0z' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M762.4664758135211 349.5036480581027L651.3413188206356 468.6707893138538 770.5084600763867 579.7959463067393 881.6336170692722 460.6288050509883z' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M167.625%2c166.733C197.209%2c166.479%2c220.899%2c144.616%2c235.025%2c118.621C248.452%2c93.912%2c249.417%2c64.92%2c236.533%2c39.924C222.396%2c12.497%2c198.456%2c-10.901%2c167.625%2c-12.144C134.897%2c-13.464%2c103.626%2c4.965%2c88.372%2c33.951C73.996%2c61.269%2c82.37%2c93.289%2c98.191%2c119.796C113.537%2c145.507%2c137.683%2c166.99%2c167.625%2c166.733' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M852.5273925112068 449.94057081914406L969.5194397284837 481.28849539187723 1000.8673643012169 364.2964481746003 883.87531708394 332.9485236018671z' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M654.7218892975667 413.88063108446335L740.3231740574574 440.05157020784156 736.7789403625793 298.5641735063165z' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1039.4221823438097 184.18131092343668L918.302514958343 268.9902150521932 1003.1114190870995 390.10988243765996 1124.2310864725662 305.30097830890344z' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M484.6223913901636 418.69155680193126L507.69913879861855 527.7701765678157 581.2549366066957 463.82909704376243z' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M700.7129912812588 487.1877231557661L800.5494979470236 354.7002039762914 668.0619787675489 254.86369731052667 568.2254721017841 387.3512164900014z' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M194.64034498289436 416.72315197868386L353.3951998313218 462.2453740732798 398.9174219259177 303.49051922485233 240.16256707749028 257.9682971302564z' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M-41.93706318769925 78.44152557562158L51.65387791988694 217.19580186810322 190.40815421236857 123.60486076051701 96.81721310478237-15.149415531964607z' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M616.8463150881507 25.144255406657948L602.3479771820636 143.22374194366773 720.4274637190733 157.72207984975492 734.9258016251605 39.64259331274513z' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M547.23 61.34 a169.03 169.03 0 1 0 338.06 0 a169.03 169.03 0 1 0 -338.06 0z' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M930.55 151.07 a130.08 130.08 0 1 0 260.16 0 a130.08 130.08 0 1 0 -260.16 0z' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M177.51874183477418 176.92069846295792L321.06365536532667 177.0574998664828 260.2293139012762 67.30944270484724z' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M178.89008021283894 65.4963141947672L231.25290241968779 26.038097445983716 145.88416619308816-32.777027489897804z' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M127.202%2c745.821C184.825%2c747.403%2c227.356%2c696.273%2c252.821%2c644.558C275.183%2c599.144%2c271.525%2c547.155%2c246.771%2c502.999C221.39%2c457.725%2c179.103%2c420.948%2c127.202%2c420.482C74.615%2c420.01%2c28.308%2c454.259%2c3.858%2c500.819C-18.974%2c544.297%2c-9.092%2c594.109%2c12.99%2c637.972C38.226%2c688.099%2c71.102%2c744.28%2c127.202%2c745.821' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1000'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-0.625rem%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-0.3125rem%2c -0.3125rem)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -0.625rem)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
     }
 
     .submenu {
@@ -41,9 +41,9 @@
         top: 56%;
         left: 0;
         background-color: white;
-        padding: 8px 0;
-        border-radius: 4px;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        padding: .5rem 0;
+        border-radius: .25rem;
+        box-shadow: 0 .25rem .375rem rgba(0, 0, 0, 0.1);
     }
 
     /* Hide submenu by default */
@@ -58,15 +58,15 @@
         position: relative;
         width: 100vw;
         max-width: 100%;
-        min-height: 1rem;
+        min-height: 16px;
         overflow-x: hidden;
         font-family: "Merriweather", serif;
-        font-size: 18px;
+        font-size: 1.125rem;
         color: black;
     }
 
     #timebor {
-        border: 1px solid #8590f8;
+        border: .0625rem solid #8590f8;
     }
 
     .main-container__marquee-track {
@@ -81,7 +81,7 @@
     .main-container__marquee-items {
         flex-shrink: 0;
         display: flex;
-        gap: 20px;
+        gap: 1.25rem;
         justify-content: space-around;
         min-width: 100%;
         animation: marquee 12s linear infinite;
@@ -92,7 +92,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 18px;
+        font-size: 1.125rem;
         width: auto;
         transition: all 0.1s ease-in-out;
     }
@@ -119,7 +119,7 @@
 
 
     .parallax {
-        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1000%26quot%3b)' fill='none'%3e%3cpath d='M810.1347036630418 421.6504848910055L888.2684192138595 340.7406539090441 807.3585882318982 262.6069383582264 729.2248726810805 343.51676934018775z' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M644.3072411395592 141.28127900947237L757.7756805729197 182.5804134918529 799.0748150553002 69.11197405849242 685.6063756219397 27.812839576111884z' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M416.372%2c499.692C434.769%2c499.785%2c452.997%2c492.812%2c462.679%2c477.169C472.858%2c460.723%2c474.63%2c439.076%2c463.81%2c423.045C453.896%2c408.358%2c434.03%2c407.08%2c416.372%2c408.563C401.642%2c409.8%2c389.191%2c417.708%2c380.982%2c430.001C371.501%2c444.199%2c363.141%2c461.481%2c370.871%2c476.703C379.117%2c492.942%2c398.159%2c499.6%2c416.372%2c499.692' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M293.2988487532544 406.02504290171237L378.67749769551637 537.7713416937648 443.10590335357733 416.5991340525801z' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M263.1277886119991 548.6007948076293L354.32636880281814 530.8735865972169 245.40058040158664 457.4022146168103z' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M991.4238191431543-3.327366227237686L874.8946885315877-17.6353443617761 860.5867103970493 98.89378624979051 977.1158410086159 113.20176438432892z' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1267.4646466613688 551.7852615289253L1326.5088723523097 646.2757746426306 1438.7225291773973 510.46417954936646z' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1314.6190180147405 351.488657935923L1219.2549705158951 300.78269443937376 1190.878049020494 469.1817474359163z' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1331.1073826180477 373.31065597632755L1397.420211078349 262.9475761532185 1287.05713125524 196.63474769291713 1220.7443027949387 306.9978275160262z' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M363.0307307763521 173.12558445680196L272.7681890990368 288.65636937716073 388.29897401939553 378.918911054476 478.56151569671084 263.3881261341172z' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1187.844818718184 426.82393790112536L1136.5421189381648 508.9254197921167 1218.6436008291562 560.2281195721359 1269.9463006091753 478.12663768114453z' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M932.233%2c175.671C952.825%2c176.139%2c972.302%2c166.494%2c983.425%2c149.159C995.548%2c130.266%2c1001.432%2c105.547%2c989.381%2c86.608C977.895%2c68.558%2c953.628%2c68.702%2c932.233%2c68.708C910.853%2c68.714%2c886.205%2c68.346%2c875.138%2c86.639C863.845%2c105.307%2c873.14%2c128.554%2c884.918%2c146.92C895.596%2c163.57%2c912.458%2c175.222%2c932.233%2c175.671' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M436.8912101982195 350.77272598110756L528.8928544474314 337.84273810433086 515.9628665706548 245.84109385511897 423.9612223214428 258.7710817318956z' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1354.0098044337633-69.5110982927585L1292.9820051231359 45.265498992583105 1468.786401719105-8.483298982131096z' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M605.799%2c316.795C644.145%2c319.53%2c683.479%2c305.636%2c704.198%2c273.254C726.467%2c238.451%2c729.1%2c192.953%2c707.623%2c157.655C686.864%2c123.538%2c645.642%2c108.808%2c605.799%2c111.534C570.386%2c113.957%2c541.788%2c138.547%2c525.551%2c170.112C510.726%2c198.933%2c513.483%2c232.328%2c529.038%2c260.761C545.334%2c290.548%2c571.932%2c314.379%2c605.799%2c316.795' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M553.069%2c250.317C583.338%2c251.188%2c610.375%2c232.423%2c625.402%2c206.132C640.311%2c180.047%2c640.833%2c148.384%2c626.388%2c122.04C611.352%2c94.618%2c584.307%2c72.724%2c553.069%2c74.218C523.631%2c75.626%2c504.39%2c102.279%2c490.966%2c128.516C478.969%2c151.965%2c475.642%2c178.7%2c487.607%2c202.166C500.795%2c228.031%2c524.048%2c249.482%2c553.069%2c250.317' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M363.8%2c686.915C418.255%2c689.311%2c472.198%2c661.037%2c496.988%2c612.492C520.082%2c567.267%2c500.323%2c515.374%2c473.38%2c472.331C448.462%2c432.524%2c410.751%2c400.769%2c363.8%2c399.722C315.12%2c398.636%2c269.408%2c424.876%2c245.414%2c467.246C221.749%2c509.034%2c226.691%2c559.328%2c249.474%2c601.603C273.652%2c646.466%2c312.886%2c684.675%2c363.8%2c686.915' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M195.4141197981914 28.732110290471002L152.12575875765845 130.71309806044331 297.39510756816367 72.02047133100393z' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M590.3078504730368 302.48332001087346L613.2623869345789 401.9103408994191 689.7348713615823 279.5287835493313z' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M37.111678448741515 383.81688902847173L-49.089559404007304 446.44575429519927 87.9543574224584 544.4331784409587z' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1000'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1000%26quot%3b)' fill='none'%3e%3cpath d='M810.1347036630418 421.6504848910055L888.2684192138595 340.7406539090441 807.3585882318982 262.6069383582264 729.2248726810805 343.51676934018775z' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M644.3072411395592 141.28127900947237L757.7756805729197 182.5804134918529 799.0748150553002 69.11197405849242 685.6063756219397 27.812839576111884z' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M416.372%2c499.692C434.769%2c499.785%2c452.997%2c492.812%2c462.679%2c477.169C472.858%2c460.723%2c474.63%2c439.076%2c463.81%2c423.045C453.896%2c408.358%2c434.03%2c407.08%2c416.372%2c408.563C401.642%2c409.8%2c389.191%2c417.708%2c380.982%2c430.001C371.501%2c444.199%2c363.141%2c461.481%2c370.871%2c476.703C379.117%2c492.942%2c398.159%2c499.6%2c416.372%2c499.692' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M293.2988487532544 406.02504290171237L378.67749769551637 537.7713416937648 443.10590335357733 416.5991340525801z' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M263.1277886119991 548.6007948076293L354.32636880281814 530.8735865972169 245.40058040158664 457.4022146168103z' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M991.4238191431543-3.327366227237686L874.8946885315877-17.6353443617761 860.5867103970493 98.89378624979051 977.1158410086159 113.20176438432892z' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1267.4646466613688 551.7852615289253L1326.5088723523097 646.2757746426306 1438.7225291773973 510.46417954936646z' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1314.6190180147405 351.488657935923L1219.2549705158951 300.78269443937376 1190.878049020494 469.1817474359163z' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1331.1073826180477 373.31065597632755L1397.420211078349 262.9475761532185 1287.05713125524 196.63474769291713 1220.7443027949387 306.9978275160262z' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M363.0307307763521 173.12558445680196L272.7681890990368 288.65636937716073 388.29897401939553 378.918911054476 478.56151569671084 263.3881261341172z' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1187.844818718184 426.82393790112536L1136.5421189381648 508.9254197921167 1218.6436008291562 560.2281195721359 1269.9463006091753 478.12663768114453z' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M932.233%2c175.671C952.825%2c176.139%2c972.302%2c166.494%2c983.425%2c149.159C995.548%2c130.266%2c1001.432%2c105.547%2c989.381%2c86.608C977.895%2c68.558%2c953.628%2c68.702%2c932.233%2c68.708C910.853%2c68.714%2c886.205%2c68.346%2c875.138%2c86.639C863.845%2c105.307%2c873.14%2c128.554%2c884.918%2c146.92C895.596%2c163.57%2c912.458%2c175.222%2c932.233%2c175.671' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M436.8912101982195 350.77272598110756L528.8928544474314 337.84273810433086 515.9628665706548 245.84109385511897 423.9612223214428 258.7710817318956z' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1354.0098044337633-69.5110982927585L1292.9820051231359 45.265498992583105 1468.786401719105-8.483298982131096z' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M605.799%2c316.795C644.145%2c319.53%2c683.479%2c305.636%2c704.198%2c273.254C726.467%2c238.451%2c729.1%2c192.953%2c707.623%2c157.655C686.864%2c123.538%2c645.642%2c108.808%2c605.799%2c111.534C570.386%2c113.957%2c541.788%2c138.547%2c525.551%2c170.112C510.726%2c198.933%2c513.483%2c232.328%2c529.038%2c260.761C545.334%2c290.548%2c571.932%2c314.379%2c605.799%2c316.795' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M553.069%2c250.317C583.338%2c251.188%2c610.375%2c232.423%2c625.402%2c206.132C640.311%2c180.047%2c640.833%2c148.384%2c626.388%2c122.04C611.352%2c94.618%2c584.307%2c72.724%2c553.069%2c74.218C523.631%2c75.626%2c504.39%2c102.279%2c490.966%2c128.516C478.969%2c151.965%2c475.642%2c178.7%2c487.607%2c202.166C500.795%2c228.031%2c524.048%2c249.482%2c553.069%2c250.317' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M363.8%2c686.915C418.255%2c689.311%2c472.198%2c661.037%2c496.988%2c612.492C520.082%2c567.267%2c500.323%2c515.374%2c473.38%2c472.331C448.462%2c432.524%2c410.751%2c400.769%2c363.8%2c399.722C315.12%2c398.636%2c269.408%2c424.876%2c245.414%2c467.246C221.749%2c509.034%2c226.691%2c559.328%2c249.474%2c601.603C273.652%2c646.466%2c312.886%2c684.675%2c363.8%2c686.915' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M195.4141197981914 28.732110290471002L152.12575875765845 130.71309806044331 297.39510756816367 72.02047133100393z' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M590.3078504730368 302.48332001087346L613.2623869345789 401.9103408994191 689.7348713615823 279.5287835493313z' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M37.111678448741515 383.81688902847173L-49.089559404007304 446.44575429519927 87.9543574224584 544.4331784409587z' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1000'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-0.625rem%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-0.3125rem%2c -0.3125rem)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -0.625rem)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
         background-size: cover;
         background-position: center;
         background-attachment: fixed;
@@ -141,29 +141,29 @@
         position: relative;
         z-index: 1;
         text-align: center;
-        padding-top: 100px;
+        padding-top: 6.25rem;
     }
 
     .mt-14 {
-        margin-top: 14px;
+        margin-top: .875rem;
     }
 
     .text-container {
-        margin-top: 50px;
+        margin-top: 3.125rem;
     }
 
     .card-container {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-        margin-top: 50px;
+        margin-top: 3.125rem;
     }
 
     .line {
         background-color: #810CA8;
-        height: 2px;
+        height: .125rem;
         margin: 0 auto;
-        width: 50px;
+        width: 3.125rem;
     }
 
     .footer {
@@ -175,28 +175,28 @@
     .shortcode_wa_button,
     .shortcode_wa_button_nt {
         background: #25d366 !important;
-        border-radius: 5px !important;
+        border-radius: .3125rem !important;
         color: #ffffff !important;
-        font-size: 16px !important;
+        font-size: 1rem !important;
         font-weight: bold !important;
         position: relative !important;
         display: inline-flex !important;
         width: auto !important;
         transition: all .3s !important;
         align-items: center !important;
-        box-shadow: 0 2px 2px 0px rgba(45, 62, 79, .3) !important;
+        box-shadow: 0 .125rem .125rem 0rem rgba(45, 62, 79, .3) !important;
         text-transform: none !important;
         cursor: pointer;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        -webkit-box-shadow: 0 4px 7px 0 rgba(0, 0, 0, .25);
-        -moz-box-shadow: 0 4px 7px 0 rgba(0, 0, 0, .25);
-        box-shadow: 0 4px 7px 0 rgba(0, 0, 0, .25);
+        margin-top: .625rem;
+        margin-bottom: .625rem;
+        -webkit-box-shadow: 0 .25rem .4375rem 0 rgba(0, 0, 0, .25);
+        -moz-box-shadow: 0 .25rem .4375rem 0 rgba(0, 0, 0, .25);
+        box-shadow: 0 .25rem .4375rem 0 rgba(0, 0, 0, .25);
         transition: top .1s ease;
         -webkit-transition: top .1s ease;
         margin-left: 5%;
         margin-top: 4%;
-        padding: 10px;
+        padding: .625rem;
     }
 
     .yellow-triangle {
@@ -235,26 +235,26 @@
 
     #help {
         float: left;
-        font-size: 44px;
+        font-size: 2.75rem;
         font-weight: 900;
         line-height: normal;
-        margin-bottom: 67px;
-        text-shadow: 3px 3px 0 rgba(0, 0, 0, .25);
+        margin-bottom: 4.1875rem;
+        text-shadow: .1875rem .1875rem 0 rgba(0, 0, 0, .25);
         color: black;
     }
 
     .key_card {
-        width: 216px;
-        height: 246px;
-        border-top: 1px solid rgba(0, 0, 0, 0.15);
-        border-bottom: 1px solid rgba(0, 0, 0, 0.15);
-        border-left: 1px solid rgba(0, 0, 0, 0.15);
+        width: 13.5rem;
+        height: 15.375rem;
+        border-top: .0625rem solid rgba(0, 0, 0, 0.15);
+        border-bottom: .0625rem solid rgba(0, 0, 0, 0.15);
+        border-left: .0625rem solid rgba(0, 0, 0, 0.15);
         position: relative;
         background-image: url('data:image/svg+xml;charset=utf8,%3Csvg fill="%23ededed" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" transform="matrix(-1, 0, 0, 1, 0, 0)rotate(180)" stroke="%23ededed"%3E%3Cg id="SVGRepo_bgCarrier" stroke-width="0"%3E%3C/g%3E%3Cg id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"%3E%3C/g%3E%3Cg id="SVGRepo_iconCarrier"%3E %3Ctitle%3Ekey%3C/title%3E %3Cpath d="M27.339 8.365l0.63-1.011 1.513 0.942 1.065-1.555-2.683-1.838c-1.513 2.208-3.368 1.191-5.172-0.028l1.654-2.413-2.101-1.44-11.242 16.406-1.431-0.999c-1.527-1.065-3.411 1.592-1.864 2.671l1.454 1.015-0.21 0.307c-2.85-1.433-5.949-1.161-7.289 0.796h0c-1.518 2.215-0.209 5.752 2.903 7.885s6.858 2.059 8.376-0.156c1.345-1.962 0.49-4.949-1.886-7.088l0.196-0.286 1.238 0.864c1.42 0.991 3.319-1.656 1.864-2.671l-1.261-0.88 6.545-9.552c1.731 1.195 3.456 2.533 2.091 4.525l2.683 1.838 1.802-2.63-1.678-1.045 0.689-1.106 1.727 1.075 1.121-1.635-2.353-1.465 0.689-1.106 0.933 0.581zM6.183 28.027c-1.135 0-2.055-0.92-2.055-2.055s0.92-2.055 2.055-2.055 2.055 0.92 2.055 2.055c-0 1.135-0.92 2.055-2.055 2.055z"%3E%3C/path%3E %3C/g%3E%3C/svg%3E');
         background-size: 56% auto;
         background-position: right bottom;
         background-repeat: no-repeat;
-        padding: 40px;
+        padding: 2.5rem;
     }
 
     #header_slider #slide_item:nth-child(1) {
@@ -298,7 +298,7 @@
     </article>
 
     <header>
-        <nav id="nav1" x-data="{ open: false }" class="flex h-auto w-auto bg-white mt-10 rounded-lg justify-between md:h-16" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+        <nav id="nav1" x-data="{ open: false }" class="flex h-auto w-auto bg-white mt-10 rounded-lg justify-between md:h-16" style="box-shadow: rgba(0, 0, 0, 0.35) 0rem .3125rem .9375rem;">
             <div class="flex w-full justify-between">
                 <div :class="open ? 'hidden':'flex'" class="flex px-6 w-1/2 items-center font-semibold md:w-1/5 md:px-1 md:flex md:items-center md:justify-center" x-transition:enter="transition ease-out duration-300">
                     <a href="/" class="flex"><img class="h-14 mr-4" src="https://www.shutterstock.com/image-vector/builder-crossed-hammers-new-construction-600nw-2246936013.jpg" alt=""><span class="mt-4">All House Works</span></a>
@@ -366,7 +366,7 @@
                     </div>
                 </div>
                 <div class="w-full md:w-auto flex justify-center">
-                    <img src="https://www.shutterstock.com/image-vector/builder-crossed-hammers-new-construction-600nw-2246936013.jpg" alt="" class="h-20">
+                    <img src="{{ url('img/logo.png') }}" alt="" class="h-20">
                 </div>
                 <div class="flex items-center w-full md:w-auto">
                     <input type="text" placeholder="ENTER KEYWORD" class="text-gray-300 hover:text-white border border-black px-2 py-1 pl-8 w-full md:w-auto">
@@ -375,11 +375,11 @@
         </div>
     </nav>
 
-    <section class="parallax mt-16" style="position: relative; background: url('https://media.istockphoto.com/id/1469656864/photo/electrician-engineer-uses-a-multimeter-to-test-the-electrical-installation-and-power-line.jpg?s=612x612&w=0&k=20&c=h70UOpNbJYT5G2oGT-KUeIE3yXwEgsCpr25yR1rnGtU=') no-repeat center center fixed; background-size: cover; height: 300px;">
+    <section class="parallax mt-16" style="position: relative; background: url('https://countrywideplumbing.com.au/wp-content/uploads/2016/08/plumber.jpg') no-repeat center center fixed; background-size: cover; height: 18.75rem;">
         <div class="overlay" style="background: rgba(0, 0, 0, 0.5); position: absolute; top: 0; left: 0; right: 0; bottom: 0;"></div>
-        <div class="content" style="position: relative; z-index: 1; display: flex; flex-direction: column; padding-left: 1rem; padding-right: 1rem; text-align: center; gap: 1rem;">
-            <h1 style="font-size: 2.5rem; color: white; font-weight: 100; margin-bottom: 1.5rem;">Electrician</h1>
-            <p style="font-size: 1rem; color: antiquewhite;">Home / Service / Electrician</p>
+        <div class="content" style="position: relative; z-index: 1; display: flex; flex-direction: column; padding-left: 16px; padding-right: 16px; text-align: center; gap: 16px;">
+            <h1 style="font-size: 40px; color: white; font-weight: 100; margin-bottom: 24px;">PLUMBER</h1>
+            <p style="font-size: 16px; color: antiquewhite;">Home / Service / Plumber</p>
         </div>
     </section>
 
@@ -391,13 +391,13 @@
             <div class="flex flex-wrap items-center">
                 <div class="w-10/12 md:w-6/12 lg:w-4/12 px-12 md:px-4 mr-auto ml-auto -mt-78">
                     <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-pink-500">
-                        <img alt="..." src="https://static.vecteezy.com/system/resources/thumbnails/030/472/172/small/electrician-working-in-fuse-box-electrical-panel-with-electrical-wires-ai-generated-photo.jpg" class="w-full align-middle rounded-t-lg">
+                        <img alt="..." src="https://t3.ftcdn.net/jpg/00/97/94/72/360_F_97947268_UhGn7YgiPSKUtZwDP9zE43JFWQETsEBD.jpg" class="w-full align-middle rounded-t-lg">
                         <blockquote class="relative p-8 mb-4">
                             <h4 class="text-xl font-bold text-white">
-                                ELECTRICAL SERVICES
+                                PLUMBING SERVICES
                             </h4>
                             <p class="text-md font-light mt-2 text-white">
-                                Electrician services include leak repairs, fixture installations, and maintenance for efficient water systems in homes and businesses, ensuring reliable operation and minimizing disruptions.
+                                Plumbing services include leak repairs, fixture installations, and maintenance for efficient water systems in homes and businesses, ensuring reliable operation and minimizing disruptions.
                             </p>
                         </blockquote>
                     </div>
@@ -408,25 +408,25 @@
                         <div class="w-full md:w-6/12 px-4">
                             <div class="relative flex flex-col mt-4">
                                 <div class="px-4 py-5 flex-auto">
-                                    <div class="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white" style="border: 1px solid #0097a7;">
+                                    <div class="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white" style="border: .0625rem solid #0097a7;">
                                         <img src={{ url('img/service-tools.gif') }} alt="">
                                     </div>
-                                    <h6 class="text-xl mb-1 font-semibold">ELECTRICAL EXPERTS</h6>
+                                    <h6 class="text-xl mb-1 font-semibold">PLUMBING EXPERTS</h6>
                                     <p class="mb-4 text-blueGray-500">
-                                    Our electricians have over 35 years of experience in the industry, serving 1000s of residential & commercial estates.
+                                        Our plumbers have over 35 years of experience in the industry, serving 1000s of residential & commercial estates.
                                     </p>
                                 </div>
                             </div>
                             <div class="relative flex flex-col min-w-0">
                                 <div class="px-4 py-5 flex-auto">
-                                    <div class="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white" style="border: 1px solid #0097a7;">
+                                    <div class="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white" style="border: .0625rem solid #0097a7;">
                                         <img src={{ url('img/under-construction.gif') }} alt="">
                                     </div>
                                     <h6 class="text-xl mb-1 font-semibold">
-                                    FULL 1-STOP ELECTRICAL SERVICES
+                                        FULL 1-STOP PLUMBING SERVICES
                                     </h6>
                                     <p class="mb-4 text-blueGray-500">
-                                    Our top-to-bottom electrical service is designed to be fuss-free for you. Besides providing the electrical service, we can also supply you the lights, power sockets & bulbs required for the service!
+                                        Our top-to-bottom plumbing service is designed to be fuss-free for you. Besides having your plumbing fixtures repaired or replace.
                                     </p>
                                 </div>
                             </div>
@@ -434,10 +434,10 @@
                         <div class="w-full md:w-6/12 px-4">
                             <div class="relative flex flex-col min-w-0 mt-4">
                                 <div class="px-4 py-5 flex-auto">
-                                    <div class="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white" style="border: 1px solid #0097a7;">
+                                    <div class="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white" style="border: .0625rem solid #0097a7;">
                                         <img src={{ url('img/tools.gif') }} alt="">
                                     </div>
-                                    <h6 class="text-xl mb-1 font-semibold">RANGE OF ELECTRICAL SERVICES </h6>
+                                    <h6 class="text-xl mb-1 font-semibold">RANGE OF PLUMBING SERVICES</h6>
                                     <p class="mb-4 text-blueGray-500">
                                         Our plumbers carry out a comprehensive list of plumbing works including clearing chokes, fixing leaks, water heater services.
                                     </p>
@@ -445,7 +445,7 @@
                             </div>
                             <div class="relative flex flex-col min-w-0">
                                 <div class="px-4 py-5 flex-auto">
-                                    <div class="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white" style="border: 1px solid #0097a7;">
+                                    <div class="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white" style="border: .0625rem solid #0097a7;">
                                         <img src={{ url('img/toolbox.gif') }} alt="">
                                     </div>
                                     <h6 class="text-xl mb-1 font-semibold">Service Assistance Now!</h6>
@@ -470,11 +470,11 @@
     <section class="mt-10">
         <div class="relative flex flex-col md:flex-row items-center md:items-start mt-8">
             <span class="bg-yellow-500 yellow-triangle absolute left-0 h-20 hidden md:block"></span>
-            <h3 class="bg-black text-white black-polygon h-auto md:h-20 flex items-center justify-center ml-0 md:ml-24 pl-4 pr-4 md:pr-24 text-center md:text-left w-full md:max-w-2/3" style="font-size: 18px; font-family: cursive; text-shadow: 3px 3px 0 rgb(255 255 255 / 25%);">
+            <h3 class="bg-black text-white black-polygon h-auto md:h-20 flex items-center justify-center ml-0 md:ml-24 pl-4 pr-4 md:pr-24 text-center md:text-left w-full md:max-w-2/3" style="font-size: 1.125rem; font-family: cursive; text-shadow: .1875rem .1875rem 0 rgb(255 255 255 / 25%);">
                 <span class="inner-span">One-Stop Home Solutions For Your Convenience</span>
             </h3>
             <style>
-                @media (max-width: 768px) {
+                @media (max-width: 48rem) {
                     .inner-span {
                         width: 93%;
                         margin: 0 auto;
@@ -543,12 +543,12 @@
     <!-- component -->
 
     <!-- ====== Pricing Section Start -->
-    <section class="bg-white lg:pt-[120px] pb-12 lg:pb-[90px] relative z-20 overflow-hidden">
+    <section class="bg-white lg:pt-[7.5rem] pb-12 lg:pb-[5.625rem] relative z-20 overflow-hidden">
         <div class="container">
             <div class="flex flex-wrap -mx-4">
                 <div class="w-full px-4">
-                    <div class="text-center mx-auto mb-[60px] lg:mb-20 max-w-[510px]">
-                        <h2 class=" font-bold  text-3xl sm:text-4xl md:text-[40px] text-dark mb-4 ">
+                    <div class="text-center mx-auto mb-[3.75rem] lg:mb-20 max-w-[31.875rem]">
+                        <h2 class=" font-bold  text-3xl sm:text-4xl md:text-[2.5rem] text-dark mb-4 ">
                             OUR FULL RANGE OF PLUMBING SERVICES INCLUDE:
                         </h2>
                     </div>
@@ -1089,8 +1089,8 @@
     <section class="bg-white mt-4">
         <div class="flex flex-wrap -mx-4">
             <div class="w-full px-4">
-                <div class="text-center mx-auto mb-[60px] lg:mb-20 max-w-[510px]">
-                    <h2 class=" font-bold  text-3xl sm:text-4xl md:text-[40px] text-dark mb-4 ">
+                <div class="text-center mx-auto mb-[3.75rem] lg:mb-20 max-w-[31.875rem]">
+                    <h2 class=" font-bold  text-3xl sm:text-4xl md:text-[2.5rem] text-dark mb-4 ">
                         OUR COMPLETED PLUMBING WORKS
                     </h2>
                 </div>
@@ -1100,18 +1100,18 @@
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-4 h-full">
                 <div class="col-span-2 sm:col-span-1 md:col-span-2 bg-gray-50 h-auto md:h-full flex flex-col">
                     <a href="" class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40 flex-grow">
-                        <img src="https://img.freepik.com/premium-photo/burning-switchboard-from-overload-short-circuit-wall-closeup_85601-762.jpg" alt="" class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
+                        <img src="https://t4.ftcdn.net/jpg/02/20/20/41/360_F_220204174_vfgB0Vo2i4MZ8Sv5hmtsx5IwcvrDCZox.jpg" alt="" class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
                         <div class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
                     </a>
                 </div>
                 <div class="col-span-2 sm:col-span-1 md:col-span-2 bg-stone-50">
                     <a href="" class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40 mb-4">
-                        <img src="https://www.jbhrefurbishments.co.uk/wp-content/uploads/2018/09/office-lighting-1.jpg" alt="" class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
+                        <img src="https://media.istockphoto.com/id/1440019701/photo/close-up-of-plumber-repairing-sink-with-tool-in-bathroom.jpg?s=612x612&w=0&k=20&c=eOBl-NjFQxFJkcBDG3YDt1NRPDXXk-miIE9kc2opJH8=" alt="" class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
                         <div class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
                     </a>
                     <div class="grid gap-4 grid-cols-2 sm:grid-cols-2 lg:grid-cols-2">
                         <a href="" class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40">
-                            <img src="https://images.unsplash.com/photo-1552862750-746b8f6f7f25?fm=jpg&w=3000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGxpZ2h0JTIwYnVsYnxlbnwwfHwwfHx8MA%3D%3D" alt="" class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
+                            <img src="https://img.freepik.com/free-photo/plumbing-repair-service_181624-27146.jpg" alt="" class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
                             <div class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
                         </a>
                         <a href="" class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40">
@@ -1514,8 +1514,6 @@
                         </div>
                     </li>
                 </ul>
-
-
             </div>
         </div>
     </section>
@@ -1567,11 +1565,11 @@
     function nextSlide() {
         if (i == 3) {
             let activeSlide = document.querySelector('.slide.translate-x-0');
-            activeSlide.classList.remove('translate-x-0');
+            activeSlide.classListNaNpxove('translate-x-0');
             activeSlide.classList.add('translate-x-full');
 
             let nextSlide = activeSlide.previousElementSibling.previousElementSibling;
-            nextSlide.classList.remove('translate-x-full');
+            nextSlide.classListNaNpxove('translate-x-full');
             nextSlide.classList.add('translate-x-0');
 
             i = 1;
@@ -1579,11 +1577,11 @@
             i++;
 
             let activeSlide = document.querySelector('.slide.translate-x-0');
-            activeSlide.classList.remove('translate-x-0');
+            activeSlide.classListNaNpxove('translate-x-0');
             activeSlide.classList.add('translate-x-full');
 
             let nextSlide = activeSlide.nextElementSibling;
-            nextSlide.classList.remove('translate-x-full');
+            nextSlide.classListNaNpxove('translate-x-full');
             nextSlide.classList.add('translate-x-0');
         }
 
@@ -1592,11 +1590,11 @@
     function previousSlide() {
         if (i == 1) {
             let activeSlide = document.querySelector('.slide.translate-x-0');
-            activeSlide.classList.remove('translate-x-0');
+            activeSlide.classListNaNpxove('translate-x-0');
             activeSlide.classList.add('translate-x-full');
 
             let previousSlide = activeSlide.nextElementSibling.nextElementSibling;
-            previousSlide.classList.remove('translate-x-full');
+            previousSlide.classListNaNpxove('translate-x-full');
             previousSlide.classList.add('translate-x-0');
 
             i = 3;
@@ -1604,11 +1602,11 @@
             i--;
 
             let activeSlide = document.querySelector('.slide.translate-x-0');
-            activeSlide.classList.remove('translate-x-0');
+            activeSlide.classListNaNpxove('translate-x-0');
             activeSlide.classList.add('translate-x-full');
 
             let previousSlide = activeSlide.previousElementSibling;
-            previousSlide.classList.remove('translate-x-full');
+            previousSlide.classListNaNpxove('translate-x-full');
             previousSlide.classList.add('translate-x-0');
         }
     }
@@ -1622,10 +1620,10 @@
             navbar.style.left = "50%";
             navbar.style.transform = "translateX(-50%)";
         } else {
-            navbar.classList.remove("sticky-nav");
+            navbar.classListNaNpxove("sticky-nav");
             navbar.style.width = "80%";
             navbar.style.position = "absolute";
-            navbar.style.top = "-656px";
+            navbar.style.top = "-41rem";
 
             navbar.style.left = "50%";
             navbar.style.transform = "translateX(-50%)";

@@ -32,9 +32,24 @@ Route::get('/plumbing', function () {
 Route::get('/electric', function () {
     return view('electric');
 });
-
-
-
+Route::get('/handyman', function () {
+    return view('handyman');
+});
+Route::get('/deepclean', function () {
+    return view('deepclean');
+});
+Route::get('/floorpolish', function () {
+    return view('floorpolish');
+});
+Route::get('/floorclean', function () {
+    return view('floorclean');
+});
+Route::get('/wood', function () {
+    return view('wood');
+});
+Route::get('/decking', function () {
+    return view('decking');
+});
 
 
 
