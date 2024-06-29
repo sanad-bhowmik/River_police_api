@@ -327,7 +327,7 @@
                         <a href="/service">Service</a>
                         <div class="submenu absolute left-0 mt-1 bg-white shadow-lg rounded-lg p-2 hidden group-hover:block z-20">
                             <a href="/plumbing" class="block px-4 py-2 hover:bg-gray-200" target="_blank">Plumber</a>
-                            <a href="/" class="block px-4 py-2 hover:bg-gray-200">Electrician</a>
+                            <a href="/electric" class="block px-4 py-2 hover:bg-gray-200">Electrician</a>
                             <a href="/" class="block px-4 py-2 hover:bg-gray-200">Handyman</a>
                             <a href="/" class="block px-4 py-2 hover:bg-gray-200">Deep Cleaning</a>
                             <a href="/" class="block px-4 py-2 hover:bg-gray-200">Floor Polishing</a>
@@ -366,7 +366,7 @@
                     </div>
                 </div>
                 <div class="w-full md:w-auto flex justify-center">
-                    <img src="{{ url('img/logo.png') }}" alt="" class="h-20">
+                    <img src="https://www.shutterstock.com/image-vector/builder-crossed-hammers-new-construction-600nw-2246936013.jpg" alt="" class="h-20">
                 </div>
                 <div class="flex items-center w-full md:w-auto">
                     <input type="text" placeholder="ENTER KEYWORD" class="text-gray-300 hover:text-white border border-black px-2 py-1 pl-8 w-full md:w-auto">
@@ -378,8 +378,8 @@
     <section class="parallax mt-16" style="position: relative; background: url('https://media.istockphoto.com/id/1469656864/photo/electrician-engineer-uses-a-multimeter-to-test-the-electrical-installation-and-power-line.jpg?s=612x612&w=0&k=20&c=h70UOpNbJYT5G2oGT-KUeIE3yXwEgsCpr25yR1rnGtU=') no-repeat center center fixed; background-size: cover; height: 300px;">
         <div class="overlay" style="background: rgba(0, 0, 0, 0.5); position: absolute; top: 0; left: 0; right: 0; bottom: 0;"></div>
         <div class="content" style="position: relative; z-index: 1; display: flex; flex-direction: column; padding-left: 1rem; padding-right: 1rem; text-align: center; gap: 1rem;">
-            <h1 style="font-size: 2.5rem; color: white; font-weight: 100; margin-bottom: 1.5rem;">PLUMBER</h1>
-            <p style="font-size: 1rem; color: antiquewhite;">Home / Service / Plumber</p>
+            <h1 style="font-size: 2.5rem; color: white; font-weight: 100; margin-bottom: 1.5rem;">Electrician</h1>
+            <p style="font-size: 1rem; color: antiquewhite;">Home / Service / Electrician</p>
         </div>
     </section>
 
@@ -394,10 +394,10 @@
                         <img alt="..." src="https://static.vecteezy.com/system/resources/thumbnails/030/472/172/small/electrician-working-in-fuse-box-electrical-panel-with-electrical-wires-ai-generated-photo.jpg" class="w-full align-middle rounded-t-lg">
                         <blockquote class="relative p-8 mb-4">
                             <h4 class="text-xl font-bold text-white">
-                                PLUMBING SERVICES
+                                ELECTRICAL SERVICES
                             </h4>
                             <p class="text-md font-light mt-2 text-white">
-                                Plumbing services include leak repairs, fixture installations, and maintenance for efficient water systems in homes and businesses, ensuring reliable operation and minimizing disruptions.
+                                Electrician services include leak repairs, fixture installations, and maintenance for efficient water systems in homes and businesses, ensuring reliable operation and minimizing disruptions.
                             </p>
                         </blockquote>
                     </div>
@@ -411,9 +411,9 @@
                                     <div class="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white" style="border: 1px solid #0097a7;">
                                         <img src={{ url('img/service-tools.gif') }} alt="">
                                     </div>
-                                    <h6 class="text-xl mb-1 font-semibold">PLUMBING EXPERTS</h6>
+                                    <h6 class="text-xl mb-1 font-semibold">ELECTRICAL EXPERTS</h6>
                                     <p class="mb-4 text-blueGray-500">
-                                        Our plumbers have over 35 years of experience in the industry, serving 1000s of residential & commercial estates.
+                                    Our electricians have over 35 years of experience in the industry, serving 1000s of residential & commercial estates.
                                     </p>
                                 </div>
                             </div>
@@ -423,10 +423,10 @@
                                         <img src={{ url('img/under-construction.gif') }} alt="">
                                     </div>
                                     <h6 class="text-xl mb-1 font-semibold">
-                                        FULL 1-STOP PLUMBING SERVICES
+                                    FULL 1-STOP ELECTRICAL SERVICES
                                     </h6>
                                     <p class="mb-4 text-blueGray-500">
-                                        Our top-to-bottom plumbing service is designed to be fuss-free for you. Besides having your plumbing fixtures repaired or replace.
+                                    Our top-to-bottom electrical service is designed to be fuss-free for you. Besides providing the electrical service, we can also supply you the lights, power sockets & bulbs required for the service!
                                     </p>
                                 </div>
                             </div>
@@ -437,7 +437,7 @@
                                     <div class="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white" style="border: 1px solid #0097a7;">
                                         <img src={{ url('img/tools.gif') }} alt="">
                                     </div>
-                                    <h6 class="text-xl mb-1 font-semibold">RANGE OF PLUMBING SERVICES</h6>
+                                    <h6 class="text-xl mb-1 font-semibold">RANGE OF ELECTRICAL SERVICES </h6>
                                     <p class="mb-4 text-blueGray-500">
                                         Our plumbers carry out a comprehensive list of plumbing works including clearing chokes, fixing leaks, water heater services.
                                     </p>
@@ -1100,18 +1100,18 @@
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-4 h-full">
                 <div class="col-span-2 sm:col-span-1 md:col-span-2 bg-gray-50 h-auto md:h-full flex flex-col">
                     <a href="" class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40 flex-grow">
-                        <img src="https://t4.ftcdn.net/jpg/02/20/20/41/360_F_220204174_vfgB0Vo2i4MZ8Sv5hmtsx5IwcvrDCZox.jpg" alt="" class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
+                        <img src="https://img.freepik.com/premium-photo/burning-switchboard-from-overload-short-circuit-wall-closeup_85601-762.jpg" alt="" class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
                         <div class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
                     </a>
                 </div>
                 <div class="col-span-2 sm:col-span-1 md:col-span-2 bg-stone-50">
                     <a href="" class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40 mb-4">
-                        <img src="https://media.istockphoto.com/id/1440019701/photo/close-up-of-plumber-repairing-sink-with-tool-in-bathroom.jpg?s=612x612&w=0&k=20&c=eOBl-NjFQxFJkcBDG3YDt1NRPDXXk-miIE9kc2opJH8=" alt="" class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
+                        <img src="https://www.jbhrefurbishments.co.uk/wp-content/uploads/2018/09/office-lighting-1.jpg" alt="" class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
                         <div class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
                     </a>
                     <div class="grid gap-4 grid-cols-2 sm:grid-cols-2 lg:grid-cols-2">
                         <a href="" class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40">
-                            <img src="https://img.freepik.com/free-photo/plumbing-repair-service_181624-27146.jpg" alt="" class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
+                            <img src="https://images.unsplash.com/photo-1552862750-746b8f6f7f25?fm=jpg&w=3000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGxpZ2h0JTIwYnVsYnxlbnwwfHwwfHx8MA%3D%3D" alt="" class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
                             <div class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
                         </a>
                         <a href="" class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40">
@@ -1149,7 +1149,7 @@
                     </div>
                     <div class="flex-grow pl-6">
                         <h2 class="text-white text-lg title-font font-medium mb-2">EXPERIENCED</h2>
-                        <p class="leading-relaxed text-base">Everyworks has helped connect thousands of happy customers to home service professionals. When troubleshooting your home repair or maintenance issues, both our customer service agents and technicians are knowledgeable in answering your queries. Feel free to message us about the products or services you are looking for, and we will respond to you promptly.</p>
+                        <p class="leading-relaxed text-base">AllHouseWorks has helped connect thousands of happy customers to home service professionals. When troubleshooting your home repair or maintenance issues, both our customer service agents and technicians are knowledgeable in answering your queries. Feel free to message us about the products or services you are looking for, and we will respond to you promptly.</p>
                     </div>
                 </div>
                 <div class="p-4 md:w-1/2 flex">
@@ -1174,7 +1174,7 @@
                     </div>
                     <div class="flex-grow pl-6">
                         <h2 class="text-white text-lg title-font font-medium mb-2">FLEXIBILITY</h2>
-                        <p class="leading-relaxed text-base">Booking just one or multiple home services is easy on the Everyworks platform. Our professional service providers will be arranged to fit a date and time that is convenient for you.</p>
+                        <p class="leading-relaxed text-base">Booking just one or multiple home services is easy on the AllHouseWorks platform. Our professional service providers will be arranged to fit a date and time that is convenient for you.</p>
                     </div>
                 </div>
                 <div class="p-4 md:w-1/2 flex">
@@ -1186,7 +1186,7 @@
                     </div>
                     <div class="flex-grow pl-6">
                         <h2 class="text-white text-lg title-font font-medium mb-2">RELIABILITY</h2>
-                        <p class="leading-relaxed text-base">Everyworks is home to a curated list of certified and reliable professionals from reputable home repair companies in Singapore. We also co-operate with accredited and legitimate partners to value-add their services to give you a holistic solution to your home services needs.</p>
+                        <p class="leading-relaxed text-base">AllHouseWorks is home to a curated list of certified and reliable professionals from reputable home repair companies in Singapore. We also co-operate with accredited and legitimate partners to value-add their services to give you a holistic solution to your home services needs.</p>
                     </div>
                 </div>
             </div>

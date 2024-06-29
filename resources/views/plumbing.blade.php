@@ -327,7 +327,7 @@
                         <a href="/service">Service</a>
                         <div class="submenu absolute left-0 mt-1 bg-white shadow-lg rounded-lg p-2 hidden group-hover:block z-20">
                             <a href="/plumbing" class="block px-4 py-2 hover:bg-gray-200" target="_blank">Plumber</a>
-                            <a href="/" class="block px-4 py-2 hover:bg-gray-200">Electrician</a>
+                            <a href="/electric" class="block px-4 py-2 hover:bg-gray-200">Electrician</a>
                             <a href="/" class="block px-4 py-2 hover:bg-gray-200">Handyman</a>
                             <a href="/" class="block px-4 py-2 hover:bg-gray-200">Deep Cleaning</a>
                             <a href="/" class="block px-4 py-2 hover:bg-gray-200">Floor Polishing</a>
@@ -1149,7 +1149,7 @@
                     </div>
                     <div class="flex-grow pl-6">
                         <h2 class="text-white text-lg title-font font-medium mb-2">EXPERIENCED</h2>
-                        <p class="leading-relaxed text-base">Everyworks has helped connect thousands of happy customers to home service professionals. When troubleshooting your home repair or maintenance issues, both our customer service agents and technicians are knowledgeable in answering your queries. Feel free to message us about the products or services you are looking for, and we will respond to you promptly.</p>
+                        <p class="leading-relaxed text-base">AllHouseWorks has helped connect thousands of happy customers to home service professionals. When troubleshooting your home repair or maintenance issues, both our customer service agents and technicians are knowledgeable in answering your queries. Feel free to message us about the products or services you are looking for, and we will respond to you promptly.</p>
                     </div>
                 </div>
                 <div class="p-4 md:w-1/2 flex">
@@ -1174,7 +1174,7 @@
                     </div>
                     <div class="flex-grow pl-6">
                         <h2 class="text-white text-lg title-font font-medium mb-2">FLEXIBILITY</h2>
-                        <p class="leading-relaxed text-base">Booking just one or multiple home services is easy on the Everyworks platform. Our professional service providers will be arranged to fit a date and time that is convenient for you.</p>
+                        <p class="leading-relaxed text-base">Booking just one or multiple home services is easy on the AllHouseWorks platform. Our professional service providers will be arranged to fit a date and time that is convenient for you.</p>
                     </div>
                 </div>
                 <div class="p-4 md:w-1/2 flex">
@@ -1186,7 +1186,7 @@
                     </div>
                     <div class="flex-grow pl-6">
                         <h2 class="text-white text-lg title-font font-medium mb-2">RELIABILITY</h2>
-                        <p class="leading-relaxed text-base">Everyworks is home to a curated list of certified and reliable professionals from reputable home repair companies in Singapore. We also co-operate with accredited and legitimate partners to value-add their services to give you a holistic solution to your home services needs.</p>
+                        <p class="leading-relaxed text-base">AllHouseWorks is home to a curated list of certified and reliable professionals from reputable home repair companies in Singapore. We also co-operate with accredited and legitimate partners to value-add their services to give you a holistic solution to your home services needs.</p>
                     </div>
                 </div>
             </div>
@@ -1514,8 +1514,6 @@
                         </div>
                     </li>
                 </ul>
-
-
             </div>
         </div>
     </section>
