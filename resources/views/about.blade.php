@@ -247,7 +247,7 @@
     <section class="px-4 lg:px-0">
         <div class="flex flex-col lg:flex-row items-center justify-center lg:justify-start">
             <div class="flex justify-center items-center lg:w-auto">
-                <img style="height: auto; max-width: 100%;" src="{{ url('img/logo.png') }}" alt="Everyworks Singapore Logo">
+                <img style="height: auto; max-width: 100%;" src="https://www.shutterstock.com/image-vector/builder-crossed-hammers-new-construction-600nw-2246936013.jpg" alt="Everyworks Singapore Logo">
             </div>
             <div class="lg:w-1/2 lg:ml-12 mt-8 lg:mt-0">
                 <p style="max-width: 100%; text-align: justify; font-size: 17px; color: #777;">PPH M&E Ltd Singapore is a holistic solution for all your home maintenance and handyman needs including electrical, plumbing, and aircon services. You can expect to get all your needs to be done just by messaging us via WhatsApp. Find and book appointments for multiple handyman services at reasonable prices, with guaranteed quality work and excellent customer support. PPH M&E Ltd Singapore aims to be the number one handyman service provider to meet all your home maintenance needs!</p>

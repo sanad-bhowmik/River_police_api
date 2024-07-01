@@ -50,6 +50,43 @@ Route::get('/wood', function () {
 Route::get('/decking', function () {
     return view('decking');
 });
+Route::get('/searchPlumber', function () {
+    return view('searchPlumber');
+});
+Route::get('/searchElectric', function () {
+    return view('searchElectric');
+});
+Route::get('/searchHandyMan', function () {
+    return view('searchHandyMan');
+});
+Route::get('/searchDeepclean', function () {
+    return view('searchDeepclean');
+});
+Route::get('/searchFloorPolish', function () {
+    return view('searchFloorPolish');
+});
+Route::get('/searchFloorClean', function () {
+    return view('searchFloorClean');
+});
+Route::get('/searchWood', function () {
+    return view('searchWood');
+});
+
+Route::get('/searchDecking', function () {
+    return view('searchDecking');
+});
+Route::get('/noSearch', function () {
+    return view('noSearch');
+});
+
+
+
+
+
+
+Route::fallback(function () {
+    return response()->view('404', [], 404);
+});
 
 
 

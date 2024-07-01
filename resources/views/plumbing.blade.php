@@ -366,7 +366,7 @@
                     </div>
                 </div>
                 <div class="w-full md:w-auto flex justify-center">
-                    <img src="{{ url('img/logo.png') }}" alt="" class="h-20">
+                    <img src="https://www.shutterstock.com/image-vector/builder-crossed-hammers-new-construction-600nw-2246936013.jpg" alt="" class="h-20">
                 </div>
                 <div class="flex items-center w-full md:w-auto">
                     <input type="text" placeholder="ENTER KEYWORD" class="text-gray-300 hover:text-white border border-black px-2 py-1 pl-8 w-full md:w-auto">

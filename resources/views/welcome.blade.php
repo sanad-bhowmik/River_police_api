@@ -11,7 +11,7 @@
 </head>
 <style>
     #nav1 {
-        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1000%26quot%3b)' fill='none'%3e%3cpath d='M419.6053010003687 163.3661663577806L460.0172446068905 230.62293494402098 540.6964256829901 136.3766352411181z' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M832.647%2c268.098C850.153%2c267.956%2c865.16%2c258.158%2c875.221%2c243.831C887.506%2c226.338%2c900.103%2c204.959%2c890.341%2c185.942C880.079%2c165.952%2c855.111%2c160.385%2c832.647%2c160.899C811.214%2c161.39%2c789.297%2c169.489%2c779.353%2c188.482C769.932%2c206.476%2c777.563%2c227.653%2c788.861%2c244.532C798.743%2c259.295%2c814.883%2c268.242%2c832.647%2c268.098' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M924.2167904606458-69.39989263033448L802.0358488286402 36.81037954426655 1030.4270626352468 52.78104900167121z' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M883.4503129161776 145.9319053284218L991.5423983336607 104.43924126467385 841.9576488524297 37.839819910938715z' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M843.68 491.95 a161.12 161.12 0 1 0 322.24 0 a161.12 161.12 0 1 0 -322.24 0z' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M762.4664758135211 349.5036480581027L651.3413188206356 468.6707893138538 770.5084600763867 579.7959463067393 881.6336170692722 460.6288050509883z' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M167.625%2c166.733C197.209%2c166.479%2c220.899%2c144.616%2c235.025%2c118.621C248.452%2c93.912%2c249.417%2c64.92%2c236.533%2c39.924C222.396%2c12.497%2c198.456%2c-10.901%2c167.625%2c-12.144C134.897%2c-13.464%2c103.626%2c4.965%2c88.372%2c33.951C73.996%2c61.269%2c82.37%2c93.289%2c98.191%2c119.796C113.537%2c145.507%2c137.683%2c166.99%2c167.625%2c166.733' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M852.5273925112068 449.94057081914406L969.5194397284837 481.28849539187723 1000.8673643012169 364.2964481746003 883.87531708394 332.9485236018671z' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M654.7218892975667 413.88063108446335L740.3231740574574 440.05157020784156 736.7789403625793 298.5641735063165z' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1039.4221823438097 184.18131092343668L918.302514958343 268.9902150521932 1003.1114190870995 390.10988243765996 1124.2310864725662 305.30097830890344z' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M484.6223913901636 418.69155680193126L507.69913879861855 527.7701765678157 581.2549366066957 463.82909704376243z' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M700.7129912812588 487.1877231557661L800.5494979470236 354.7002039762914 668.0619787675489 254.86369731052667 568.2254721017841 387.3512164900014z' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M194.64034498289436 416.72315197868386L353.3951998313218 462.2453740732798 398.9174219259177 303.49051922485233 240.16256707749028 257.9682971302564z' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M-41.93706318769925 78.44152557562158L51.65387791988694 217.19580186810322 190.40815421236857 123.60486076051701 96.81721310478237-15.149415531964607z' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M616.8463150881507 25.144255406657948L602.3479771820636 143.22374194366773 720.4274637190733 157.72207984975492 734.9258016251605 39.64259331274513z' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M547.23 61.34 a169.03 169.03 0 1 0 338.06 0 a169.03 169.03 0 1 0 -338.06 0z' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M930.55 151.07 a130.08 130.08 0 1 0 260.16 0 a130.08 130.08 0 1 0 -260.16 0z' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M177.51874183477418 176.92069846295792L321.06365536532667 177.0574998664828 260.2293139012762 67.30944270484724z' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M178.89008021283894 65.4963141947672L231.25290241968779 26.038097445983716 145.88416619308816-32.777027489897804z' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M127.202%2c745.821C184.825%2c747.403%2c227.356%2c696.273%2c252.821%2c644.558C275.183%2c599.144%2c271.525%2c547.155%2c246.771%2c502.999C221.39%2c457.725%2c179.103%2c420.948%2c127.202%2c420.482C74.615%2c420.01%2c28.308%2c454.259%2c3.858%2c500.819C-18.974%2c544.297%2c-9.092%2c594.109%2c12.99%2c637.972C38.226%2c688.099%2c71.102%2c744.28%2c127.202%2c745.821' fill='rgba(220%2c 232%2c 246%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1000'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+        background-color: #fbde6e;
     }
 
     .submenu {
@@ -274,25 +274,13 @@
 </style>
 
 <body class="bg-white relative">
-    <article class="main-container__marquee">
-        <div class="main-container__marquee-track">
-            <div class="main-container__marquee-items">
-                <span class="main-container__marquee-item">Launching soon</span>
-                <span class="main-container__marquee-item">We Will always for your service</span>
-            </div>
-            <div aria-hidden="true" class="main-container__marquee-items">
-                <span class="main-container__marquee-item">Launching soon</span>
-                <span class="main-container__marquee-item">We Will always for your service</span>
-            </div>
-        </div>
-    </article>
 
 
     <header>
-        <nav id="nav1" x-data="{ open: false }" class="flex h-auto w-auto bg-white mt-10 rounded-lg justify-between md:h-16" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+        <nav id="nav1" x-data="{ open: false }" class="flex h-auto w-auto bg-white justify-between md:h-16" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
             <div class="flex w-full justify-between">
                 <div :class="open ? 'hidden':'flex'" class="flex px-6 w-1/2 items-center font-semibold md:w-1/5 md:px-1 md:flex md:items-center md:justify-center" x-transition:enter="transition ease-out duration-300">
-                    <a href="/" class="flex"><img class="h-14 mr-4" src="https://www.shutterstock.com/image-vector/builder-crossed-hammers-new-construction-600nw-2246936013.jpg" alt=""><span class="mt-4">All House Works</span></a>
+                    <a href="/" class="flex"><img class="h-14 mr-4" src="https://www.shutterstock.com/image-vector/builder-crossed-hammers-new-construction-600nw-2246936013.jpg" alt=""><span class="mt-2">All House Works</span></a>
                 </div>
 
                 <div x-show="open" x-transition:enter="transition ease-in-out duration-300" class="flex flex-col w-full h-auto md:hidden">
@@ -332,7 +320,7 @@
                     <a href="/contact">Contact</a>
                 </div>
 
-                <button class="text-gray-500 w-10 h-10 relative focus:outline-none bg-white md:hidden" @click="open = !open">
+                <button class="text-gray-500 w-10 h-10 relative focus:outline-none md:hidden mt-2" @click="open = !open">
                     <span class="sr-only">Open main menu</span>
                     <div class="block w-5 absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2">
                         <span aria-hidden="true" class="block absolute h-0.5 w-5 bg-current transform transition duration-500 ease-in-out" :class="{'rotate-45': open,' -translate-y-1.5': !open }"></span>
@@ -360,18 +348,33 @@
                     </div>
                 </div>
                 <div class="w-full md:w-auto flex justify-center">
-                     <img src="https://www.shutterstock.com/image-vector/builder-crossed-hammers-new-construction-600nw-2246936013.jpg" alt="" class="h-20">
+                    <img src="https://www.shutterstock.com/image-vector/builder-crossed-hammers-new-construction-600nw-2246936013.jpg" alt="" class="h-20">
                 </div>
-                <div class="flex items-center w-full md:w-auto">
-                    <input type="text" placeholder="ENTER KEYWORD" class="text-gray-300 hover:text-white border border-black px-2 py-1 pl-8 w-full md:w-auto">
-                </div>
+                <form onsubmit="checkAndRedirect(event)">
+                    <div class="flex items-center w-full md:w-auto">
+                        <input id="search-input" type="text" placeholder="ENTER KEYWORD" class="h-12 text-blackhover:text-white border border-black px-2 py-1 pl-8 w-full md:w-auto">
+                        <button type="submit">
+                            <svg fill="#000000" height="64px" width="64px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-459.1 -459.1 1406.60 1406.60" xml:space="preserve">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <g>
+                                        <g>
+                                            <path d="M0,203.25c0,112.1,91.2,203.2,203.2,203.2c51.6,0,98.8-19.4,134.7-51.2l129.5,129.5c2.4,2.4,5.5,3.6,8.7,3.6 s6.3-1.2,8.7-3.6c4.8-4.8,4.8-12.5,0-17.3l-129.6-129.5c31.8-35.9,51.2-83,51.2-134.7c0-112.1-91.2-203.2-203.2-203.2 S0,91.15,0,203.25z M381.9,203.25c0,98.5-80.2,178.7-178.7,178.7s-178.7-80.2-178.7-178.7s80.2-178.7,178.7-178.7 S381.9,104.65,381.9,203.25z"></path>
+                                        </g>
+                                    </g>
+                                </g>
+                            </svg>
+                        </button>
+                    </div>
+                </form>
             </div>
         </div>
     </nav>
 
 
     <!-- Banner Section -->
-    <section class="bg-cover bg-center relative parallax" style="background-image: url('https://t3.ftcdn.net/jpg/03/29/59/58/360_F_329595825_WZo9AsM9U5mekyDyqcCIpKdcvoZKSgOo.jpg'); background-size: cover; background-repeat: no-repeat; height: 100vh; background-attachment: fixed;">
+    <section class="bg-cover bg-center relative parallax" style="background-image: url('https://images.pexels.com/photos/4108712/pexels-photo-4108712.jpeg?cs=srgb&dl=pexels-cottonbro-4108712.jpg&fm=jpg'); background-size: cover; background-repeat: no-repeat; height: 100vh; background-attachment: fixed;">
         <div class="absolute inset-0 bg-black opacity-50"></div>
         <div class="relative z-10 p-6 md:p-24 banner flex flex-col items-center justify-center text-center text-white" style="padding-top: 150px;">
             <h1 class="text-2xl md:text-4xl font-bold" style="font-size: 43px; text-align: center; font-family: math;">Home Maintenance & Handyman Services <br>
@@ -551,30 +554,30 @@
     <!-- Popular Home Maintenance Services -->
 
 
-    <!-- PPH M&E Ltd Happiness, Guaranteed -->
+    <!-- All House Work's Happiness, Guaranteed -->
     <div class="flex" style="margin-left: 13%;width: 77%;">
         <section class="mt-32">
             <a href="#" class="flex flex-col items-center bg-white  md:flex-row hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
                 <img class="object-cover w-425 h-350 md:h-96 md:w-425 md:rounded-none md:rounded-s-lg" src="https://storage.googleapis.com/carousell-wordpress-files/1/2022/10/sg_homeservice-autos_blogcover5.jpg" alt="">
                 <div class="flex flex-col justify-between p-4 leading-normal">
                     <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                        PPH M&E Happiness, Guaranteed
+                        All House Works Happiness, Guaranteed
                         <span style="display: block;width: 114px;height: 3px;background-color: black;margin-top: 10px;"></span>
                         <span style="display: block;width: 49%;height: 2px;background-image: linear-gradient(to right, black 60%, #f7a80c 40%);">
                         </span>
                     </h5>
-                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Your happiness is our goal. If you’re not happy, we’ll work to make it right. Our friendly customer service agents are available, 7 days a week. The PPH M&E Ltd Happiness Guarantee only applies when you book and pay for a service directly through the PPH M&E Ltd platform.</p>
+                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Your happiness is our goal. If you’re not happy, we’ll work to make it right. Our friendly customer service agents are available, 7 days a week. The All House Work's Happiness Guarantee only applies when you book and pay for a service directly through the All House Work's platform.</p>
                     <button style="background-color: #dd9933;width: 99px;height: 32px;font-family: math;">Learn More</button>
                 </div>
             </a>
         </section>
     </div>
-    <!-- PPH M&E Ltd Happiness, Guaranteed -->
+    <!-- All House Work's Happiness, Guaranteed -->
 
 
     <section class="mt-10 mb-10">
         <div class="p-4" id="timeline">
-            <h2 class="text-3xl text-black font-bold mb-10 text-center">PPH M&E Ltd For Businesses</h2>
+            <h2 class="text-3xl text-black font-bold mb-10 text-center">All House Work's For Businesses</h2>
             <p class="text-lg mb-10 text-black text-center">EveryWeworks provides easy access to quality home services at <br>affordable prices. This allows businesses to value-add their services for their customers.</p>
             <div class="flex flex-col grid-cols-9 p-2 mx-auto md:grid">
                 <div class="flex md:contents flex-row-reverse">
@@ -880,4 +883,33 @@
             navbar.style.transform = "translateX(-50%)";
         }
     };
+
+    function checkAndRedirect(event) {
+        event.preventDefault();
+        const input = document.getElementById('search-input').value.toLowerCase().replace(/\s+/g, ''); 
+        const routes = {
+            'plumber': '/searchPlumber',
+            'electrician': '/searchElectric',
+            'handyman': '/searchHandyMan',
+            'deepclean': '/searchDeepclean',
+            'floorpolish': '/searchFloorPolish',
+            'floorclean': '/searchFloorClean',
+            'wood': '/searchWood',
+            'decking': '/searchDecking'
+        };
+
+        let foundRoute = false;
+
+        for (const keyword in routes) {
+            if (keyword.includes(input)) {
+                window.location.href = routes[keyword];
+                foundRoute = true;
+                break;
+            }
+        }
+
+        if (!foundRoute) {
+            window.location.href = '/noSearch';
+        }
+    }
 </script>
