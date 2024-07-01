@@ -375,11 +375,11 @@
         </div>
     </nav>
 
-    <section class="parallax mt-16" style="position: relative; background: url('https://countrywideplumbing.com.au/wp-content/uploads/2016/08/plumber.jpg') no-repeat center center fixed; background-size: cover; height: 18.75rem;">
+    <section class="parallax mt-16" style="position: relative; background: url('https://t4.ftcdn.net/jpg/02/91/14/23/360_F_291142315_1HDHshpssor08inb91jnXZxB02M3rIgi.jpg') no-repeat center center fixed; background-size: cover; height: 18.75rem;">
         <div class="overlay" style="background: rgba(0, 0, 0, 0.5); position: absolute; top: 0; left: 0; right: 0; bottom: 0;"></div>
         <div class="content" style="position: relative; z-index: 1; display: flex; flex-direction: column; padding-left: 16px; padding-right: 16px; text-align: center; gap: 16px;">
-            <h1 style="font-size: 40px; color: white; font-weight: 100; margin-bottom: 24px;">PLUMBER</h1>
-            <p style="font-size: 16px; color: antiquewhite;">Home / Service / Plumber</p>
+            <h1 style="font-size: 40px; color: white; font-weight: 100; margin-bottom: 24px;">HANDYMAN</h1>
+            <p style="font-size: 16px; color: antiquewhite;">Home / Service / Handyman</p>
         </div>
     </section>
 
@@ -391,13 +391,13 @@
             <div class="flex flex-wrap items-center">
                 <div class="w-10/12 md:w-6/12 lg:w-4/12 px-12 md:px-4 mr-auto ml-auto -mt-78">
                     <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-pink-500">
-                        <img alt="..." src="https://t3.ftcdn.net/jpg/00/97/94/72/360_F_97947268_UhGn7YgiPSKUtZwDP9zE43JFWQETsEBD.jpg" class="w-full align-middle rounded-t-lg">
+                        <img alt="..." src="https://images.pexels.com/photos/5974053/pexels-photo-5974053.jpeg?cs=srgb&dl=pexels-ono-kosuki-5974053.jpg&fm=jpg" class="w-full align-middle rounded-t-lg">
                         <blockquote class="relative p-8 mb-4">
                             <h4 class="text-xl font-bold text-white">
-                                PLUMBING SERVICES
+                                HANDYMAN SERVICES
                             </h4>
                             <p class="text-md font-light mt-2 text-white">
-                                Plumbing services include leak repairs, fixture installations, and maintenance for efficient water systems in homes and businesses, ensuring reliable operation and minimizing disruptions.
+                                Handyman services include leak repairs, fixture installations, and maintenance for efficient water systems in homes and businesses, ensuring reliable operation and minimizing disruptions.
                             </p>
                         </blockquote>
                     </div>
@@ -413,7 +413,7 @@
                                     </div>
                                     <h6 class="text-xl mb-1 font-semibold">PLUMBING EXPERTS</h6>
                                     <p class="mb-4 text-blueGray-500">
-                                        Our plumbers have over 35 years of experience in the industry, serving 1000s of residential & commercial estates.
+                                        Our handymen have over 40 years of experience in the industry, serving 1000s of residential & commercial estates.
                                     </p>
                                 </div>
                             </div>
@@ -423,10 +423,10 @@
                                         <img src={{ url('img/under-construction.gif') }} alt="">
                                     </div>
                                     <h6 class="text-xl mb-1 font-semibold">
-                                        FULL 1-STOP PLUMBING SERVICES
+                                        FULL 1-STOP HANDYMAN SERVICES
                                     </h6>
                                     <p class="mb-4 text-blueGray-500">
-                                        Our top-to-bottom plumbing service is designed to be fuss-free for you. Besides having your plumbing fixtures repaired or replace.
+                                        Our top-to-bottom handyman service is designed to be fuss-free for you. Besides providing the handyman service.
                                     </p>
                                 </div>
                             </div>
@@ -437,9 +437,9 @@
                                     <div class="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white" style="border: .0625rem solid #0097a7;">
                                         <img src={{ url('img/tools.gif') }} alt="">
                                     </div>
-                                    <h6 class="text-xl mb-1 font-semibold">RANGE OF PLUMBING SERVICES</h6>
+                                    <h6 class="text-xl mb-1 font-semibold">RANGE OF HANDYMAN SERVICES</h6>
                                     <p class="mb-4 text-blueGray-500">
-                                        Our plumbers carry out a comprehensive list of plumbing works including clearing chokes, fixing leaks, water heater services.
+                                        Our handymen carry out a comprehensive list of handyman works including plumbing, electrical, furniture assembly, drilling services.
                                     </p>
                                 </div>
                             </div>
@@ -549,42 +549,48 @@
                 <div class="w-full px-4">
                     <div class="text-center mx-auto mb-[3.75rem] lg:mb-20 max-w-[31.875rem]">
                         <h2 class=" font-bold  text-3xl sm:text-4xl md:text-[2.5rem] text-dark mb-4 ">
-                            OUR FULL RANGE OF PLUMBING SERVICES INCLUDE:
+                            OUR FULL RANGE OF HANDYMAN SERVICES INCLUDE:
                         </h2>
                     </div>
                 </div>
             </div>
             <div class="flex flex-wrap justify-center -mx-4">
                 <div class="w-full md:w-1/2 lg:w-1/3 px-4">
-                    <div class="bg-white rounded-xl relative z-10 overflow-hidden border border-primary border-opacity-20 shadow-pricing py-10  px-8 sm:p-12 lg:py-10 lg:px-6 xl:p-12 mb-1">
+                    <div class="bg-white rounded-xl relative z-10 overflow-hidden border border-primary border-opacity-20 shadow-pricing py-10  px-8 sm:p-12 lg:py-10 lg:px-6 xl:p-12 mb-1" style="height: 94%;">
                         <span class="text-primary font-semibold text-lg block mb-4">
-                            Plumbing Installations
+                            Handyman Installations
                         </span>
                         <hr>
                         <div class="mb-7">
                             <p class="text-base text-body-color leading-loose mb-1">
-                                Toilet Bowl Installation / Replacement
+                                Residential and Commercial Plumbing Services
                             </p>
                             <p class="text-base text-body-color leading-loose mb-1">
-                                Urinal Installation / Replacement
+                                Plumbing Leaks
                             </p>
                             <p class="text-base text-body-color leading-loose mb-1">
-                                Water Heater Installation / Replacement
+                                Plumbing Chokes
                             </p>
                             <p class="text-base text-body-color leading-loose mb-1">
-                                Shower Installation / Replacement
+                                Plumbing Chokes
                             </p>
                             <p class="text-base text-body-color leading-loose mb-1">
-                                Tap & Faucet Installation / Replacement
+                                Water Heater Services
                             </p>
                             <p class="text-base text-body-color leading-loose mb-1">
-                                New Installation / re-piping of Water Pipes
+                                Toilet Bowl Services
                             </p>
                             <p class="text-base text-body-color leading-loose mb-1">
-                                New Installation/ re-piping of Stainless Steel Pipe
+                                Tap & Faucet Services
                             </p>
                             <p class="text-base text-body-color leading-loose mb-1">
-                                New Installation/ re-piping of Copper Pipe
+                                Toilet Flush System Services
+                            </p>
+                            <p class="text-base text-body-color leading-loose mb-1">
+                                Shower Services
+                            </p>
+                            <p class="text-base text-body-color leading-loose mb-1">
+                                Bidet Spray Installation
                             </p>
                         </div>
                         <div>
@@ -641,36 +647,45 @@
                 <div class="w-full md:w-1/2 lg:w-1/3 px-4">
                     <div class=" bg-white rounded-xl relative z-10 overflow-hidden border border-primary border-opacity-20 shadow-pricing py-10 px-8 sm:p-12 lg:py-10 lg:px-6 xl:p-12 mb-10">
                         <span class="text-primary font-semibold text-lg block mb-4">
-                            Plumbing Chokes
+                            Handyman Electrician
                         </span>
                         <hr>
                         <div class="mb-7">
                             <p class="text-base text-body-color leading-loose mb-1">
-                                Clear Toilet/Bathroom Choke
+                                Residential and commercial Electrical Services
                             </p>
                             <p class="text-base text-body-color leading-loose mb-1">
-                                Clear Toilet Bowl Choke
+                                Electrical Installations
                             </p>
                             <p class="text-base text-body-color leading-loose mb-1">
-                                Kitchen Flood Repair
+                                Electrical Repair
                             </p>
                             <p class="text-base text-body-color leading-loose mb-1">
-                                Drain Choke Repair
+                                Light Services
                             </p>
                             <p class="text-base text-body-color leading-loose mb-1">
-                                Clogged Toilet Repair / Clear Urinal Bowl Choke
+                                Electrical Switch Services
                             </p>
                             <p class="text-base text-body-color leading-loose mb-1">
-                                Bathroom Flood Repair
+                                Light Switch Services
                             </p>
                             <p class="text-base text-body-color leading-loose mb-1">
-                                Clear Drainage Pipe Choke
+                                Power Sockets & Powerpoints Services
                             </p>
                             <p class="text-base text-body-color leading-loose mb-1">
-                                Clear Floor Trap Choke
+                                Electrical Wiring
                             </p>
                             <p class="text-base text-body-color leading-loose mb-1">
-                                Clear Bathtub Choke / Clogged Sink Repair
+                                Power Trip / Power Failure Services
+                            </p>
+                            <p class="text-base text-body-color leading-loose mb-1">
+                                Smart Switch Installation
+                            </p>
+                            <p class="text-base text-body-color leading-loose mb-1">
+                                Ceiling Fan Installation
+                            </p>
+                            <p class="text-base text-body-color leading-loose mb-1">
+                                Wall Fan Installation
                             </p>
                         </div>
 
@@ -726,38 +741,35 @@
                     </div>
                 </div>
                 <div class="w-full md:w-1/2 lg:w-1/3 px-4">
-                    <div class="  bg-white rounded-xl relative z-10 overflow-hidden  border border-primary border-opacity-20 shadow-pricing py-10  px-8  sm:p-12 lg:py-10 lg:px-6  xl:p-12 mb-10  ">
+                    <div class="  bg-white rounded-xl relative z-10 overflow-hidden  border border-primary border-opacity-20 shadow-pricing py-10  px-8  sm:p-12 lg:py-10 lg:px-6  xl:p-12 mb-10" style="height: 94%;">
                         <span class="text-primary font-semibold text-lg block mb-4">
-                            Plumbing Leaks & Pipe Repair
+                            Handyman Aircon Servicing
                         </span>
                         <hr>
                         <div class="mb-7">
                             <p class="text-base text-body-color leading-loose mb-1">
-                                Leaking Pipe / Burst Pipe Repair
+                                Residential and Commercial Aircon Services
                             </p>
                             <p class="text-base text-body-color leading-loose mb-1">
-                                Sink Pipe Repair
+                                Aircon Servicing
                             </p>
                             <p class="text-base text-body-color leading-loose mb-1">
-                                Exposed Copper Pipe Leak Repair
+                                Aircon Installation
                             </p>
                             <p class="text-base text-body-color leading-loose mb-1">
-                                PPR Pipe Leak Repair
+                                Aircon Chemical Overhaul
                             </p>
                             <p class="text-base text-body-color leading-loose mb-1">
-                                Toilet Flush System / Toilet Flush Tank Leakage Repair
+                                Aircon Repair
                             </p>
                             <p class="text-base text-body-color leading-loose mb-1">
-                                Faucet / Tap Leak repair
+                                Aircon Leaking Water Repair
                             </p>
                             <p class="text-base text-body-color leading-loose mb-1">
-                                UPVC Pipe Leak Repair
+                                Aircon Not Cold Repair
                             </p>
                             <p class="text-base text-body-color leading-loose mb-1">
-                                Water pressure test
-                            </p>
-                            <p class="text-base text-body-color leading-loose mb-1">
-                                Water leakage Detection (visual inspection only)
+                                Aircon Gas Top Up
                             </p>
                         </div>
                         <div>
@@ -816,42 +828,21 @@
                 <div class="w-full md:w-1/2 lg:w-1/3 px-4">
                     <div class="bg-white rounded-xl relative z-10 overflow-hidden border border-primary border-opacity-20 shadow-pricing py-10  px-8 sm:p-12 lg:py-10 lg:px-6 xl:p-12 mb-1">
                         <span class="text-primary font-semibold text-lg block mb-4">
-                            Water Heater Product & Services
+                            Rubbish Chute Replacement
                         </span>
                         <hr>
                         <div class="mb-7">
                             <p class="text-base text-body-color leading-loose mb-1">
-                                Storage Water Heater
+                                HDB Rubbish Chute Replacement
                             </p>
                             <p class="text-base text-body-color leading-loose mb-1">
-                                Instant Water Heater
+                                Condo Rubbish Chute Replacement
                             </p>
                             <p class="text-base text-body-color leading-loose mb-1">
-                                Multipoint Water Heater
+                                Rubbish Chute Repair
                             </p>
                             <p class="text-base text-body-color leading-loose mb-1">
-                                707 Water Heater
-                            </p>
-                            <p class="text-base text-body-color leading-loose mb-1">
-                                Ariston Water Heater
-                            </p>
-                            <p class="text-base text-body-color leading-loose mb-1">
-                                Bennington Water Heater
-                            </p>
-                            <p class="text-base text-body-color leading-loose mb-1">
-                                Bennington Water Heater
-                            </p>
-                            <p class="text-base text-body-color leading-loose mb-1">
-                                Everhot Water Heater
-                            </p>
-                            <p class="text-base text-body-color leading-loose mb-1">
-                                Rheem Water Heater
-                            </p>
-                            <p class="text-base text-body-color leading-loose mb-1">
-                                Rubine Water Heater
-                            </p>
-                            <p class="text-base text-body-color leading-loose mb-1">
-                                Joven Water Heater
+                                Refuse Chute Replacement
                             </p>
                         </div>
                         <div>
@@ -908,30 +899,18 @@
                 <div class="w-full md:w-1/2 lg:w-1/3 px-4">
                     <div class=" bg-white rounded-xl relative z-10 overflow-hidden border border-primary border-opacity-20 shadow-pricing py-10 px-8 sm:p-12 lg:py-10 lg:px-6 xl:p-12 mb-10" style="height: 99%;">
                         <span class="text-primary font-semibold text-lg block mb-4">
-                            Toilet Bowl Product & Services
+                            Hinge Installation
                         </span>
                         <hr>
                         <div class="mb-7">
                             <p class="text-base text-body-color leading-loose mb-1">
-                                Floor-Mounted Toilet
+                                Cupboard Hinge Installation/Replacement
                             </p>
                             <p class="text-base text-body-color leading-loose mb-1">
-                                Wall-Mounted Toilet
+                                Cabinet Hinge Installation/Replacement
                             </p>
                             <p class="text-base text-body-color leading-loose mb-1">
-                                Baron Toilet Bowl
-                            </p>
-                            <p class="text-base text-body-color leading-loose mb-1">
-                                Magnum Toilet Bowl
-                            </p>
-                            <p class="text-base text-body-color leading-loose mb-1">
-                                Saniton Toilet Bowl
-                            </p>
-                            <p class="text-base text-body-color leading-loose mb-1">
-                                TOTO Toilet Bowl
-                            </p>
-                            <p class="text-base text-body-color leading-loose mb-1">
-                                Tiara Toilet Bowl
+                                Hydraulic Hinge Installation/Replacement
                             </p>
                         </div>
 
@@ -987,44 +966,20 @@
                     </div>
                 </div>
                 <div class="w-full md:w-1/2 lg:w-1/3 px-4">
-                    <div class="bg-white rounded-xl relative z-10 overflow-hidden border border-primary border-opacity-20 shadow-pricing py-10  px-8 sm:p-12 lg:py-10 lg:px-6 xl:p-12 mb-1">
+                    <div class="bg-white rounded-xl relative z-10 overflow-hidden border border-primary border-opacity-20 shadow-pricing py-10  px-8 sm:p-12 lg:py-10 lg:px-6 xl:p-12 mb-1" style="height: 99%;">
                         <span class="text-primary font-semibold text-lg block mb-4">
-                            Tap Product & Services
+                            Furniture Assembly
                         </span>
                         <hr>
                         <div class="mb-7">
                             <p class="text-base text-body-color leading-loose mb-1">
-                                1-Way Tap
+                                Tables & Chairs Assembly
                             </p>
                             <p class="text-base text-body-color leading-loose mb-1">
-                                2-Way Tap
+                                Cabinet Assembly
                             </p>
                             <p class="text-base text-body-color leading-loose mb-1">
-                                Basin Tap
-                            </p>
-                            <p class="text-base text-body-color leading-loose mb-1">
-                                Bidet Tap / Bidet Spray
-                            </p>
-                            <p class="text-base text-body-color leading-loose mb-1">
-                                Grohe Taps
-                            </p>
-                            <p class="text-base text-body-color leading-loose mb-1">
-                                Kitchen Sink Tap
-                            </p>
-                            <p class="text-base text-body-color leading-loose mb-1">
-                                Kohler Taps
-                            </p>
-                            <p class="text-base text-body-color leading-loose mb-1">
-                                Wash Basin Tap
-                            </p>
-                            <p class="text-base text-body-color leading-loose mb-1">
-                                Kitchen Sink Tap
-                            </p>
-                            <p class="text-base text-body-color leading-loose mb-1">
-                                Mixer Tap
-                            </p>
-                            <p class="text-base text-body-color leading-loose mb-1">
-                                Shower Tap
+                                Wall Shelf Installation
                             </p>
                         </div>
                         <div>

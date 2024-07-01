@@ -375,11 +375,11 @@
         </div>
     </nav>
 
-    <section class="parallax mt-16" style="position: relative; background: url('https://media.istockphoto.com/id/1469656864/photo/electrician-engineer-uses-a-multimeter-to-test-the-electrical-installation-and-power-line.jpg?s=612x612&w=0&k=20&c=h70UOpNbJYT5G2oGT-KUeIE3yXwEgsCpr25yR1rnGtU=') no-repeat center center fixed; background-size: cover; height: 300px;">
+    <section class="parallax mt-16" style="position: relative; background: url('https://www.helpling.com.sg/wp-content/uploads/2023/06/Helpling-floor-polishing-services.webp') no-repeat center center fixed; background-size: cover; height: 300px;">
         <div class="overlay" style="background: rgba(0, 0, 0, 0.5); position: absolute; top: 0; left: 0; right: 0; bottom: 0;"></div>
         <div class="content" style="position: relative; z-index: 1; display: flex; flex-direction: column; padding-left: 1rem; padding-right: 1rem; text-align: center; gap: 1rem;">
-            <h1 style="font-size: 2.5rem; color: white; font-weight: 100; margin-bottom: 1.5rem;">Electrician</h1>
-            <p style="font-size: 1rem; color: antiquewhite;">Home / Service / Electrician</p>
+            <h1 style="font-size: 2.5rem; color: white; font-weight: 100; margin-bottom: 1.5rem;">Floor Polishing</h1>
+            <p style="font-size: 1rem; color: antiquewhite;">Home / Service / Floor Polishing</p>
         </div>
     </section>
 
@@ -391,13 +391,13 @@
             <div class="flex flex-wrap items-center">
                 <div class="w-10/12 md:w-6/12 lg:w-4/12 px-12 md:px-4 mr-auto ml-auto -mt-78">
                     <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-pink-500">
-                        <img alt="..." src="https://static.vecteezy.com/system/resources/thumbnails/030/472/172/small/electrician-working-in-fuse-box-electrical-panel-with-electrical-wires-ai-generated-photo.jpg" class="w-full align-middle rounded-t-lg">
+                        <img alt="..." src="https://dwfloorpolishing.com/wp-content/uploads/2020/12/1-marble-floor-polishing-dw-floor-polishing-singapore-scaled.jpg" class="w-full align-middle rounded-t-lg">
                         <blockquote class="relative p-8 mb-4">
                             <h4 class="text-xl font-bold text-white">
-                                ELECTRICAL SERVICES
+                                FLOOR POLISHING
                             </h4>
                             <p class="text-md font-light mt-2 text-white">
-                                Electrician services include leak repairs, fixture installations, and maintenance for efficient water systems in homes and businesses, ensuring reliable operation and minimizing disruptions.
+                                Floor Polishing services include leak repairs, fixture installations, and maintenance for efficient water systems in homes and businesses, ensuring reliable operation and minimizing disruptions.
                             </p>
                         </blockquote>
                     </div>
@@ -411,9 +411,9 @@
                                     <div class="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white" style="border: 1px solid #0097a7;">
                                         <img src={{ url('img/service-tools.gif') }} alt="">
                                     </div>
-                                    <h6 class="text-xl mb-1 font-semibold">ELECTRICAL EXPERTS</h6>
+                                    <h6 class="text-xl mb-1 font-semibold">FLOOR POLISHING EXPERTS</h6>
                                     <p class="mb-4 text-blueGray-500">
-                                    Our electricians have over 35 years of experience in the industry, serving 1000s of residential & commercial estates.
+                                        Our professionals have over 10 years of experience in the industry, serving 100s of residential & commercial estates.
                                     </p>
                                 </div>
                             </div>
@@ -423,10 +423,10 @@
                                         <img src={{ url('img/under-construction.gif') }} alt="">
                                     </div>
                                     <h6 class="text-xl mb-1 font-semibold">
-                                    FULL 1-STOP ELECTRICAL SERVICES
+                                        FULL 1-STOP FLOOR POLISHING SERVICES
                                     </h6>
                                     <p class="mb-4 text-blueGray-500">
-                                    Our top-to-bottom electrical service is designed to be fuss-free for you. Besides providing the electrical service, we can also supply you the lights, power sockets & bulbs required for the service!
+                                        Our top-to-bottom floor polishing service is designed to be fuss-free for you. Besides providing the floor polishing service, we can also supply the products and equipment required for the service!
                                     </p>
                                 </div>
                             </div>
@@ -437,9 +437,9 @@
                                     <div class="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white" style="border: 1px solid #0097a7;">
                                         <img src={{ url('img/tools.gif') }} alt="">
                                     </div>
-                                    <h6 class="text-xl mb-1 font-semibold">RANGE OF ELECTRICAL SERVICES </h6>
+                                    <h6 class="text-xl mb-1 font-semibold">RANGE OF FLOOR POLISHING SERVICES</h6>
                                     <p class="mb-4 text-blueGray-500">
-                                        Our plumbers carry out a comprehensive list of plumbing works including clearing chokes, fixing leaks, water heater services.
+                                        Our professionals carry out a comprehensive list of floor polishing works including marble floor polishing, wood floor polishing, parquet floor polishing & more.
                                     </p>
                                 </div>
                             </div>
@@ -543,7 +543,7 @@
     <!-- component -->
 
     <!-- ====== Pricing Section Start -->
-    <section class="bg-white lg:pt-[120px] pb-12 lg:pb-[90px] relative z-20 overflow-hidden">
+    <section class="bg-white lg:pt-[120px] pb-12 lg:pb-[90px] relative z-20 overflow-hidden" style="display: none;">
         <div class="container">
             <div class="flex flex-wrap -mx-4">
                 <div class="w-full px-4">
@@ -1091,7 +1091,7 @@
             <div class="w-full px-4">
                 <div class="text-center mx-auto mb-[60px] lg:mb-20 max-w-[510px]">
                     <h2 class=" font-bold  text-3xl sm:text-4xl md:text-[40px] text-dark mb-4 ">
-                        OUR COMPLETED PLUMBING WORKS
+                        OUR COMPLETED FLOOR POLISHING WORKS
                     </h2>
                 </div>
             </div>
