@@ -78,6 +78,31 @@ Route::get('/searchDecking', function () {
 Route::get('/noSearch', function () {
     return view('noSearch');
 });
+Route::get('/balconyDeck', function () {
+    return view('balconyDeck');
+});
+
+Route::get('/timberDeck', function () {
+    return view('timberDeck');
+});
+Route::get('/parquetVarnish', function () {
+    return view('parquetVarnish');
+});
+Route::get('/floorDeep', function () {
+    return view('floorDeep');
+});
+Route::get('/vinylClean', function () {
+    return view('vinylClean');
+});
+Route::get('/vinylFloorClean', function () {
+    return view('vinylFloorClean');
+});
+Route::get('/vinylDeepFloorClean', function () {
+    return view('vinylDeepFloorClean');
+});
+Route::get('/terrazzoClean', function () {
+    return view('terrazzoClean');
+});
 
 
 
