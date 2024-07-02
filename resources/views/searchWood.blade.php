@@ -14,10 +14,20 @@
     <link rel="stylesheet" href="https://cdn.tailgrids.com/tailgrids-fallback.css" />
 </head>
 <style>
+    .active {
+        background-color: #BFDBFE;
+        border-color: #2563EB;
+    }
+
     hr.hr-1 {
         border: 0;
         height: .0625rem;
         background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    }
+
+    .custom-border {
+        border-left: 3px solid #f7a80c;
+        padding-left: 10px;
     }
 
     #nav1 {
@@ -357,33 +367,137 @@
                 <div class="w-full md:w-auto flex justify-center">
                     <img src="https://www.shutterstock.com/image-vector/builder-crossed-hammers-new-construction-600nw-2246936013.jpg" alt="" class="h-20">
                 </div>
-                <div class="flex items-center w-full md:w-auto">
-                    <input type="text" placeholder="ENTER KEYWORD" class="h-12 text-blackhover:text-white border border-black px-2 py-1 pl-8 w-full md:w-auto">
-                    <button>
-                        <svg fill="#000000" height="64px" width="64px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-459.1 -459.1 1406.60 1406.60" xml:space="preserve">
-                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
-                            <g id="SVGRepo_iconCarrier">
-                                <g>
+                <form onsubmit="checkAndRedirect(event)">
+                    <div class="flex items-center w-full md:w-auto">
+                        <input id="search-input" type="text" placeholder="ENTER KEYWORD" class="h-12 text-blackhover:text-white border border-black px-2 py-1 pl-8 w-full md:w-auto">
+                        <button type="submit">
+                            <svg fill="#000000" height="64px" width="64px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-459.1 -459.1 1406.60 1406.60" xml:space="preserve">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                <g id="SVGRepo_iconCarrier">
                                     <g>
-                                        <path d="M0,203.25c0,112.1,91.2,203.2,203.2,203.2c51.6,0,98.8-19.4,134.7-51.2l129.5,129.5c2.4,2.4,5.5,3.6,8.7,3.6 s6.3-1.2,8.7-3.6c4.8-4.8,4.8-12.5,0-17.3l-129.6-129.5c31.8-35.9,51.2-83,51.2-134.7c0-112.1-91.2-203.2-203.2-203.2 S0,91.15,0,203.25z M381.9,203.25c0,98.5-80.2,178.7-178.7,178.7s-178.7-80.2-178.7-178.7s80.2-178.7,178.7-178.7 S381.9,104.65,381.9,203.25z"></path>
+                                        <g>
+                                            <path d="M0,203.25c0,112.1,91.2,203.2,203.2,203.2c51.6,0,98.8-19.4,134.7-51.2l129.5,129.5c2.4,2.4,5.5,3.6,8.7,3.6 s6.3-1.2,8.7-3.6c4.8-4.8,4.8-12.5,0-17.3l-129.6-129.5c31.8-35.9,51.2-83,51.2-134.7c0-112.1-91.2-203.2-203.2-203.2 S0,91.15,0,203.25z M381.9,203.25c0,98.5-80.2,178.7-178.7,178.7s-178.7-80.2-178.7-178.7s80.2-178.7,178.7-178.7 S381.9,104.65,381.9,203.25z"></path>
+                                        </g>
                                     </g>
                                 </g>
-                            </g>
-                        </svg>
-                    </button>
-                </div>
+                            </svg>
+                        </button>
+                    </div>
+                </form>
             </div>
         </div>
     </nav>
 
-    <section class="parallax mt-16" style="position: relative; background: url('https://t4.ftcdn.net/jpg/02/91/14/23/360_F_291142315_1HDHshpssor08inb91jnXZxB02M3rIgi.jpg') no-repeat center center fixed; background-size: cover; height: 18.75rem;">
+    <section class="parallax mt-16" style="position: relative; background: url('https://cdn.britannica.com/87/143587-050-A1BE6799/wood.jpg') no-repeat center center fixed; background-size: cover; height: 18.75rem;">
         <div class="overlay" style="background: rgba(0, 0, 0, 0.5); position: absolute; top: 0; left: 0; right: 0; bottom: 0;"></div>
         <div class="content" style="position: relative; z-index: 1; display: flex; flex-direction: column; padding-left: 16px; padding-right: 16px; text-align: center; gap: 16px;">
-            <h1 style="font-size: 40px; color: white; font-weight: 100; margin-bottom: 24px;">SEARCH RESULT FOR WOOD VANISHING</h1>
+            <h1 style="font-size: 40px; color: white; font-weight: 100; margin-bottom: 24px;">SEARCH RESULT FOR WOOD VARNISHING</h1>
             <p style="font-size: 16px; color: antiquewhite;">Home / Search</p>
         </div>
     </section>
+
+    <section class="py-12 flex flex-col md:flex-row">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div id="cardContainer" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+
+                <!-- Card 1 -->
+                <div class="card max-w-sm bg-white shadow-lg rounded-lg overflow-hidden" style="border-bottom:3px solid #f7a80c;">
+                    <img class="w-full h-48 object-cover" src="https://images.squarespace-cdn.com/content/v1/56f2595e8a65e2db95a7d983/1615585078326-JM4WCFRWJ3GO5MSR8LBQ/1483965966_furniturepolishing.jpg?format=1500w" alt="Card Image">
+                    <div class="p-6 text-center">
+                        <h3 class="text-lg font-medium text-gray-900 mb-2">Wood Polishing Singapore – HDB, Jurong East</h3>
+                        <button class="bg-yellow-500 text-black px-2 py-2 rounded hover:bg-yellow-200 ">Read More > </button>
+                    </div>
+                    <div class="flex ml-20 mb-6">
+                        <div class="text-gray-600 flex">
+                            <img src="{{ url('img/calendar.png') }}" alt="" class="mr-2 "><span> March 7, 2024</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="card max-w-sm bg-white shadow-lg rounded-lg overflow-hidden" style="border-bottom:3px solid #f7a80c;">
+                    <img class="w-full h-48 object-cover" src="https://www.itsplaneandsimple.com/Content/BlogImages/P%26S_Blog_Images-wood2_100821142841.jpg" alt="Card Image">
+                    <div class="p-6 text-center">
+                        <h3 class="text-lg font-medium text-gray-900 mb-2">Wood Varnishing</h3>
+                        <button class="bg-yellow-500 text-black px-2 py-2 rounded hover:bg-yellow-200 ">Read More > </button>
+                    </div>
+                    <div class="flex ml-20 mb-6">
+                        <div class="text-gray-600 flex">
+                            <img src="{{ url('img/calendar.png') }}" alt="" class="mr-2 "><span> December 2, 2023</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="card max-w-sm bg-white shadow-lg rounded-lg overflow-hidden" style="border-bottom:3px solid #f7a80c;">
+                    <img class="w-full h-48 object-cover" src="https://5.imimg.com/data5/SELLER/Default/2020/11/NT/CL/YM/33596548/wooden-floor-polishing-services.jpg" alt="Card Image">
+                    <div class="p-6 text-center">
+                        <h3 class="text-lg font-medium text-gray-900 mb-2">Wood Floor Polishing Singapore – Condo, Newton</h3>
+                        <button class="bg-yellow-500 text-black px-2 py-2 rounded hover:bg-yellow-200 ">Read More > </button>
+                    </div>
+                    <div class="flex ml-20 mb-6">
+                        <div class="text-gray-600 flex">
+                            <img src="{{ url('img/calendar.png') }}" alt="" class="mr-2 "><span> December 12, 2023</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card max-w-sm bg-white shadow-lg rounded-lg overflow-hidden" style="border-bottom:3px solid #f7a80c;">
+                    <img class="w-full h-48 object-cover" src="https://floorpolishingco.com/wp-content/uploads/2020/12/repair-scratches-on-the-parquet-2.jpg" alt="Card Image">
+                    <div class="p-6 text-center">
+                        <h3 class="text-lg font-medium text-gray-900 mb-2">Varnishing a parquet floor consists Singapore – Condo, Newton</h3>
+                        <button class="bg-yellow-500 text-black px-2 py-2 rounded hover:bg-yellow-200 ">Read More > </button>
+                    </div>
+                    <div class="flex ml-20 mb-6">
+                        <div class="text-gray-600 flex">
+                            <img src="{{ url('img/calendar.png') }}" alt="" class="mr-2 "><span> December 12, 2023</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="max-w-sm mx-auto p-4 bg-white rounded-lg shadow-md mt-8">
+            <div class="flex justify-center mb-4">
+                <img src="https://www.shutterstock.com/image-vector/builder-crossed-hammers-new-construction-600nw-2246936013.jpg" alt="Everyworks Logo" class="h-16">
+            </div>
+            <div class="mb-4 text-center">
+                <a href="https://wa.me/your-number" class="block bg-green-500 text-white font-bold py-2 px-4 rounded-lg hover:bg-green-600">WhatsApp to Start Now!</a>
+                <p class="mt-2 text-gray-600">One-stop integrated home service provider for your home needs! <a href="https://wa.me/your-number" class="text-yellow-500 hover:underline">WhatsApp us</a> for enquiry now!</p>
+            </div>
+            <div>
+                <h2 class="text-lg font-bold mb-2 custom-border">Categories</h2>
+                <ul>
+                    <li class=" flex justify-between py-1 border-b">
+                        <span><span style="font-weight: 900;">-</span> Wood Varnishing</span>
+                        <span class="text-gray-500 bg-gray-100 p-1 rounded-lg w-8 text-center">115</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="max-w-sm mx-auto p-4 bg-white rounded-lg shadow-md mt-10">
+                <h2 class="text-lg font-bold mb-6 custom-border">Portfolio</h2>
+                <div class="grid grid-cols-3 gap-2 border-top">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScZvP0dqUjbSLQ0BiH42XYTdwNUagvHDTF0A&s" alt="Portfolio Image 1" style="width: 100px; height: 80px; object-fit: cover;" class="rounded-lg shadow-sm">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-Rr1s9EUOMsM07qBvjvG27MMsSBL9H0eblw&s" alt="Portfolio Image 2" style="width: 100px; height: 80px; object-fit: cover;" class="rounded-lg shadow-sm">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBA6o3IXPhcL2_KnJXLBkBzTUQBnIVhX1iqQ&s" alt="Portfolio Image 3" style="width: 100px; height: 80px; object-fit: cover;" class="rounded-lg shadow-sm">
+                    <img src="https://www.checkatrade.com/blog/wp-content/uploads/2023/08/How-to-strip-and-stain-hardwood-floors-2.jpg" alt="Portfolio Image 4" style="width: 100px; height: 80px; object-fit: cover;" class="rounded-lg shadow-sm">
+                    <img src="https://eu-images.contentstack.com/v3/assets/blt066259863543a0d2/bltdc11e526275961e7/6335667082874e251c01aaa8/varnish-cover-img.jpg?format=pjpg&auto=webp&dpr=1&width=400&quality=85" alt="Portfolio Image 5" style="width: 100px; height: 80px; object-fit: cover;" class="rounded-lg shadow-sm">
+                    <img src="https://i.ytimg.com/vi/_VdFzj48BOQ/maxresdefault.jpg" alt="Portfolio Image 6" style="width: 100px; height: 80px; object-fit: cover;" class="rounded-lg shadow-sm">
+                    <img src="https://i.ytimg.com/vi/lVN-ZbJ_GQA/maxresdefault.jpg" alt="Portfolio Image 7" style="width: 100px; height: 80px; object-fit: cover;" class="rounded-lg shadow-sm">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFoV9XGBGHGnzep5ypB95UO2i651FfeFW0Pg&s" alt="Portfolio Image 8" style="width: 100px; height: 80px; object-fit: cover;" class="rounded-lg shadow-sm">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQprj_-0arwmHcoqP9s0ZpJGCNv1Rk7BPhTOw&s" alt="Portfolio Image 9" style="width: 100px; height: 80px; object-fit: cover;" class="rounded-lg shadow-sm">
+                    <img src="https://content.instructables.com/F9B/UDLB/K06Z3QC4/F9BUDLBK06Z3QC4.png?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=150" alt="Portfolio Image 10" style="width: 100px; height: 80px; object-fit: cover;" class="rounded-lg shadow-sm">
+                    <img src="https://ezont4ofnpo.exactdn.com/wp-content/uploads/2021/05/img.png?strip=all&lossy=1&ssl=1" alt="Portfolio Image 11" style="width: 100px; height: 80px; object-fit: cover;" class="rounded-lg shadow-sm">
+                    <img src="https://miro.medium.com/v2/resize:fit:1400/1*BaiNqNTXEkRyLa5Zh0B97Q.jpeg" alt="Portfolio Image 12" style="width: 100px; height: 80px; object-fit: cover;" class="rounded-lg shadow-sm">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFpe6Nyoh6V1qm85EKc4wpwSqM_5X0bDEjhw&s" alt="Portfolio Image 13" style="width: 100px; height: 80px; object-fit: cover;" class="rounded-lg shadow-sm">
+                    <img src="https://www.ukhomeimprovement.co.uk/wp-content/uploads/2023/04/uk-home-improvement_What-You-Need-to-Know-About-Varnishing-Wood.jpg" alt="Portfolio Image 14" style="width: 100px; height: 80px; object-fit: cover;" class="rounded-lg shadow-sm">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
 
 
     <footer class="footer bg-blue-100/80 font-sans dark:bg-gray-900">
@@ -427,3 +541,73 @@
 </body>
 
 </html>
+<script>
+    const btn1 = document.getElementById('btn1');
+
+    btn1.addEventListener('click', function() {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+
+        setTimeout(function() {
+            location.reload();
+        }, 40);
+    });
+
+    function setActive(element) {
+        // Remove the active class from all list items
+        const items = document.querySelectorAll('#showMoreBtn ol li p');
+        items.forEach(item => item.classList.remove('active'));
+
+        // Add the active class to the clicked item
+        element.classList.add('active');
+    }
+    document.addEventListener('DOMContentLoaded', function() {
+        const showMoreBtn = document.getElementById('showMoreBtn');
+        const hiddenCards = document.querySelectorAll('.card.hidden');
+        let currentIndex = 0;
+        const pageSize = 6; // Number of cards to show per click
+
+        showMoreBtn.addEventListener('click', function() {
+            for (let i = currentIndex; i < currentIndex + pageSize && i < hiddenCards.length; i++) {
+                hiddenCards[i].classList.remove('hidden');
+            }
+            currentIndex += pageSize;
+
+            // // Hide the button if all cards are shown
+            // if (currentIndex >= hiddenCards.length) {
+            //     showMoreBtn.style.display = 'none';
+            // }
+        });
+    });
+
+    function checkAndRedirect(event) {
+        event.preventDefault();
+        const input = document.getElementById('search-input').value.toLowerCase().replace(/\s+/g, '');
+        const routes = {
+            'plumber': '/searchPlumber',
+            'electrician': '/searchElectric',
+            'handyman': '/searchHandyMan',
+            'deepclean': '/searchDeepclean',
+            'floorpolish': '/searchFloorPolish',
+            'floorclean': '/searchFloorClean',
+            'wood': '/searchWood',
+            'decking': '/searchDecking'
+        };
+
+        let foundRoute = false;
+
+        for (const keyword in routes) {
+            if (keyword.includes(input)) {
+                window.location.href = routes[keyword];
+                foundRoute = true;
+                break;
+            }
+        }
+
+        if (!foundRoute) {
+            window.location.href = '/noSearch';
+        }
+    }
+</script>

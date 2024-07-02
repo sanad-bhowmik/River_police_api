@@ -14,10 +14,20 @@
     <link rel="stylesheet" href="https://cdn.tailgrids.com/tailgrids-fallback.css" />
 </head>
 <style>
+    .active {
+        background-color: #BFDBFE;
+        border-color: #2563EB;
+    }
+
     hr.hr-1 {
         border: 0;
         height: .0625rem;
         background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    }
+
+    .custom-border {
+        border-left: 3px solid #f7a80c;
+        padding-left: 10px;
     }
 
     #nav1 {
@@ -357,33 +367,177 @@
                 <div class="w-full md:w-auto flex justify-center">
                     <img src="https://www.shutterstock.com/image-vector/builder-crossed-hammers-new-construction-600nw-2246936013.jpg" alt="" class="h-20">
                 </div>
-                <div class="flex items-center w-full md:w-auto">
-                    <input type="text" placeholder="ENTER KEYWORD" class="h-12 text-blackhover:text-white border border-black px-2 py-1 pl-8 w-full md:w-auto">
-                    <button>
-                        <svg fill="#000000" height="64px" width="64px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-459.1 -459.1 1406.60 1406.60" xml:space="preserve">
-                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
-                            <g id="SVGRepo_iconCarrier">
-                                <g>
+                <form onsubmit="checkAndRedirect(event)">
+                    <div class="flex items-center w-full md:w-auto">
+                        <input id="search-input" type="text" placeholder="ENTER KEYWORD" class="h-12 text-blackhover:text-white border border-black px-2 py-1 pl-8 w-full md:w-auto">
+                        <button type="submit">
+                            <svg fill="#000000" height="64px" width="64px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-459.1 -459.1 1406.60 1406.60" xml:space="preserve">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                <g id="SVGRepo_iconCarrier">
                                     <g>
-                                        <path d="M0,203.25c0,112.1,91.2,203.2,203.2,203.2c51.6,0,98.8-19.4,134.7-51.2l129.5,129.5c2.4,2.4,5.5,3.6,8.7,3.6 s6.3-1.2,8.7-3.6c4.8-4.8,4.8-12.5,0-17.3l-129.6-129.5c31.8-35.9,51.2-83,51.2-134.7c0-112.1-91.2-203.2-203.2-203.2 S0,91.15,0,203.25z M381.9,203.25c0,98.5-80.2,178.7-178.7,178.7s-178.7-80.2-178.7-178.7s80.2-178.7,178.7-178.7 S381.9,104.65,381.9,203.25z"></path>
+                                        <g>
+                                            <path d="M0,203.25c0,112.1,91.2,203.2,203.2,203.2c51.6,0,98.8-19.4,134.7-51.2l129.5,129.5c2.4,2.4,5.5,3.6,8.7,3.6 s6.3-1.2,8.7-3.6c4.8-4.8,4.8-12.5,0-17.3l-129.6-129.5c31.8-35.9,51.2-83,51.2-134.7c0-112.1-91.2-203.2-203.2-203.2 S0,91.15,0,203.25z M381.9,203.25c0,98.5-80.2,178.7-178.7,178.7s-178.7-80.2-178.7-178.7s80.2-178.7,178.7-178.7 S381.9,104.65,381.9,203.25z"></path>
+                                        </g>
                                     </g>
                                 </g>
-                            </g>
-                        </svg>
-                    </button>
-                </div>
+                            </svg>
+                        </button>
+                    </div>
+                </form>
             </div>
         </div>
     </nav>
 
-    <section class="parallax mt-16" style="position: relative; background: url('https://t4.ftcdn.net/jpg/02/91/14/23/360_F_291142315_1HDHshpssor08inb91jnXZxB02M3rIgi.jpg') no-repeat center center fixed; background-size: cover; height: 18.75rem;">
+    <section class="parallax mt-16" style="position: relative; background: url('https://greencleancs.com/wp-content/uploads/2013/10/floor_care_head.jpg') no-repeat center center fixed; background-size: cover; height: 18.75rem;">
         <div class="overlay" style="background: rgba(0, 0, 0, 0.5); position: absolute; top: 0; left: 0; right: 0; bottom: 0;"></div>
         <div class="content" style="position: relative; z-index: 1; display: flex; flex-direction: column; padding-left: 16px; padding-right: 16px; text-align: center; gap: 16px;">
-            <h1 style="font-size: 40px; color: white; font-weight: 100; margin-bottom: 24px;">SEARCH RESULT FOR FLOOR CLEANING</h1>
+            <h1 style="font-size: 40px; color: white; font-weight: 100; margin-bottom: 24px;">SEARCH RESULT FOR FLOORCLEAN</h1>
             <p style="font-size: 16px; color: antiquewhite;">Home / Search</p>
         </div>
     </section>
+
+    <section class="py-12 flex flex-col md:flex-row">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div id="cardContainer" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+
+                <!-- Card 1 -->
+                <div class="card max-w-sm bg-white shadow-lg rounded-lg overflow-hidden" style="border-bottom:3px solid #f7a80c;">
+                    <img class="w-full h-48 object-cover" src="https://5.imimg.com/data5/GK/WN/KE/SELLER-20403646/tiles-floor-cleaning-machine-500x500.jpg" alt="Card Image">
+                    <div class="p-6 text-center">
+                        <h3 class="text-lg font-medium text-gray-900 mb-2">Floor Deep Cleaning in Singapore – Condo, Yishun</h3>
+                        <button class="bg-yellow-500 text-black px-2 py-2 rounded hover:bg-yellow-200 ">Read More > </button>
+                    </div>
+                    <div class="flex ml-20 mb-6">
+                        <div class="text-gray-600 flex">
+                            <img src="{{ url('img/calendar.png') }}" alt="" class="mr-2 "><span> March 27, 2024</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="card max-w-sm bg-white shadow-lg rounded-lg overflow-hidden" style="border-bottom:3px solid #f7a80c;">
+                    <img class="w-full h-48 object-cover" src="https://cdn.msisurfaces.com/images/blogs/posts/2022/04/msi-vinyl-tile-floor-cleaning.jpg" alt="Card Image">
+                    <div class="p-6 text-center">
+                        <h3 class="text-lg font-medium text-gray-900 mb-2">Vinyl Floor Cleaning in Singapore – Condo, Tanjong Pagar</h3>
+                        <button class="bg-yellow-500 text-black px-2 py-2 rounded hover:bg-yellow-200 ">Read More > </button>
+                    </div>
+                    <div class="flex ml-20 mb-6">
+                        <div class="text-gray-600 flex">
+                            <img src="{{ url('img/calendar.png') }}" alt="" class="mr-2 "><span> December 2, 2023</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="card max-w-sm bg-white shadow-lg rounded-lg overflow-hidden" style="border-bottom:3px solid #f7a80c;">
+                    <img class="w-full h-48 object-cover" src="https://www.kingofmaids.com/blog/wp-content/uploads/2015/11/fbc_119808_wet_mop_new_connector_in_use.jpg" alt="Card Image">
+                    <div class="p-6 text-center">
+                        <h3 class="text-lg font-medium text-gray-900 mb-2">Vinyl cleaning in Singapore – HDB, Hougang</h3>
+                        <button class="bg-yellow-500 text-black px-2 py-2 rounded hover:bg-yellow-200 ">Read More > </button>
+                    </div>
+                    <div class="flex ml-20 mb-6">
+                        <div class="text-gray-600 flex">
+                            <img src="{{ url('img/calendar.png') }}" alt="" class="mr-2 "><span> December 12, 2023</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="card max-w-sm bg-white shadow-lg rounded-lg overflow-hidden" style="border-bottom:3px solid #f7a80c;">
+                    <img class="w-full h-48 object-cover" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRodt_INkHDpqxlI4a0QFhj1nrTgXaVQWbjOg&s" alt="Card Image">
+                    <div class="p-6 text-center">
+                        <h3 class="text-lg font-medium text-gray-900 mb-2">VINYL FLOOR DEEP CLEANING</h3>
+                        <button class="bg-yellow-500 text-black px-2 py-2 rounded hover:bg-yellow-200 ">Read More > </button>
+                    </div>
+                    <div class="flex ml-20 mb-6">
+                        <div class="text-gray-600 flex">
+                            <img src="{{ url('img/calendar.png') }}" alt="" class="mr-2 "><span> June 22, 2021</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="card max-w-sm bg-white shadow-lg rounded-lg overflow-hidden" style="border-bottom:3px solid #f7a80c;">
+                    <img class="w-full h-48 object-cover" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBZUmFmaI1M4KKApXBJWrEnGGN6SkO38lfWg&s" alt="Card Image">
+                    <div class="p-6 text-center">
+                        <h3 class="text-lg font-medium text-gray-900 mb-2">TERRAZZO FLOOR CLEANING</h3>
+                        <button class="bg-yellow-500 text-black px-2 py-2 rounded hover:bg-yellow-200 ">Read More > </button>
+                    </div>
+                    <div class="flex ml-20 mb-6">
+                        <div class="text-gray-600 flex">
+                            <img src="{{ url('img/calendar.png') }}" alt="" class="mr-2 "><span> June 12, 2021</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="max-w-sm mx-auto p-4 bg-white rounded-lg shadow-md mt-8">
+            <div class="flex justify-center mb-4">
+                <img src="https://www.shutterstock.com/image-vector/builder-crossed-hammers-new-construction-600nw-2246936013.jpg" alt="Everyworks Logo" class="h-16">
+            </div>
+            <div class="mb-4 text-center">
+                <a href="https://wa.me/your-number" class="block bg-green-500 text-white font-bold py-2 px-4 rounded-lg hover:bg-green-600">WhatsApp to Start Now!</a>
+                <p class="mt-2 text-gray-600">One-stop integrated home service provider for your home needs! <a href="https://wa.me/your-number" class="text-yellow-500 hover:underline">WhatsApp us</a> for enquiry now!</p>
+            </div>
+            <div class="mt-16">
+                <h2 class="text-lg font-bold mb-2 custom-border">Categories</h2>
+                <ul>
+                    <li class=" flex justify-between py-1 border-b">
+                        <span><span style="font-weight: 900;">-</span> Floor Cleaning</span>
+                        <span class="text-gray-500 bg-gray-100 p-1 rounded-lg w-8 text-center">88</span>
+                    </li>
+                    <ul class="ml-4">
+                        <li class="flex justify-between py-1 border-b">
+                            <span><span style="font-weight: 900;">-</span> Floor Deep Cleaning</span>
+                            <span class="text-gray-500 bg-gray-100 p-1 rounded-lg w-8 text-center">44</span>
+                        </li>
+                        <li class="flex justify-between py-1 border-b">
+                            <span><span style="font-weight: 900;">-</span> Vinyl Floor Cleaning</span>
+                            <span class="text-gray-500 bg-gray-100 p-1 rounded-lg w-8 text-center">6</span>
+                        </li>
+                        <li class="flex justify-between py-1 border-b">
+                            <span><span style="font-weight: 900;">-</span> Vinyl cleaning</span>
+                            <span class="text-gray-500 bg-gray-100 p-1 rounded-lg w-8 text-center">1</span>
+                        </li>
+                        <li class="flex justify-between py-1 border-b">
+                            <span><span style="font-weight: 900;">-</span> VINYL FLOOR DEEP CLEANING</span>
+                            <span class="text-gray-500 bg-gray-100 p-1 rounded-lg w-8 text-center">8</span>
+                        </li>
+                        <li class="flex justify-between py-1 border-b">
+                            <span><span style="font-weight: 900;">-</span> TERRAZZO FLOOR CLEANING</span>
+                            <span class="text-gray-500 bg-gray-100 p-1 rounded-lg w-8 text-center">6</span>
+                        </li>
+                    </ul>
+                </ul>
+            </div>
+
+            <div class="max-w-sm mx-auto p-4 bg-white rounded-lg shadow-md mt-10">
+                <h2 class="text-lg font-bold mb-6 custom-border">Portfolio</h2>
+                <div class="grid grid-cols-3 gap-2 border-top">
+                    <img src="https://img.freepik.com/free-photo/closeup-floor-cleaning-process_157027-3105.jpg?size=626&ext=jpg&ga=GA1.1.1700460183.1712793600&semt=ais" alt="Portfolio Image 1" style="width: 100px; height: 80px; object-fit: cover;" class="rounded-lg shadow-sm">
+                    <img src="https://img.freepik.com/premium-photo/closeup-floor-cleaning-process_752325-8797.jpg" alt="Portfolio Image 2" style="width: 100px; height: 80px; object-fit: cover;" class="rounded-lg shadow-sm">
+                    <img src="https://img.freepik.com/premium-photo/closeup-floor-cleaning-process_752325-8791.jpg" alt="Portfolio Image 3" style="width: 100px; height: 80px; object-fit: cover;" class="rounded-lg shadow-sm">
+                    <img src="https://img.freepik.com/premium-photo/closeup-floor-cleaning-process_157027-3104.jpg?w=360" alt="Portfolio Image 4" style="width: 100px; height: 80px; object-fit: cover;" class="rounded-lg shadow-sm">
+                    <img src="https://us.123rf.com/450wm/erstudiostok/erstudiostok1709/erstudiostok170900151/85437951-woman-holding-mop-in-the-home.jpg?ver=6" alt="Portfolio Image 5" style="width: 100px; height: 80px; object-fit: cover;" class="rounded-lg shadow-sm">
+                    <img src="https://img.freepik.com/free-photo/low-angle-closeup-person-cleaning-floor-with-mop-near-yellow-caution-wet-floor-sign_181624-37077.jpg?size=626&ext=jpg&ga=GA1.1.735520172.1710806400&semt=ais" alt="Portfolio Image 6" style="width: 100px; height: 80px; object-fit: cover;" class="rounded-lg shadow-sm">
+                    <img src="https://img.freepik.com/free-photo/still-life-cleaning-tools_23-2150552310.jpg?size=626&ext=jpg&ga=GA1.1.1687694167.1711929600&semt=ais" alt="Portfolio Image 7" style="width: 100px; height: 80px; object-fit: cover;" class="rounded-lg shadow-sm">
+                    <img src="https://5.imimg.com/data5/SELLER/Default/2021/11/NM/IT/TF/142132883/floor-deep-cleaning-services-500x500.jpg" alt="Portfolio Image 8" style="width: 100px; height: 80px; object-fit: cover;" class="rounded-lg shadow-sm">
+                    <img src="https://5.imimg.com/data5/SELLER/Default/2023/10/351655383/LC/RU/VI/70085217/home-deep-cleaning-services.jpeg" alt="Portfolio Image 9" style="width: 100px; height: 80px; object-fit: cover;" class="rounded-lg shadow-sm">
+                    <img src="https://img.freepik.com/premium-photo/cleaning-floor-cleaner-service-woman-vaccum-untidy-house-living-room-housekeeping-maid-tidy-home-interior-hygiene-maintenance-health-safety-care-with-rubber-gloves-spring-clean_590464-108619.jpg" alt="Portfolio Image 10" style="width: 100px; height: 80px; object-fit: cover;" class="rounded-lg shadow-sm">
+                    <img src="https://www.pristinehome.com.au/wp-content/uploads/2019/10/What-is-Included-in-a-Spring-Clean.jpg" alt="Portfolio Image 11" style="width: 100px; height: 80px; object-fit: cover;" class="rounded-lg shadow-sm">
+                    <img src="https://img.freepik.com/free-photo/man-doing-professional-home-cleaning-service_23-2150359018.jpg" alt="Portfolio Image 12" style="width: 100px; height: 80px; object-fit: cover;" class="rounded-lg shadow-sm">
+                    <img src="https://lirp.cdn-website.com/0babc246/dms3rep/multi/opt/GettyImages-1151335042-396w.jpg" alt="Portfolio Image 13" style="width: 100px; height: 80px; object-fit: cover;" class="rounded-lg shadow-sm">
+                    <img src="https://img.freepik.com/premium-photo/professional-office-floor-cleaning-service-with-detailed-wide-shot-unrecognizable-cleaner_174533-5211.jpg" alt="Portfolio Image 14" style="width: 100px; height: 80px; object-fit: cover;" class="rounded-lg shadow-sm">
+                    <img src="https://img.freepik.com/premium-photo/office-floor-cleaning-service-by-unrecognizable-person-bright-shot-with-blurred-background_174533-5228.jpg" alt="Portfolio Image 15" style="width: 100px; height: 80px; object-fit: cover;" class="rounded-lg shadow-sm">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
 
 
     <footer class="footer bg-blue-100/80 font-sans dark:bg-gray-900">
@@ -427,3 +581,73 @@
 </body>
 
 </html>
+<script>
+    const btn1 = document.getElementById('btn1');
+
+    btn1.addEventListener('click', function() {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+
+        setTimeout(function() {
+            location.reload();
+        }, 40);
+    });
+
+    function setActive(element) {
+        // Remove the active class from all list items
+        const items = document.querySelectorAll('#showMoreBtn ol li p');
+        items.forEach(item => item.classList.remove('active'));
+
+        // Add the active class to the clicked item
+        element.classList.add('active');
+    }
+    document.addEventListener('DOMContentLoaded', function() {
+        const showMoreBtn = document.getElementById('showMoreBtn');
+        const hiddenCards = document.querySelectorAll('.card.hidden');
+        let currentIndex = 0;
+        const pageSize = 6; // Number of cards to show per click
+
+        showMoreBtn.addEventListener('click', function() {
+            for (let i = currentIndex; i < currentIndex + pageSize && i < hiddenCards.length; i++) {
+                hiddenCards[i].classList.remove('hidden');
+            }
+            currentIndex += pageSize;
+
+            // // Hide the button if all cards are shown
+            // if (currentIndex >= hiddenCards.length) {
+            //     showMoreBtn.style.display = 'none';
+            // }
+        });
+    });
+
+    function checkAndRedirect(event) {
+        event.preventDefault();
+        const input = document.getElementById('search-input').value.toLowerCase().replace(/\s+/g, '');
+        const routes = {
+            'plumber': '/searchPlumber',
+            'electrician': '/searchElectric',
+            'handyman': '/searchHandyMan',
+            'deepclean': '/searchDeepclean',
+            'floorpolish': '/searchFloorPolish',
+            'floorclean': '/searchFloorClean',
+            'wood': '/searchWood',
+            'decking': '/searchDecking'
+        };
+
+        let foundRoute = false;
+
+        for (const keyword in routes) {
+            if (keyword.includes(input)) {
+                window.location.href = routes[keyword];
+                foundRoute = true;
+                break;
+            }
+        }
+
+        if (!foundRoute) {
+            window.location.href = '/noSearch';
+        }
+    }
+</script>

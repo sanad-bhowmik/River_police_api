@@ -14,10 +14,20 @@
     <link rel="stylesheet" href="https://cdn.tailgrids.com/tailgrids-fallback.css" />
 </head>
 <style>
+    .active {
+        background-color: #BFDBFE;
+        border-color: #2563EB;
+    }
+
     hr.hr-1 {
         border: 0;
         height: .0625rem;
         background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    }
+
+    .custom-border {
+        border-left: 3px solid #f7a80c;
+        padding-left: 10px;
     }
 
     #nav1 {
@@ -357,27 +367,29 @@
                 <div class="w-full md:w-auto flex justify-center">
                     <img src="https://www.shutterstock.com/image-vector/builder-crossed-hammers-new-construction-600nw-2246936013.jpg" alt="" class="h-20">
                 </div>
-                <div class="flex items-center w-full md:w-auto">
-                    <input type="text" placeholder="ENTER KEYWORD" class="h-12 text-blackhover:text-white border border-black px-2 py-1 pl-8 w-full md:w-auto">
-                    <button>
-                        <svg fill="#000000" height="64px" width="64px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-459.1 -459.1 1406.60 1406.60" xml:space="preserve">
-                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
-                            <g id="SVGRepo_iconCarrier">
-                                <g>
+                <form onsubmit="checkAndRedirect(event)">
+                    <div class="flex items-center w-full md:w-auto">
+                        <input id="search-input" type="text" placeholder="ENTER KEYWORD" class="h-12 text-blackhover:text-white border border-black px-2 py-1 pl-8 w-full md:w-auto">
+                        <button type="submit">
+                            <svg fill="#000000" height="64px" width="64px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-459.1 -459.1 1406.60 1406.60" xml:space="preserve">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                <g id="SVGRepo_iconCarrier">
                                     <g>
-                                        <path d="M0,203.25c0,112.1,91.2,203.2,203.2,203.2c51.6,0,98.8-19.4,134.7-51.2l129.5,129.5c2.4,2.4,5.5,3.6,8.7,3.6 s6.3-1.2,8.7-3.6c4.8-4.8,4.8-12.5,0-17.3l-129.6-129.5c31.8-35.9,51.2-83,51.2-134.7c0-112.1-91.2-203.2-203.2-203.2 S0,91.15,0,203.25z M381.9,203.25c0,98.5-80.2,178.7-178.7,178.7s-178.7-80.2-178.7-178.7s80.2-178.7,178.7-178.7 S381.9,104.65,381.9,203.25z"></path>
+                                        <g>
+                                            <path d="M0,203.25c0,112.1,91.2,203.2,203.2,203.2c51.6,0,98.8-19.4,134.7-51.2l129.5,129.5c2.4,2.4,5.5,3.6,8.7,3.6 s6.3-1.2,8.7-3.6c4.8-4.8,4.8-12.5,0-17.3l-129.6-129.5c31.8-35.9,51.2-83,51.2-134.7c0-112.1-91.2-203.2-203.2-203.2 S0,91.15,0,203.25z M381.9,203.25c0,98.5-80.2,178.7-178.7,178.7s-178.7-80.2-178.7-178.7s80.2-178.7,178.7-178.7 S381.9,104.65,381.9,203.25z"></path>
+                                        </g>
                                     </g>
                                 </g>
-                            </g>
-                        </svg>
-                    </button>
-                </div>
+                            </svg>
+                        </button>
+                    </div>
+                </form>
             </div>
         </div>
     </nav>
 
-    <section class="parallax mt-16" style="position: relative; background: url('https://t4.ftcdn.net/jpg/02/91/14/23/360_F_291142315_1HDHshpssor08inb91jnXZxB02M3rIgi.jpg') no-repeat center center fixed; background-size: cover; height: 18.75rem;">
+    <section class="parallax mt-16" style="position: relative; background: url('https://media.graphassets.com/lwhfuGgtSSC29hhbu78x') no-repeat center center fixed; background-size: cover; height: 18.75rem;">
         <div class="overlay" style="background: rgba(0, 0, 0, 0.5); position: absolute; top: 0; left: 0; right: 0; bottom: 0;"></div>
         <div class="content" style="position: relative; z-index: 1; display: flex; flex-direction: column; padding-left: 16px; padding-right: 16px; text-align: center; gap: 16px;">
             <h1 style="font-size: 40px; color: white; font-weight: 100; margin-bottom: 24px;">SEARCH RESULT FOR PLUMBER</h1>
@@ -385,168 +397,322 @@
         </div>
     </section>
 
+    <section class="py-12 flex flex-col md:flex-row">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div id="cardContainer" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
 
-    <section class="py-12">
-        <section class="py-12">
-            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div id="cardContainer" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-
-                    <!-- Card 1 -->
-                    <div class="card">
-                        <div class="bg-white overflow-hidden shadow rounded-lg">
-                            <div class="px-4 py-5 sm:p-6">
-                                <h3 class="text-lg font-medium text-gray-900 mb-2">Card 1</h3>
-                                <p class="text-sm text-gray-500 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                <p class="text-sm text-gray-500">Additional info: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            </div>
+                <!-- Card 1 -->
+                <div class="card max-w-sm bg-white shadow-lg rounded-lg overflow-hidden" style="border-bottom:3px solid #f7a80c;">
+                    <img class="w-full h-48 object-cover" src="https://media.istockphoto.com/id/166128546/photo/clean-chrome-tap-and-washbasin.jpg?s=612x612&w=0&k=20&c=oYbmfE770ONhQjlk57_PnIOIVY4K3XncpUcYXbY8qzk=" alt="Card Image">
+                    <div class="p-6 text-center">
+                        <h3 class="text-lg font-medium text-gray-900 mb-2">Kitchen Tap Replacement Plumber Singapore – HDB, Jurong East</h3>
+                        <button class="bg-yellow-500 text-black px-2 py-2 rounded hover:bg-yellow-200 ">Read More > </button>
+                    </div>
+                    <div class="flex ml-20 mb-6">
+                        <div class="text-gray-600 flex">
+                            <img src="{{ url('img/calendar.png') }}" alt="" class="mr-2 "><span> March 7, 2024</span>
                         </div>
                     </div>
-
-                    <!-- Card 2 -->
-                    <div class="card">
-                        <div class="bg-white overflow-hidden shadow rounded-lg">
-                            <div class="px-4 py-5 sm:p-6">
-                                <h3 class="text-lg font-medium text-gray-900 mb-2">Card 2</h3>
-                                <p class="text-sm text-gray-500 mb-4">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                                <p class="text-sm text-gray-500">Additional info: Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Card 3 -->
-                    <div class="card">
-                        <div class="bg-white overflow-hidden shadow rounded-lg">
-                            <div class="px-4 py-5 sm:p-6">
-                                <h3 class="text-lg font-medium text-gray-900 mb-2">Card 3</h3>
-                                <p class="text-sm text-gray-500 mb-4">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                <p class="text-sm text-gray-500">Additional info: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Card 4 -->
-                    <div class="card hidden">
-                        <div class="bg-white overflow-hidden shadow rounded-lg">
-                            <div class="px-4 py-5 sm:p-6">
-                                <h3 class="text-lg font-medium text-gray-900 mb-2">Card 4</h3>
-                                <p class="text-sm text-gray-500 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                <p class="text-sm text-gray-500">Additional info: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Card 5 -->
-                    <div class="card hidden">
-                        <div class="bg-white overflow-hidden shadow rounded-lg">
-                            <div class="px-4 py-5 sm:p-6">
-                                <h3 class="text-lg font-medium text-gray-900 mb-2">Card 5</h3>
-                                <p class="text-sm text-gray-500 mb-4">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                                <p class="text-sm text-gray-500">Additional info: Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Card 6 -->
-                    <div class="card hidden">
-                        <div class="bg-white overflow-hidden shadow rounded-lg">
-                            <div class="px-4 py-5 sm:p-6">
-                                <h3 class="text-lg font-medium text-gray-900 mb-2">Card 6</h3>
-                                <p class="text-sm text-gray-500 mb-4">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                <p class="text-sm text-gray-500">Additional info: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card hidden">
-                        <div class="bg-white overflow-hidden shadow rounded-lg">
-                            <div class="px-4 py-5 sm:p-6">
-                                <h3 class="text-lg font-medium text-gray-900 mb-2">Card 4</h3>
-                                <p class="text-sm text-gray-500 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                <p class="text-sm text-gray-500">Additional info: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Card 5 -->
-                    <div class="card hidden">
-                        <div class="bg-white overflow-hidden shadow rounded-lg">
-                            <div class="px-4 py-5 sm:p-6">
-                                <h3 class="text-lg font-medium text-gray-900 mb-2">Card 5</h3>
-                                <p class="text-sm text-gray-500 mb-4">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                                <p class="text-sm text-gray-500">Additional info: Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Card 6 -->
-                    <div class="card hidden">
-                        <div class="bg-white overflow-hidden shadow rounded-lg">
-                            <div class="px-4 py-5 sm:p-6">
-                                <h3 class="text-lg font-medium text-gray-900 mb-2">Card 6</h3>
-                                <p class="text-sm text-gray-500 mb-4">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                <p class="text-sm text-gray-500">Additional info: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
-                            </div>
-                        </div>
-                    </div>
-
                 </div>
 
-                <!-- Show More Button -->
-                <div class="text-center mt-4">
-                    <button id="showMoreBtn" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none">
-                        Show More
-                    </button>
+                <!-- Card 2 -->
+                <div class="card max-w-sm bg-white shadow-lg rounded-lg overflow-hidden" style="border-bottom:3px solid #f7a80c;">
+                    <img class="w-full h-48 object-cover" src="https://media.istockphoto.com/id/1368214406/photo/water-running-from-a-black-rain-shower-head.webp?b=1&s=170667a&w=0&k=20&c=H-djTmbr9D07JuRmnJTEs1RfBrVRKf1smbi4Q8LVVso=" alt="Card Image">
+                    <div class="p-6 text-center">
+                        <h3 class="text-lg font-medium text-gray-900 mb-2">Shower Mixer Tap Installation Plumber Singapore – HDB, Ang Mo Kio</h3>
+                        <button class="bg-yellow-500 text-black px-2 py-2 rounded hover:bg-yellow-200 ">Read More > </button>
+                    </div>
+                    <div class="flex ml-20 mb-6">
+                        <div class="text-gray-600 flex">
+                            <img src="{{ url('img/calendar.png') }}" alt="" class="mr-2 "><span> December 2, 2023</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="card max-w-sm bg-white shadow-lg rounded-lg overflow-hidden" style="border-bottom:3px solid #f7a80c;">
+                    <img class="w-full h-48 object-cover" src="https://bgr.com/wp-content/uploads/2020/11/bgrpic-copy-6.jpg?quality=82&strip=all&resize=1400,1400" alt="Card Image">
+                    <div class="p-6 text-center">
+                        <h3 class="text-lg font-medium text-gray-900 mb-2">Toilet Bowl Replacement Plumber Singapore – Condo, Newton</h3>
+                        <button class="bg-yellow-500 text-black px-2 py-2 rounded hover:bg-yellow-200 ">Read More > </button>
+                    </div>
+                    <div class="flex ml-20 mb-6">
+                        <div class="text-gray-600 flex">
+                            <img src="{{ url('img/calendar.png') }}" alt="" class="mr-2 "><span> December 12, 2023</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="card max-w-sm bg-white shadow-lg rounded-lg overflow-hidden" style="border-bottom:3px solid #f7a80c;">
+                    <img class="w-full h-48 object-cover" src="https://img.lazcdn.com/g/p/1564eb17b715f7a649828afc0b8bda08.jpg_720x720q80.jpg" alt="Card Image">
+                    <div class="p-6 text-center">
+                        <h3 class="text-lg font-medium text-gray-900 mb-2">Toilet Bowl Installation Plumber Singapore – Condo, East Coast</h3>
+                        <button class="bg-yellow-500 text-black px-2 py-2 rounded hover:bg-yellow-200 ">Read More > </button>
+                    </div>
+                    <div class="flex ml-20 mb-6">
+                        <div class="text-gray-600 flex">
+                            <img src="{{ url('img/calendar.png') }}" alt="" class="mr-2 "><span> June 22, 2021</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="card max-w-sm bg-white shadow-lg rounded-lg overflow-hidden" style="border-bottom:3px solid #f7a80c;">
+                    <img class="w-full h-48 object-cover" src="https://mckennaplumbing.ca/content/mckennaplumbing.ca/img/site/repairing-pipe.jpg" alt="Card Image">
+                    <div class="p-6 text-center">
+                        <h3 class="text-lg font-medium text-gray-900 mb-2">Pipe Replacement Plumber Singapore Commercial – Bedok</h3>
+                        <button class="bg-yellow-500 text-black px-2 py-2 rounded hover:bg-yellow-200 ">Read More > </button>
+                    </div>
+                    <div class="flex ml-20 mb-6">
+                        <div class="text-gray-600 flex">
+                            <img src="{{ url('img/calendar.png') }}" alt="" class="mr-2 "><span> June 12, 2021</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 6 -->
+                <div class="card max-w-sm bg-white shadow-lg rounded-lg overflow-hidden" style="border-bottom:3px solid #f7a80c;">
+                    <img class="w-full h-48 object-cover" src="https://onesourcehomeservice.com/wp-content/uploads/2023/05/McCleary_150717_3953-2048x1365-1.webp" alt="Card Image">
+                    <div class="p-6 text-center">
+                        <h3 class="text-lg font-medium text-gray-900 mb-2">Water Heater Installation Plumber Singapore HDB – Woodlands</h3>
+                        <button class="bg-yellow-500 text-black px-2 py-2 rounded hover:bg-yellow-200 ">Read More > </button>
+                    </div>
+                    <div class="flex ml-20 mb-6">
+                        <div class="text-gray-600 flex">
+                            <img src="{{ url('img/calendar.png') }}" alt="" class="mr-2 "><span> June 12, 2021</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card hidden max-w-sm bg-white shadow-lg rounded-lg overflow-hidden" style="border-bottom:3px solid #f7a80c;">
+                    <img class="w-full h-48 object-cover" src="https://www.pjfitz.com/wp-content/uploads/2019/05/how-to-replace-a-shower.jpg" alt="Card Image">
+                    <div class="p-6 text-center">
+                        <h3 class="text-lg font-medium text-gray-900 mb-2">Shower Replacement Plumber Singapore Condo – East Coast</h3>
+                        <button class="bg-yellow-500 text-black px-2 py-2 rounded hover:bg-yellow-200 ">Read More > </button>
+                    </div>
+                    <div class="flex ml-20 mb-6">
+                        <div class="text-gray-600 flex">
+                            <img src="{{ url('img/calendar.png') }}" alt="" class="mr-2 "><span> June 12, 2021</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card hidden max-w-sm bg-white shadow-lg rounded-lg overflow-hidden" style="border-bottom:3px solid #f7a80c;">
+                    <img class="w-full h-48 object-cover" src="https://www.everyworks.com/wp-content/uploads/2020/05/leaking-tap-faucet-leaking-tap-repair-everyworks-plumber-singapore-390x220.jpeg" alt="Card Image">
+                    <div class="p-6 text-center">
+                        <h3 class="text-lg font-medium text-gray-900 mb-2">Our plumbers have over 35 years of experience in the industry, serving 1000s of residential & commercial estates.</h3>
+                        <button class="bg-yellow-500 text-black px-2 py-2 rounded hover:bg-yellow-200 ">Read More > </button>
+                    </div>
+                    <div class="flex ml-20 mb-6">
+                        <div class="text-gray-600 flex">
+                            <img src="{{ url('img/calendar.png') }}" alt="" class="mr-2 "><span> June 12, 2021</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card hidden max-w-sm bg-white shadow-lg rounded-lg overflow-hidden" style="border-bottom:3px solid #f7a80c;">
+                    <img class="w-full h-48 object-cover" src="https://www.everyworks.com/wp-content/uploads/2020/05/leaking-tap-faucet-leaking-tap-repair-everyworks-plumber-singapore-390x220.jpeg" alt="Card Image">
+                    <div class="p-6 text-center">
+                        <h3 class="text-lg font-medium text-gray-900 mb-2">Our plumbers have over 35 years of experience in the industry, serving 1000s of residential & commercial estates.</h3>
+                        <button class="bg-yellow-500 text-black px-2 py-2 rounded hover:bg-yellow-200 ">Read More > </button>
+                    </div>
+                    <div class="flex ml-20 mb-6">
+                        <div class="text-gray-600 flex">
+                            <img src="{{ url('img/calendar.png') }}" alt="" class="mr-2 "><span> June 12, 2021</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Show More Button -->
+            <div class="text-center mt-4">
+                <button id="showMoreBtn" class="text-black font-bold py-2 px-4 rounded focus:outline-none">
+                    <ol class="flex justify-center text-xs font-medium space-x-1">
+                        <li>
+                            <p class="inline-flex items-center justify-center w-8 h-8 border border-gray-100 rounded" onclick="setActive(this)">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clip-rule="evenodd" />
+                                </svg>
+                            </p>
+                        </li>
+                        <li>
+                            <p class="block w-8 h-8 text-center border border-gray-100 rounded leading-8 " id="btn1" onclick="setActive(this)"> 1 </p>
+                        </li>
+                        <li>
+                            <p class="block w-8 h-8 text-center border border-gray-100 rounded leading-8" onclick="setActive(this)"> 2 </p>
+                        </li>
+                        <li>
+                            <p class="inline-flex items-center justify-center w-8 h-8 border border-gray-100 rounded" onclick="setActive(this)">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                                </svg>
+                            </p>
+                        </li>
+                    </ol>
+                </button>
+            </div>
+        </div>
+
+        <div class="max-w-sm mx-auto p-4 bg-white rounded-lg shadow-md mt-8">
+            <div class="flex justify-center mb-4">
+                <img src="https://www.shutterstock.com/image-vector/builder-crossed-hammers-new-construction-600nw-2246936013.jpg" alt="Everyworks Logo" class="h-16">
+            </div>
+            <div class="mb-4 text-center">
+                <a href="https://wa.me/your-number" class="block bg-green-500 text-white font-bold py-2 px-4 rounded-lg hover:bg-green-600">WhatsApp to Start Now!</a>
+                <p class="mt-2 text-gray-600">One-stop integrated home service provider for your home needs! <a href="https://wa.me/your-number" class="text-yellow-500 hover:underline">WhatsApp us</a> for enquiry now!</p>
+            </div>
+            <div>
+                <h2 class="text-lg font-bold mb-2 custom-border">Categories</h2>
+                <ul>
+                    <li class=" flex justify-between py-1 border-b">
+                        <span><span style="font-weight: 900;">-</span> Plumber</span>
+                        <span class="text-gray-500 bg-gray-100 p-1 rounded-lg w-8 text-center">115</span>
+                    </li>
+                    <ul class="ml-4">
+                        <li class="flex justify-between py-1 border-b">
+                            <span><span style="font-weight: 900;">-</span> Bidet Spray Installation</span>
+                            <span class="text-gray-500 bg-gray-100 p-1 rounded-lg w-8 text-center">11</span>
+                        </li>
+                        <li class="flex justify-between py-1 border-b">
+                            <span><span style="font-weight: 900;">-</span> Emergency Plumbing</span>
+                            <span class="text-gray-500 bg-gray-100 p-1 rounded-lg w-8 text-center">6</span>
+                        </li>
+                        <li class="flex justify-between py-1 border-b">
+                            <span><span style="font-weight: 900;">-</span> HDB Plumber</span>
+                            <span class="text-gray-500 bg-gray-100 p-1 rounded-lg w-8 text-center">30</span>
+                        </li>
+                        <li class="flex justify-between py-1 border-b">
+                            <span><span style="font-weight: 900;">-</span> Plumbing Choke</span>
+                            <span class="text-gray-500 bg-gray-100 p-1 rounded-lg w-8 text-center">8</span>
+                        </li>
+                        <li class="flex justify-between py-1 border-b">
+                            <span><span style="font-weight: 900;">-</span> Plumbing Installation</span>
+                            <span class="text-gray-500 bg-gray-100 p-1 rounded-lg w-8 text-center">6</span>
+                        </li>
+                        <li class="flex justify-between py-1 border-b">
+                            <span><span style="font-weight: 900;">-</span> Plumbing Leak</span>
+                            <span class="text-gray-500 bg-gray-100 p-1 rounded-lg w-8 text-center">10</span>
+                        </li>
+                        <li class="flex justify-between py-1 border-b">
+                            <span><span style="font-weight: 900;">-</span> Shower Services</span>
+                            <span class="text-gray-500 bg-gray-100 p-1 rounded-lg w-8 text-center">40</span>
+                        </li>
+                        <li class="flex justify-between py-1 border-b">
+                            <span><span style="font-weight: 900;">-</span> Tap & Faucet Services</span>
+                            <span class="text-gray-500 bg-gray-100 p-1 rounded-lg w-8 text-center">4</span>
+                        </li>
+                        <li class="flex justify-between py-1 border-b">
+                            <span><span style="font-weight: 900;">-</span> Toilet Bowl Services</span>
+                            <span class="text-gray-500 bg-gray-100 p-1 rounded-lg w-8 text-center">4</span>
+                        </li>
+                        <li class="flex justify-between py-1 border-b">
+                            <span><span style="font-weight: 900;">-</span> Toilet Flush System Services</span>
+                            <span class="text-gray-500 bg-gray-100 p-1 rounded-lg w-8 text-center">4</span>
+                        </li>
+                        <li class="flex justify-between py-1 border-b">
+                            <span><span style="font-weight: 900;">-</span> Water Heater Services</span>
+                            <span class="text-gray-500 bg-gray-100 p-1 rounded-lg w-8 text-center">4</span>
+                        </li>
+                    </ul>
+                </ul>
+            </div>
+
+            <div class="max-w-sm mx-auto p-4 bg-white rounded-lg shadow-md mt-10">
+                <h2 class="text-lg font-bold mb-6 custom-border">Portfolio</h2>
+                <div class="grid grid-cols-3 gap-2 border-top">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPkuqnbD0TdruC89eNyQ-5Y_RZheOEhw8kvA&s" alt="Portfolio Image 1" style="width: 100px; height: 80px; object-fit: cover;" class="rounded-lg shadow-sm">
+                    <img src="https://maintenanceindubai.ae/wp-content/uploads/2022/12/Plumber-vs-DIY.jpeg" alt="Portfolio Image 2" style="width: 100px; height: 80px; object-fit: cover;" class="rounded-lg shadow-sm">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkZwK7kd91-DVm5xQ650zZZ3OD32K_oZ47Y3oQaXiml2I_EUP1gFWqbg20EVuxdHeN1DI&usqp=CAU" alt="Portfolio Image 3" style="width: 100px; height: 80px; object-fit: cover;" class="rounded-lg shadow-sm">
+                    <img src="https://media.istockphoto.com/id/921346102/photo/plumber-fixing-sink-pipe-with-adjustable-wrench.jpg?s=612x612&w=0&k=20&c=hhDwNY35TkoBM5LIQsKkuryCk-ZbcOriD-MZhWon9Gk=" alt="Portfolio Image 4" style="width: 100px; height: 80px; object-fit: cover;" class="rounded-lg shadow-sm">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwKXctQgmb3JO1wu3lZP9W8RLI-xg_LOnb6khL9CeHufCJgUeUCzEQlLfoGDGVRR8-E9E&usqp=CAU" alt="Portfolio Image 5" style="width: 100px; height: 80px; object-fit: cover;" class="rounded-lg shadow-sm">
+                    <img src="https://media.istockphoto.com/id/912620702/photo/back-view-of-young-professional-plumber-fixing-sink-in-bathroom.jpg?s=612x612&w=0&k=20&c=55muooHi3Vl09QIBx_oLb6iMBq8sVXH7dEBAGgk16gs=" alt="Portfolio Image 6" style="width: 100px; height: 80px; object-fit: cover;" class="rounded-lg shadow-sm">
+                    <img src="https://img.freepik.com/premium-photo/jack-all-trades-repairs-faucet-bathroom-concept-maintenance-home-help_353017-1882.jpg" alt="Portfolio Image 7" style="width: 100px; height: 80px; object-fit: cover;" class="rounded-lg shadow-sm">
+                    <img src="https://media.istockphoto.com/id/912620702/photo/back-view-of-young-professional-plumber-fixing-sink-in-bathroom.jpg?s=612x612&w=0&k=20&c=55muooHi3Vl09QIBx_oLb6iMBq8sVXH7dEBAGgk16gs=" alt="Portfolio Image 8" style="width: 100px; height: 80px; object-fit: cover;" class="rounded-lg shadow-sm">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_g4pX2VNKCzKwehU6loLMTis7vp4Fc5howk6rIIxzb4VWmKUKpTwmX4g3uUiUErdW9tk&usqp=CAU" alt="Portfolio Image 9" style="width: 100px; height: 80px; object-fit: cover;" class="rounded-lg shadow-sm">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc0a4n_Q20b6Nh99IsKcglM9UvaFeoQEy2lIjqwpezk7Eg-nAqnjBq26IXrBn7zNuCxCE&usqp=CAU" alt="Portfolio Image 10" style="width: 100px; height: 80px; object-fit: cover;" class="rounded-lg shadow-sm">
+                    <img src="https://coursecave.co.uk/wp-content/uploads/2024/01/plumbing-online-course.webp" alt="Portfolio Image 11" style="width: 100px; height: 80px; object-fit: cover;" class="rounded-lg shadow-sm">
+                    <img src="https://5.imimg.com/data5/JD/VI/GLADMIN-51496495/kitchen-plumbing-services-500x500.png" alt="Portfolio Image 12" style="width: 100px; height: 80px; object-fit: cover;" class="rounded-lg shadow-sm">
+                    <img src="https://media.istockphoto.com/id/912620702/photo/back-view-of-young-professional-plumber-fixing-sink-in-bathroom.jpg?s=612x612&w=0&k=20&c=55muooHi3Vl09QIBx_oLb6iMBq8sVXH7dEBAGgk16gs=" alt="Portfolio Image 13" style="width: 100px; height: 80px; object-fit: cover;" class="rounded-lg shadow-sm">
+                    <img src="https://superiorplumbing.ca/wp-content/uploads/2022/12/Plumbing-Inspection.jpg" alt="Portfolio Image 14" style="width: 100px; height: 80px; object-fit: cover;" class="rounded-lg shadow-sm">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ63NryFH_fknrObm4BoudKOwBkQ7mPPLPZK7rRkLGjW5UvBmAaNHmCHrQeOXB7KQeA5_U&usqp=CAU" alt="Portfolio Image 15" style="width: 100px; height: 80px; object-fit: cover;" class="rounded-lg shadow-sm">
                 </div>
             </div>
-        </section>
+
+        </div>
+    </section>
 
 
-        <footer class="footer bg-blue-100/80 font-sans dark:bg-gray-900">
-            <div class="container px-6 py-12 mx-auto">
-                <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-4">
-                    <div class="sm:col-span-2">
-                        <h1 class="max-w-lg text-xl font-semibold tracking-tight text-gray-800 xl:text-2xl dark:text-white">Subscribe our newsletter to get an update.</h1>
 
-                        <div class="flex flex-col mx-auto mt-6 space-y-3 md:space-y-0 md:flex-row">
-                            <input id="email" type="text" class="px-4 py-2 text-gray-700 bg-white border rounded-md dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:outline-none focus:ring focus:ring-opacity-40 focus:ring-blue-300" placeholder="Email Address" />
+    <footer class="footer bg-blue-100/80 font-sans dark:bg-gray-900">
+        <div class="container px-6 py-12 mx-auto">
+            <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-4">
+                <div class="sm:col-span-2">
+                    <h1 class="max-w-lg text-xl font-semibold tracking-tight text-gray-800 xl:text-2xl dark:text-white">Subscribe our newsletter to get an update.</h1>
 
-                            <button class="w-full px-6 py-2.5 text-sm font-medium tracking-wider text-white transition-colors duration-300 transform md:w-auto md:mx-4 focus:outline-none bg-gray-800 rounded-lg hover:bg-gray-700 focus:ring focus:ring-gray-300 focus:ring-opacity-80">
-                                Subscribe
-                            </button>
-                        </div>
+                    <div class="flex flex-col mx-auto mt-6 space-y-3 md:space-y-0 md:flex-row">
+                        <input id="email" type="text" class="px-4 py-2 text-gray-700 bg-white border rounded-md dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:outline-none focus:ring focus:ring-opacity-40 focus:ring-blue-300" placeholder="Email Address" />
+
+                        <button class="w-full px-6 py-2.5 text-sm font-medium tracking-wider text-white transition-colors duration-300 transform md:w-auto md:mx-4 focus:outline-none bg-gray-800 rounded-lg hover:bg-gray-700 focus:ring focus:ring-gray-300 focus:ring-opacity-80">
+                            Subscribe
+                        </button>
                     </div>
+                </div>
 
-                    <div>
-                        <p class="font-semibold text-gray-800 dark:text-white">Quick Link</p>
+                <div>
+                    <p class="font-semibold text-gray-800 dark:text-white">Quick Link</p>
 
-                        <div class="flex flex-col items-start mt-5 space-y-2">
-                            <p class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">Home</p>
-                            <p class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">Who We Are</p>
-                            <p class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">Our Philosophy</p>
-                        </div>
+                    <div class="flex flex-col items-start mt-5 space-y-2">
+                        <p class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">Home</p>
+                        <p class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">Who We Are</p>
+                        <p class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">Our Philosophy</p>
                     </div>
+                </div>
 
-                    <div>
-                        <p class="font-semibold text-gray-800 dark:text-white">Industries</p>
+                <div>
+                    <p class="font-semibold text-gray-800 dark:text-white">Industries</p>
 
-                        <div class="flex flex-col items-start mt-5 space-y-2">
-                            <p class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">Retail & E-Commerce</p>
-                            <p class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">Information Technology</p>
-                            <p class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">Finance & Insurance</p>
-                        </div>
+                    <div class="flex flex-col items-start mt-5 space-y-2">
+                        <p class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">Retail & E-Commerce</p>
+                        <p class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">Information Technology</p>
+                        <p class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">Finance & Insurance</p>
                     </div>
                 </div>
             </div>
-        </footer>
+        </div>
+    </footer>
 
 </body>
 
 </html>
 <script>
+    const btn1 = document.getElementById('btn1');
+
+    btn1.addEventListener('click', function() {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+
+        setTimeout(function() {
+            location.reload();
+        }, 40);
+    });
+
+    function setActive(element) {
+        // Remove the active class from all list items
+        const items = document.querySelectorAll('#showMoreBtn ol li p');
+        items.forEach(item => item.classList.remove('active'));
+
+        // Add the active class to the clicked item
+        element.classList.add('active');
+    }
     document.addEventListener('DOMContentLoaded', function() {
         const showMoreBtn = document.getElementById('showMoreBtn');
         const hiddenCards = document.querySelectorAll('.card.hidden');
         let currentIndex = 0;
-        const pageSize = 3; // Number of cards to show per click
+        const pageSize = 6; // Number of cards to show per click
 
         showMoreBtn.addEventListener('click', function() {
             for (let i = currentIndex; i < currentIndex + pageSize && i < hiddenCards.length; i++) {
@@ -554,10 +720,39 @@
             }
             currentIndex += pageSize;
 
-            // Hide the button if all cards are shown
-            if (currentIndex >= hiddenCards.length) {
-                showMoreBtn.style.display = 'none';
-            }
+            // // Hide the button if all cards are shown
+            // if (currentIndex >= hiddenCards.length) {
+            //     showMoreBtn.style.display = 'none';
+            // }
         });
     });
+
+    function checkAndRedirect(event) {
+        event.preventDefault();
+        const input = document.getElementById('search-input').value.toLowerCase().replace(/\s+/g, '');
+        const routes = {
+            'plumber': '/searchPlumber',
+            'electrician': '/searchElectric',
+            'handyman': '/searchHandyMan',
+            'deepclean': '/searchDeepclean',
+            'floorpolish': '/searchFloorPolish',
+            'floorclean': '/searchFloorClean',
+            'wood': '/searchWood',
+            'decking': '/searchDecking'
+        };
+
+        let foundRoute = false;
+
+        for (const keyword in routes) {
+            if (keyword.includes(input)) {
+                window.location.href = routes[keyword];
+                foundRoute = true;
+                break;
+            }
+        }
+
+        if (!foundRoute) {
+            window.location.href = '/noSearch';
+        }
+    }
 </script>

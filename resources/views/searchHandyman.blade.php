@@ -14,10 +14,20 @@
     <link rel="stylesheet" href="https://cdn.tailgrids.com/tailgrids-fallback.css" />
 </head>
 <style>
+    .active {
+        background-color: #BFDBFE;
+        border-color: #2563EB;
+    }
+
     hr.hr-1 {
         border: 0;
         height: .0625rem;
         background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    }
+
+    .custom-border {
+        border-left: 3px solid #f7a80c;
+        padding-left: 10px;
     }
 
     #nav1 {
@@ -357,33 +367,274 @@
                 <div class="w-full md:w-auto flex justify-center">
                     <img src="https://www.shutterstock.com/image-vector/builder-crossed-hammers-new-construction-600nw-2246936013.jpg" alt="" class="h-20">
                 </div>
-                <div class="flex items-center w-full md:w-auto">
-                    <input type="text" placeholder="ENTER KEYWORD" class="h-12 text-blackhover:text-white border border-black px-2 py-1 pl-8 w-full md:w-auto">
-                    <button>
-                        <svg fill="#000000" height="64px" width="64px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-459.1 -459.1 1406.60 1406.60" xml:space="preserve">
-                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
-                            <g id="SVGRepo_iconCarrier">
-                                <g>
+                <form onsubmit="checkAndRedirect(event)">
+                    <div class="flex items-center w-full md:w-auto">
+                        <input id="search-input" type="text" placeholder="ENTER KEYWORD" class="h-12 text-blackhover:text-white border border-black px-2 py-1 pl-8 w-full md:w-auto">
+                        <button type="submit">
+                            <svg fill="#000000" height="64px" width="64px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-459.1 -459.1 1406.60 1406.60" xml:space="preserve">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                <g id="SVGRepo_iconCarrier">
                                     <g>
-                                        <path d="M0,203.25c0,112.1,91.2,203.2,203.2,203.2c51.6,0,98.8-19.4,134.7-51.2l129.5,129.5c2.4,2.4,5.5,3.6,8.7,3.6 s6.3-1.2,8.7-3.6c4.8-4.8,4.8-12.5,0-17.3l-129.6-129.5c31.8-35.9,51.2-83,51.2-134.7c0-112.1-91.2-203.2-203.2-203.2 S0,91.15,0,203.25z M381.9,203.25c0,98.5-80.2,178.7-178.7,178.7s-178.7-80.2-178.7-178.7s80.2-178.7,178.7-178.7 S381.9,104.65,381.9,203.25z"></path>
+                                        <g>
+                                            <path d="M0,203.25c0,112.1,91.2,203.2,203.2,203.2c51.6,0,98.8-19.4,134.7-51.2l129.5,129.5c2.4,2.4,5.5,3.6,8.7,3.6 s6.3-1.2,8.7-3.6c4.8-4.8,4.8-12.5,0-17.3l-129.6-129.5c31.8-35.9,51.2-83,51.2-134.7c0-112.1-91.2-203.2-203.2-203.2 S0,91.15,0,203.25z M381.9,203.25c0,98.5-80.2,178.7-178.7,178.7s-178.7-80.2-178.7-178.7s80.2-178.7,178.7-178.7 S381.9,104.65,381.9,203.25z"></path>
+                                        </g>
                                     </g>
                                 </g>
-                            </g>
-                        </svg>
-                    </button>
-                </div>
+                            </svg>
+                        </button>
+                    </div>
+                </form>
             </div>
         </div>
     </nav>
 
-    <section class="parallax mt-16" style="position: relative; background: url('https://t4.ftcdn.net/jpg/02/91/14/23/360_F_291142315_1HDHshpssor08inb91jnXZxB02M3rIgi.jpg') no-repeat center center fixed; background-size: cover; height: 18.75rem;">
+    <section class="parallax mt-16" style="position: relative; background: url('https://www.emoversqatar.com/wp-content/uploads/quiet-expert-img.jpg') no-repeat center center fixed; background-size: cover; height: 18.75rem;">
         <div class="overlay" style="background: rgba(0, 0, 0, 0.5); position: absolute; top: 0; left: 0; right: 0; bottom: 0;"></div>
         <div class="content" style="position: relative; z-index: 1; display: flex; flex-direction: column; padding-left: 16px; padding-right: 16px; text-align: center; gap: 16px;">
             <h1 style="font-size: 40px; color: white; font-weight: 100; margin-bottom: 24px;">SEARCH RESULT FOR HANDYMAN</h1>
             <p style="font-size: 16px; color: antiquewhite;">Home / Search</p>
         </div>
     </section>
+
+    <section class="py-12 flex flex-col md:flex-row">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div id="cardContainer" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+
+                <!-- Card 1 -->
+                <div class="card max-w-sm bg-white shadow-lg rounded-lg overflow-hidden" style="border-bottom:3px solid #f7a80c;">
+                    <img class="w-full h-48 object-cover" src="https://www.fixinguru.sg/wp-content/uploads/2020/03/rubbish-chute.jpeg" alt="Card Image">
+                    <div class="p-6 text-center">
+                        <h3 class="text-lg font-medium text-gray-900 mb-2">Rubbish Chute Replacement Handyman Singapore</h3>
+                        <button class="bg-yellow-500 text-black px-2 py-2 rounded hover:bg-yellow-200 ">Read More > </button>
+                    </div>
+                    <div class="flex ml-20 mb-6">
+                        <div class="text-gray-600 flex">
+                            <img src="{{ url('img/calendar.png') }}" alt="" class="mr-2 "><span> March 27, 2024</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="card max-w-sm bg-white shadow-lg rounded-lg overflow-hidden" style="border-bottom:3px solid #f7a80c;">
+                    <img class="w-full h-48 object-cover" src="https://www.thebestsingapore.com/wp-content/uploads/2021/08/riben-rubbish-chute.jpg" alt="Card Image">
+                    <div class="p-6 text-center">
+                        <h3 class="text-lg font-medium text-gray-900 mb-2">Rubbish Chute Replacement Handyman Singapore – Condo, River Valley</h3>
+                        <button class="bg-yellow-500 text-black px-2 py-2 rounded hover:bg-yellow-200 ">Read More > </button>
+                    </div>
+                    <div class="flex ml-20 mb-6">
+                        <div class="text-gray-600 flex">
+                            <img src="{{ url('img/calendar.png') }}" alt="" class="mr-2 "><span> December 2, 2023</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="card max-w-sm bg-white shadow-lg rounded-lg overflow-hidden" style="border-bottom:3px solid #f7a80c;">
+                    <img class="w-full h-48 object-cover" src="https://i0.wp.com/aprettyfix.com/wp-content/uploads/19-Both-Shelves-Installed.jpg?resize=800%2C1158&ssl=1" alt="Card Image">
+                    <div class="p-6 text-center">
+                        <h3 class="text-lg font-medium text-gray-900 mb-2">Wall Shelf Installation Handyman Singapore – HDB, Sengkang</h3>
+                        <button class="bg-yellow-500 text-black px-2 py-2 rounded hover:bg-yellow-200 ">Read More > </button>
+                    </div>
+                    <div class="flex ml-20 mb-6">
+                        <div class="text-gray-600 flex">
+                            <img src="{{ url('img/calendar.png') }}" alt="" class="mr-2 "><span> December 12, 2023</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="card max-w-sm bg-white shadow-lg rounded-lg overflow-hidden" style="border-bottom:3px solid #f7a80c;">
+                    <img class="w-full h-48 object-cover" src="https://cdn.thewirecutter.com/wp-content/media/2023/09/smart-blinds-2048px-4546.jpg" alt="Card Image">
+                    <div class="p-6 text-center">
+                        <h3 class="text-lg font-medium text-gray-900 mb-2">Window Blind Installation Handyman Singapore – Condo, Yio Chu Kang</h3>
+                        <button class="bg-yellow-500 text-black px-2 py-2 rounded hover:bg-yellow-200 ">Read More > </button>
+                    </div>
+                    <div class="flex ml-20 mb-6">
+                        <div class="text-gray-600 flex">
+                            <img src="{{ url('img/calendar.png') }}" alt="" class="mr-2 "><span> June 22, 2021</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="card max-w-sm bg-white shadow-lg rounded-lg overflow-hidden" style="border-bottom:3px solid #f7a80c;">
+                    <img class="w-full h-48 object-cover" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSr7u5FxOMWKrTyq59rvAcB1yoTPmd-KUmRhQ&s" alt="Card Image">
+                    <div class="p-6 text-center">
+                        <h3 class="text-lg font-medium text-gray-900 mb-2">Laundry Rack Installation Handyman Singapore – HDB, Hougang</h3>
+                        <button class="bg-yellow-500 text-black px-2 py-2 rounded hover:bg-yellow-200 ">Read More > </button>
+                    </div>
+                    <div class="flex ml-20 mb-6">
+                        <div class="text-gray-600 flex">
+                            <img src="{{ url('img/calendar.png') }}" alt="" class="mr-2 "><span> June 12, 2021</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 6 -->
+                <div class="card max-w-sm bg-white shadow-lg rounded-lg overflow-hidden" style="border-bottom:3px solid #f7a80c;">
+                    <img class="w-full h-48 object-cover" src="https://cdn.betweencarpools.com/wp-content/uploads/2020/10/Untitled-1-2.jpg" alt="Card Image">
+                    <div class="p-6 text-center">
+                        <h3 class="text-lg font-medium text-gray-900 mb-2">Hook Installation Handyman Singapore HDB – Tanjong Pagar</h3>
+                        <button class="bg-yellow-500 text-black px-2 py-2 rounded hover:bg-yellow-200 ">Read More > </button>
+                    </div>
+                    <div class="flex ml-20 mb-6">
+                        <div class="text-gray-600 flex">
+                            <img src="{{ url('img/calendar.png') }}" alt="" class="mr-2 "><span> June 12, 2021</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card hidden max-w-sm bg-white shadow-lg rounded-lg overflow-hidden" style="border-bottom:3px solid #f7a80c;">
+                    <img class="w-full h-48 object-cover" src="https://qph.cf2.quoracdn.net/main-qimg-6bff0718eaf624e934241ceb1b42a6a2-pjlq" alt="Card Image">
+                    <div class="p-6 text-center">
+                        <h3 class="text-lg font-medium text-gray-900 mb-2">Pull Up Bar Installation Handyman Singapore Commercial – Serangoon</h3>
+                        <button class="bg-yellow-500 text-black px-2 py-2 rounded hover:bg-yellow-200 ">Read More > </button>
+                    </div>
+                    <div class="flex ml-20 mb-6">
+                        <div class="text-gray-600 flex">
+                            <img src="{{ url('img/calendar.png') }}" alt="" class="mr-2 "><span> June 12, 2021</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card hidden max-w-sm bg-white shadow-lg rounded-lg overflow-hidden" style="border-bottom:3px solid #f7a80c;">
+                    <img class="w-full h-48 object-cover" src="https://i.ytimg.com/vi/LerKYwo50bk/maxresdefault.jpg" alt="Card Image">
+                    <div class="p-6 text-center">
+                        <h3 class="text-lg font-medium text-gray-900 mb-2">Handle Wall Mounted Installation Drilling Services Handyman Singapore – HDB Jurong West.</h3>
+                        <button class="bg-yellow-500 text-black px-2 py-2 rounded hover:bg-yellow-200 ">Read More > </button>
+                    </div>
+                    <div class="flex ml-20 mb-6">
+                        <div class="text-gray-600 flex">
+                            <img src="{{ url('img/calendar.png') }}" alt="" class="mr-2 "><span> June 12, 2021</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card hidden max-w-sm bg-white shadow-lg rounded-lg overflow-hidden" style="border-bottom:3px solid #f7a80c;">
+                    <img class="w-full h-48 object-cover" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmsnKFPI1BTIZSJ7ccyGomOOmzrH4KMCZVDw&s" alt="Card Image">
+                    <div class="p-6 text-center">
+                        <h3 class="text-lg font-medium text-gray-900 mb-2">Wall Mirror Installation Drilling Services Handyman Singapore Condo – River Valley.</h3>
+                        <button class="bg-yellow-500 text-black px-2 py-2 rounded hover:bg-yellow-200 ">Read More > </button>
+                    </div>
+                    <div class="flex ml-20 mb-6">
+                        <div class="text-gray-600 flex">
+                            <img src="{{ url('img/calendar.png') }}" alt="" class="mr-2 "><span> June 12, 2021</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Show More Button -->
+            <div class="text-center mt-4">
+                <button id="showMoreBtn" class="text-black font-bold py-2 px-4 rounded focus:outline-none">
+                    <ol class="flex justify-center text-xs font-medium space-x-1">
+                        <li>
+                            <p class="inline-flex items-center justify-center w-8 h-8 border border-gray-100 rounded" onclick="setActive(this)">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clip-rule="evenodd" />
+                                </svg>
+                            </p>
+                        </li>
+                        <li>
+                            <p class="block w-8 h-8 text-center border border-gray-100 rounded leading-8 " id="btn1" onclick="setActive(this)"> 1 </p>
+                        </li>
+                        <li>
+                            <p class="block w-8 h-8 text-center border border-gray-100 rounded leading-8" onclick="setActive(this)"> 2 </p>
+                        </li>
+                        <li>
+                            <p class="inline-flex items-center justify-center w-8 h-8 border border-gray-100 rounded" onclick="setActive(this)">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                                </svg>
+                            </p>
+                        </li>
+                    </ol>
+                </button>
+            </div>
+        </div>
+
+        <div class="max-w-sm mx-auto p-4 bg-white rounded-lg shadow-md mt-8">
+            <div class="flex justify-center mb-4">
+                <img src="https://www.shutterstock.com/image-vector/builder-crossed-hammers-new-construction-600nw-2246936013.jpg" alt="Everyworks Logo" class="h-16">
+            </div>
+            <div class="mb-4 text-center">
+                <a href="https://wa.me/your-number" class="block bg-green-500 text-white font-bold py-2 px-4 rounded-lg hover:bg-green-600">WhatsApp to Start Now!</a>
+                <p class="mt-2 text-gray-600">One-stop integrated home service provider for your home needs! <a href="https://wa.me/your-number" class="text-yellow-500 hover:underline">WhatsApp us</a> for enquiry now!</p>
+            </div>
+            <div class="mt-16">
+                <h2 class="text-lg font-bold mb-2 custom-border">Categories</h2>
+                <ul>
+                    <li class=" flex justify-between py-1 border-b">
+                        <span><span style="font-weight: 900;">-</span> Handyman</span>
+                        <span class="text-gray-500 bg-gray-100 p-1 rounded-lg w-8 text-center">88</span>
+                    </li>
+                    <ul class="ml-4">
+                        <li class="flex justify-between py-1 border-b">
+                            <span><span style="font-weight: 900;">-</span> Door Repair</span>
+                            <span class="text-gray-500 bg-gray-100 p-1 rounded-lg w-8 text-center">44</span>
+                        </li>
+                        <li class="flex justify-between py-1 border-b">
+                            <span><span style="font-weight: 900;">-</span> Drilling</span>
+                            <span class="text-gray-500 bg-gray-100 p-1 rounded-lg w-8 text-center">6</span>
+                        </li>
+                        <li class="flex justify-between py-1 border-b">
+                            <span><span style="font-weight: 900;">-</span> Furniture Assembly</span>
+                            <span class="text-gray-500 bg-gray-100 p-1 rounded-lg w-8 text-center">1</span>
+                        </li>
+                        <li class="flex justify-between py-1 border-b">
+                            <span><span style="font-weight: 900;">-</span> Pull Up Bar Installation</span>
+                            <span class="text-gray-500 bg-gray-100 p-1 rounded-lg w-8 text-center">8</span>
+                        </li>
+                        <li class="flex justify-between py-1 border-b">
+                            <span><span style="font-weight: 900;">-</span> Rubbish Chute</span>
+                            <span class="text-gray-500 bg-gray-100 p-1 rounded-lg w-8 text-center">6</span>
+                        </li>
+                        <li class="flex justify-between py-1 border-b">
+                            <span><span style="font-weight: 900;">-</span> Storeroom Rack</span>
+                            <span class="text-gray-500 bg-gray-100 p-1 rounded-lg w-8 text-center">10</span>
+                        </li>
+                        <li class="flex justify-between py-1 border-b">
+                            <span><span style="font-weight: 900;">-</span> TV Bracket Installation</span>
+                            <span class="text-gray-500 bg-gray-100 p-1 rounded-lg w-8 text-center">40</span>
+                        </li>
+                        <li class="flex justify-between py-1 border-b">
+                            <span><span style="font-weight: 900;">-</span> Wall Mounting Installation</span>
+                            <span class="text-gray-500 bg-gray-100 p-1 rounded-lg w-8 text-center">4</span>
+                        </li>
+                        <li class="flex justify-between py-1 border-b">
+                            <span><span style="font-weight: 900;">-</span> Self Rack</span>
+                            <span class="text-gray-500 bg-gray-100 p-1 rounded-lg w-8 text-center">4</span>
+                        </li>
+                    </ul>
+                </ul>
+            </div>
+
+            <div class="max-w-sm mx-auto p-4 bg-white rounded-lg shadow-md mt-10">
+                <h2 class="text-lg font-bold mb-6 custom-border">Portfolio</h2>
+                <div class="grid grid-cols-3 gap-2 border-top">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPkuqnbD0TdruC89eNyQ-5Y_RZheOEhw8kvA&s" alt="Portfolio Image 1" style="width: 100px; height: 80px; object-fit: cover;" class="rounded-lg shadow-sm">
+                    <img src="https://maintenanceindubai.ae/wp-content/uploads/2022/12/Plumber-vs-DIY.jpeg" alt="Portfolio Image 2" style="width: 100px; height: 80px; object-fit: cover;" class="rounded-lg shadow-sm">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkZwK7kd91-DVm5xQ650zZZ3OD32K_oZ47Y3oQaXiml2I_EUP1gFWqbg20EVuxdHeN1DI&usqp=CAU" alt="Portfolio Image 3" style="width: 100px; height: 80px; object-fit: cover;" class="rounded-lg shadow-sm">
+                    <img src="https://media.istockphoto.com/id/921346102/photo/plumber-fixing-sink-pipe-with-adjustable-wrench.jpg?s=612x612&w=0&k=20&c=hhDwNY35TkoBM5LIQsKkuryCk-ZbcOriD-MZhWon9Gk=" alt="Portfolio Image 4" style="width: 100px; height: 80px; object-fit: cover;" class="rounded-lg shadow-sm">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwKXctQgmb3JO1wu3lZP9W8RLI-xg_LOnb6khL9CeHufCJgUeUCzEQlLfoGDGVRR8-E9E&usqp=CAU" alt="Portfolio Image 5" style="width: 100px; height: 80px; object-fit: cover;" class="rounded-lg shadow-sm">
+                    <img src="https://media.istockphoto.com/id/912620702/photo/back-view-of-young-professional-plumber-fixing-sink-in-bathroom.jpg?s=612x612&w=0&k=20&c=55muooHi3Vl09QIBx_oLb6iMBq8sVXH7dEBAGgk16gs=" alt="Portfolio Image 6" style="width: 100px; height: 80px; object-fit: cover;" class="rounded-lg shadow-sm">
+                    <img src="https://img.freepik.com/premium-photo/jack-all-trades-repairs-faucet-bathroom-concept-maintenance-home-help_353017-1882.jpg" alt="Portfolio Image 7" style="width: 100px; height: 80px; object-fit: cover;" class="rounded-lg shadow-sm">
+                    <img src="https://media.istockphoto.com/id/912620702/photo/back-view-of-young-professional-plumber-fixing-sink-in-bathroom.jpg?s=612x612&w=0&k=20&c=55muooHi3Vl09QIBx_oLb6iMBq8sVXH7dEBAGgk16gs=" alt="Portfolio Image 8" style="width: 100px; height: 80px; object-fit: cover;" class="rounded-lg shadow-sm">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_g4pX2VNKCzKwehU6loLMTis7vp4Fc5howk6rIIxzb4VWmKUKpTwmX4g3uUiUErdW9tk&usqp=CAU" alt="Portfolio Image 9" style="width: 100px; height: 80px; object-fit: cover;" class="rounded-lg shadow-sm">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc0a4n_Q20b6Nh99IsKcglM9UvaFeoQEy2lIjqwpezk7Eg-nAqnjBq26IXrBn7zNuCxCE&usqp=CAU" alt="Portfolio Image 10" style="width: 100px; height: 80px; object-fit: cover;" class="rounded-lg shadow-sm">
+                    <img src="https://coursecave.co.uk/wp-content/uploads/2024/01/plumbing-online-course.webp" alt="Portfolio Image 11" style="width: 100px; height: 80px; object-fit: cover;" class="rounded-lg shadow-sm">
+                    <img src="https://5.imimg.com/data5/JD/VI/GLADMIN-51496495/kitchen-plumbing-services-500x500.png" alt="Portfolio Image 12" style="width: 100px; height: 80px; object-fit: cover;" class="rounded-lg shadow-sm">
+                    <img src="https://media.istockphoto.com/id/912620702/photo/back-view-of-young-professional-plumber-fixing-sink-in-bathroom.jpg?s=612x612&w=0&k=20&c=55muooHi3Vl09QIBx_oLb6iMBq8sVXH7dEBAGgk16gs=" alt="Portfolio Image 13" style="width: 100px; height: 80px; object-fit: cover;" class="rounded-lg shadow-sm">
+                    <img src="https://superiorplumbing.ca/wp-content/uploads/2022/12/Plumbing-Inspection.jpg" alt="Portfolio Image 14" style="width: 100px; height: 80px; object-fit: cover;" class="rounded-lg shadow-sm">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ63NryFH_fknrObm4BoudKOwBkQ7mPPLPZK7rRkLGjW5UvBmAaNHmCHrQeOXB7KQeA5_U&usqp=CAU" alt="Portfolio Image 15" style="width: 100px; height: 80px; object-fit: cover;" class="rounded-lg shadow-sm">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
 
 
     <footer class="footer bg-blue-100/80 font-sans dark:bg-gray-900">
@@ -427,3 +678,73 @@
 </body>
 
 </html>
+<script>
+    const btn1 = document.getElementById('btn1');
+
+    btn1.addEventListener('click', function() {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+
+        setTimeout(function() {
+            location.reload();
+        }, 40);
+    });
+
+    function setActive(element) {
+        // Remove the active class from all list items
+        const items = document.querySelectorAll('#showMoreBtn ol li p');
+        items.forEach(item => item.classList.remove('active'));
+
+        // Add the active class to the clicked item
+        element.classList.add('active');
+    }
+    document.addEventListener('DOMContentLoaded', function() {
+        const showMoreBtn = document.getElementById('showMoreBtn');
+        const hiddenCards = document.querySelectorAll('.card.hidden');
+        let currentIndex = 0;
+        const pageSize = 6; // Number of cards to show per click
+
+        showMoreBtn.addEventListener('click', function() {
+            for (let i = currentIndex; i < currentIndex + pageSize && i < hiddenCards.length; i++) {
+                hiddenCards[i].classList.remove('hidden');
+            }
+            currentIndex += pageSize;
+
+            // // Hide the button if all cards are shown
+            // if (currentIndex >= hiddenCards.length) {
+            //     showMoreBtn.style.display = 'none';
+            // }
+        });
+    });
+
+    function checkAndRedirect(event) {
+        event.preventDefault();
+        const input = document.getElementById('search-input').value.toLowerCase().replace(/\s+/g, '');
+        const routes = {
+            'plumber': '/searchPlumber',
+            'electrician': '/searchElectric',
+            'handyman': '/searchHandyMan',
+            'deepclean': '/searchDeepclean',
+            'floorpolish': '/searchFloorPolish',
+            'floorclean': '/searchFloorClean',
+            'wood': '/searchWood',
+            'decking': '/searchDecking'
+        };
+
+        let foundRoute = false;
+
+        for (const keyword in routes) {
+            if (keyword.includes(input)) {
+                window.location.href = routes[keyword];
+                foundRoute = true;
+                break;
+            }
+        }
+
+        if (!foundRoute) {
+            window.location.href = '/noSearch';
+        }
+    }
+</script>
