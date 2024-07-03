@@ -104,6 +104,165 @@ Route::get('/terrazzoClean', function () {
     return view('terrazzoClean');
 });
 
+Route::get('/marbleFloorPolish', function () {
+    return view('marbleFloorPolish');
+});
+Route::get('/marblePolish', function () {
+    return view('marblePolish');
+});
+Route::get('/parquetPolish', function () {
+    return view('parquetPolishing');
+});
+Route::get('/woodPolish', function () {
+    return view('woodPolishing');
+});
+Route::get('/vinylFloorPolish', function () {
+    return view('vinylFloorPolish');
+});
+Route::get('/tileFloorPolish', function () {
+    return view('tileFloorPolish');
+});
+Route::get('/matressClean', function () {
+    return view('matressClean');
+});
+Route::get('/matressDeepClean', function () {
+    return view('matressDeepClean');
+});
+Route::get('/matressstemClean', function () {
+    return view('matressstemClean');
+});
+Route::get('/matrissStainClean', function () {
+    return view('matrissStainClean');
+});
+Route::get('/sofaClean', function () {
+    return view('sofaClean');
+});
+
+Route::get('/sofaDeepClean', function () {
+    return view('sofaDeepClean');
+});
+Route::get('/sofaStain', function () {
+    return view('sofaStain');
+});
+Route::get('/fabricSofaClean', function () {
+    return view('fabricSofaClean');
+});
+Route::get('/unholsteryClean', function () {
+    return view('unholsteryClean');
+});
+Route::get('/rubbishChute', function () {
+    return view('rubbishChute');
+});
+Route::get('/cupboard', function () {
+    return view('cupboard');
+});
+Route::get('/cabinetHinge', function () {
+    return view('cabinetHinge');
+});
+Route::get('/hydraulic', function () {
+    return view('hydraulic');
+});
+Route::get('/drilling', function () {
+    return view('drilling');
+});
+Route::get('/tvBucket', function () {
+    return view('tvBucket');
+});
+Route::get('/wallMounting', function () {
+    return view('wallMounting');
+});
+Route::get('/pullUp', function () {
+    return view('pullUp');
+});
+Route::get('/electricalInstall', function () {
+    return view('electricalInstall');
+});
+Route::get('/electricRepair', function () {
+    return view('electricRepair');
+});
+Route::get('/lightService', function () {
+    return view('lightService');
+});
+Route::get('/switchService', function () {
+    return view('switchService');
+});
+Route::get('/powerSocket', function () {
+    return view('powerSocket');
+});
+Route::get('/hdrElectric', function () {
+    return view('hdrElectric');
+});
+Route::get('/smartSwitch', function () {
+    return view('smartSwitch');
+});
+
+Route::get('/lightInstall', function () {
+    return view('lightInstall');
+});
+
+Route::get('/lightReplace', function () {
+    return view('lightReplace');
+});
+Route::get('/plumbingInstall', function () {
+    return view('plumbingInstall');
+});
+Route::get('/plumbingChoke', function () {
+    return view('plumbingChoke');
+});
+Route::get('/plumbingLeak', function () {
+    return view('plumbingLeak');
+});
+Route::get('/waterHeater', function () {
+    return view('waterHeater');
+});
+Route::get('/toiletBowl', function () {
+    return view('toiletBowl');
+});
+Route::get('/showerService', function () {
+    return view('showerService');
+});
+Route::get('/tapFaucet', function () {
+    return view('tapFaucet');
+});
+Route::get('/bidetSpray', function () {
+    return view('bidetSpray');
+});
+
+Route::get('/coomercialPlumber', function () {
+    return view('coomercialPlumber');
+});
+Route::get('/pipeInstall', function () {
+    return view('pipeInstall');
+});
+Route::get('/bathroomRack', function () {
+    return view('bathroomRack');
+});
+Route::get('/tapLeak', function () {
+    return view('tapLeak');
+});
+Route::get('/heaterLeak', function () {
+    return view('heaterLeak');
+});
+Route::get('/heaterinstall', function () {
+    return view('heaterinstall');
+});
+
+Route::get('/waterheaterLeak', function () {
+    return view('waterheaterLeak');
+});
+Route::get('/heaterRepair', function () {
+    return view('heaterRepair');
+});
+Route::get('/toiletRepair', function () {
+    return view('toiletRepair');
+});
+Route::get('/showerInstall', function () {
+    return view('showerInstall');
+});
+Route::get('/showerRepair', function () {
+    return view('showerRepair');
+});
+
 
 
 

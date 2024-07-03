@@ -248,7 +248,7 @@
     }
 
     #header_slider #slide_item:nth-child(1) {
-        background: url("https://media.istockphoto.com/id/1339613829/photo/plumber-at-work-in-a-bathroom-plumbing-repair-service-assemble-and-install-concept.jpg?s=612x612&w=0&k=20&c=lQREIzjwRM3ApTkRzTnbIA_BCRCy_ER-e51tofKsaP0=") no-repeat center center;
+        background: url("https://media.istockphoto.com/id/1339613829/photo/plumber-at-work-in-a-bathroom-plumbing-repair-service-assemble-and-Repair-concept.jpg?s=612x612&w=0&k=20&c=lQREIzjwRM3ApTkRzTnbIA_BCRCy_ER-e51tofKsaP0=") no-repeat center center;
         background-size: cover;
     }
 
@@ -314,80 +314,22 @@
                     </div>
                     <div class="relative group">
                         <a href="/service">Service</a>
-
                         <div class="absolute left-0 mt-1 bg-white shadow-lg rounded-lg p-2 hidden group-hover:block z-20" style="width: 340%;">
-                            <div class="relative group" onmouseover="showSubmenu7()" onmouseout="hideSubmenu7()">
-                                <a href="/plumbing" class="border-b flex items-center px-4 py-2 hover:bg-gray-200">
-                                    <span class="ml-1">Plumber</span>
-                                </a>
-                                <div id="service-submenu" class="absolute right-full top-0 mt-0 bg-white shadow-lg rounded-lg p-2 hidden-submenu z-20" style="width: 200px;">
-                                    <div class="relative group" onmouseover="showPlumbingInstallSubmenu()" onmouseout="hidePlumbingInstallSubmenu()">
-                                        <a href="/plumbingInstall" class="block px-4 py-2 hover:bg-gray-200 border-b">Plumbing Install</a>
-                                        <div id="plumbing-install-submenu" class="absolute right-full top-0 mt-0 bg-white shadow-lg rounded-lg p-2 hidden-submenu z-20" style="width: 200px; left: -200px;">
-                                            <a href="/pipeInstall" class="block px-4 py-2 hover:bg-gray-200 border-b">Pipe Installation</a>
-                                            <a href="/bidetSpray" class="block px-4 py-2 hover:bg-gray-200 border-b">Bidet Spray</a>
-                                            <a href="/bathroomRack" class="block px-4 py-2 hover:bg-gray-200 border-b">Bathroom Rack</a>
-                                        </div>
-                                    </div>
-                                    <a href="/plumbingChoke" class="border-b block px-4 py-2 hover:bg-gray-200">Plumbing Choke</a>
-                                    <div class="relative group" onmouseover="showPlumbingLeakSubmenu()" onmouseout="hidePlumbingLeakSubmenu()">
-                                        <a href="/plumbingLeak" class="block px-4 py-2 hover:bg-gray-200 border-b">Plumbing Leak</a>
-                                        <div id="plumbing-leak-submenu" class="absolute right-full top-0 mt-0 bg-white shadow-lg rounded-lg p-2 hidden-submenu z-20" style="width: 200px; left: -200px;">
-                                            <a href="/tapLeak" class="block px-4 py-2 hover:bg-gray-200 border-b">Leaking Tap</a>
-                                            <a href="/heaterLeak" class="block px-4 py-2 hover:bg-gray-200 border-b">Heater Leak</a>
-                                            <a href="/showerService" class="block px-4 py-2 hover:bg-gray-200 border-b">Shower Leak</a>
-                                        </div>
-                                    </div>
-                                    <div class="relative group" onmouseover="showWaterHeaterSubmenu()" onmouseout="hideWaterHeaterSubmenu()">
-                                        <a href="/waterHeater" class="block px-4 py-2 hover:bg-gray-200 border-b">Water Heater</a>
-                                        <div id="water-heater-submenu" class="absolute right-full top-0 mt-0 bg-white shadow-lg rounded-lg p-2 hidden-submenu z-20" style="width: 200px; left: -200px;">
-                                            <a href="/heaterinstall" class="block px-4 py-2 hover:bg-gray-200 border-b">Water Heater Installation</a>
-                                            <a href="/waterheaterLeak" class="block px-4 py-2 hover:bg-gray-200 border-b">Water Heater Leak</a>
-                                            <a href="/heaterRepair" class="block px-4 py-2 hover:bg-gray-200 border-b">Water Heater Repair</a>
-                                        </div>
-                                    </div>
-                                    <div class="relative group" onmouseover="showToiletBowlSubmenu()" onmouseout="hideToiletBowlSubmenu()">
-                                        <a href="/toiletBowl" class="block px-4 py-2 hover:bg-gray-200 border-b">Toilet Bowl</a>
-                                        <div id="toilet-bowl-submenu" class="absolute right-full top-0 mt-0 bg-white shadow-lg rounded-lg p-2 hidden-submenu z-20" style="width: 200px; left: -200px;">
-                                            <a href="/toiletBowl" class="block px-4 py-2 hover:bg-gray-200 border-b">Toilet Bowl Installation</a>
-                                            <a href="/plumbingChoke" class="block px-4 py-2 hover:bg-gray-200 border-b">Toilet Bowl Choke</a>
-                                            <a href="/toiletRepair" class="block px-4 py-2 hover:bg-gray-200 border-b">Toilet Bowl Choke Repair</a>
-                                        </div>
-                                    </div>
-                                    <div class="relative group" onmouseover="showShowerServiceSubmenu()" onmouseout="hideShowerServiceSubmenu()">
-                                        <a href="/showerService" class="block px-4 py-2 hover:bg-gray-200 border-b">Shower Service</a>
-                                        <div id="shower-service-submenu" class="absolute right-full top-0 mt-0 bg-white shadow-lg rounded-lg p-2 hidden-submenu z-20" style="width: 200px; left: -200px;">
-                                            <a href="/showerInstall" class="block px-4 py-2 hover:bg-gray-200 border-b">Shower Installation</a>
-                                            <a href="/showerRepair" class="block px-4 py-2 hover:bg-gray-200 border-b">Shower Repair</a>
-                                        </div>
-                                    </div>
-                                    <a href="/tapFaucet" class="border-b block px-4 py-2 hover:bg-gray-200">Tap & Faucet</a>
-                                    <a href="/bidetSpray" class="border-b block px-4 py-2 hover:bg-gray-200">Bidet Spray</a>
-                                    <a href="/bidetSpray" class="border-b block px-4 py-2 hover:bg-gray-200">Comercial Plumber</a>
-                                </div>
-                            </div>
-
+                            <a href="/plumbing" class="border-b block px-4 py-2 hover:bg-gray-200">Plumber</a>
 
                             <div class="relative group" onmouseover="showSubmenu6()" onmouseout="hideSubmenu6()">
-                                <div class="relative group" onmouseover="showSubmenu6()" onmouseout="hideSubmenu6()">
-                                    <a href="/electric" class="border-b flex items-center px-4 py-2 hover:bg-gray-200">
-                                        <span class="ml-1">Electrician</span>
-                                    </a>
-                                    <div id="electric-submenu" class="absolute right-full top-0 mt-0 bg-white shadow-lg rounded-lg p-2 hidden-submenu z-20" style="width: 200px;">
-                                        <a href="/electricalInstall" class="block px-4 py-2 hover:bg-gray-200 border-b">Electrical Installation</a>
-                                        <a href="/electricRepair" class="block px-4 py-2 hover:bg-gray-200 border-b">Electrical Repair</a>
-                                        <div class="relative group" onmouseover="showLightServiceSubmenu()" onmouseout="hideLightServiceSubmenu()">
-                                            <a href="/lightService" class="block px-4 py-2 hover:bg-gray-200 border-b">Light Service</a>
-                                            <div id="light-service-submenu" class="absolute right-full top-0 mt-0 bg-white shadow-lg rounded-lg p-2 hidden-submenu z-20" style="width: 200px; left: -200px;">
-                                                <a href="/lightInstall" class="border-b block px-4 py-2 hover:bg-gray-200 border-b">Light Installation</a>
-                                                <a href="/lightReplace" class="border-b block px-4 py-2 hover:bg-gray-200 border-b">Light Repair</a>
-                                            </div>
-                                        </div>
-                                        <a href="/switchService" class="block px-4 py-2 hover:bg-gray-200 border-b">Electric Switch Service</a>
-                                        <a href="/powerSocket" class="block px-4 py-2 hover:bg-gray-200 border-b">Power Sockets</a>
-                                        <a href="/hdrElectric" class="block px-4 py-2 hover:bg-gray-200 border-b">HDR Electrician</a>
-                                        <a href="/smartSwitch" class="block px-4 py-2 hover:bg-gray-200 border-b">Smart Switch</a>
-                                    </div>
+                                <a href="/electric" class="border-b flex items-center px-4 py-2 hover:bg-gray-200">
+                                    <span class="ml-1">Electrician</span>
+                                </a>
+                                <div id="electric-submenu" class="absolute right-full top-0 mt-0 bg-white shadow-lg rounded-lg p-2 hidden-submenu z-20" style="width: 200px;">
+                                    <a href="/electricalRepair" class="block px-4 py-2 hover:bg-gray-200">Smart Switch Serviceation</a>
+                                    <a href="/electricRepair" class="block px-4 py-2 hover:bg-gray-200">Smart Switch Service</a>
+                                    <a href="/cabinetHinge" class="block px-4 py-2 hover:bg-gray-200">Cabinet Hinge</a>
+                                    <a href="/hydraulic" class="block px-4 py-2 hover:bg-gray-200">Hydraulic Hinge</a>
+                                    <a href="/drilling" class="block px-4 py-2 hover:bg-gray-200">Handyman Drilling</a>
+                                    <a href="/tvBucket" class="block px-4 py-2 hover:bg-gray-200">TV Bracket Repairation</a>
+                                    <a href="/wallMounting" class="block px-4 py-2 hover:bg-gray-200">Wall Mounting Repairation</a>
+                                    <a href="/pullUp" class="block px-4 py-2 hover:bg-gray-200">PullUp Bar Repairation</a>
                                 </div>
                             </div>
 
@@ -396,14 +338,14 @@
                                     <span class="ml-1">Handyman</span>
                                 </a>
                                 <div id="handy-submenu" class="absolute right-full top-0 mt-0 bg-white shadow-lg rounded-lg p-2 hidden-submenu z-20" style="width: 200px;">
-                                    <a href="/rubbishChute" class="block px-4 py-2 hover:bg-gray-200 border-b">Rubbish Chute</a>
-                                    <a href="/cupboard" class="block px-4 py-2 hover:bg-gray-200 border-b">Cupboard Hinge</a>
-                                    <a href="/cabinetHinge" class="block px-4 py-2 hover:bg-gray-200 border-b">Cabinet Hinge</a>
-                                    <a href="/hydraulic" class="block px-4 py-2 hover:bg-gray-200 border-b">Hydraulic Hinge</a>
-                                    <a href="/drilling" class="block px-4 py-2 hover:bg-gray-200 border-b">Handyman Drilling</a>
-                                    <a href="/tvBucket" class="block px-4 py-2 hover:bg-gray-200 border-b">TV Bracket Installation</a>
-                                    <a href="/wallMounting" class="block px-4 py-2 hover:bg-gray-200 border-b">Wall Mounting Installation</a>
-                                    <a href="/pullUp" class="block px-4 py-2 hover:bg-gray-200 border-b">PullUp Bar Installation</a>
+                                    <a href="/rubbishChute" class="block px-4 py-2 hover:bg-gray-200">Rubbish Chute</a>
+                                    <a href="/cupboard" class="block px-4 py-2 hover:bg-gray-200">Cupboard Hinge</a>
+                                    <a href="/cabinetHinge" class="block px-4 py-2 hover:bg-gray-200">Cabinet Hinge</a>
+                                    <a href="/hydraulic" class="block px-4 py-2 hover:bg-gray-200">Hydraulic Hinge</a>
+                                    <a href="/drilling" class="block px-4 py-2 hover:bg-gray-200">Handyman Drilling</a>
+                                    <a href="/tvBucket" class="block px-4 py-2 hover:bg-gray-200">TV Bracket Repairation</a>
+                                    <a href="/wallMounting" class="block px-4 py-2 hover:bg-gray-200">Wall Mounting Repairation</a>
+                                    <a href="/pullUp" class="block px-4 py-2 hover:bg-gray-200">PullUp Bar Repairation</a>
                                 </div>
                             </div>
 
@@ -490,8 +432,6 @@
         </nav>
     </header>
 
-    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
-    <script src="https://unpkg.com/flowbite@1.4.1/dist/flowbite.js"></script>
 
     <nav class="h-auto md:h-48">
         <div class="max-w-7xl mx-auto px-4 py-2">
@@ -508,57 +448,110 @@
                 <div class="w-full md:w-auto flex justify-center">
                     <img src="https://www.shutterstock.com/image-vector/builder-crossed-hammers-new-construction-600nw-2246936013.jpg" alt="" class="h-20">
                 </div>
-                <form onsubmit="checkAndRedirect(event)">
-                    <div class="flex items-center w-full md:w-auto">
-                        <input id="search-input" type="text" placeholder="ENTER KEYWORD" class="h-12 text-blackhover:text-white border border-black px-2 py-1 pl-8 w-full md:w-auto">
-                        <button type="submit">
-                            <svg fill="#000000" height="64px" width="64px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-459.1 -459.1 1406.60 1406.60" xml:space="preserve">
-                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
-                                <g id="SVGRepo_iconCarrier">
-                                    <g>
-                                        <g>
-                                            <path d="M0,203.25c0,112.1,91.2,203.2,203.2,203.2c51.6,0,98.8-19.4,134.7-51.2l129.5,129.5c2.4,2.4,5.5,3.6,8.7,3.6 s6.3-1.2,8.7-3.6c4.8-4.8,4.8-12.5,0-17.3l-129.6-129.5c31.8-35.9,51.2-83,51.2-134.7c0-112.1-91.2-203.2-203.2-203.2 S0,91.15,0,203.25z M381.9,203.25c0,98.5-80.2,178.7-178.7,178.7s-178.7-80.2-178.7-178.7s80.2-178.7,178.7-178.7 S381.9,104.65,381.9,203.25z"></path>
-                                        </g>
-                                    </g>
-                                </g>
-                            </svg>
-                        </button>
-                    </div>
-                </form>
+                <div class="flex items-center w-full md:w-auto">
+                    <input type="text" placeholder="ENTER KEYWORD" class="text-gray-300 hover:text-white border border-black px-2 py-1 pl-8 w-full md:w-auto">
+                </div>
             </div>
         </div>
     </nav>
 
-
-    <!-- Banner Section -->
-    <section class="bg-cover bg-center relative parallax" style="background-image: url('https://images.pexels.com/photos/4108712/pexels-photo-4108712.jpeg?cs=srgb&dl=pexels-cottonbro-4108712.jpg&fm=jpg'); background-size: cover; background-repeat: no-repeat; height: 100vh; background-attachment: fixed;">
-        <div class="absolute inset-0 bg-black opacity-50"></div>
-        <div class="relative z-10 p-6 md:p-24 banner flex flex-col items-center justify-center text-center text-white" style="padding-top: 150px;">
-            <h1 class="text-2xl md:text-4xl font-bold" style="font-size: 43px; text-align: center; font-family: math;">Home Maintenance & Handyman Services <br>
-                Delivered To Your Doorstep</h1>
-            <p class="mt-4 md:mt-6" style="font-size: 18px; line-height: 1.2; text-align: center;">Message us with your home maintenance needs, and we will fulfill the rest. <br> Get connected to our handyman & service professionals for instant home diagnosis & direct quotations.</p>
-            <a id="sendbtn" class="shortcode_wa_button mt-4 md:mt-6 inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-green-600 hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500" href="https://api.whatsapp.com/send?phone=6565751226&amp;text=Hello, I would like to know more about the following home service" target="_blank" data-wpel-link="external" rel="nofollow external noopener noreferrer">
-                <img src="img/whatsapp.png" alt="" class="mr-2"><span>WhatsApp to Start Now!</span>
-            </a>
+    <section class="parallax mt-16" style="position: relative; background: url('https://eshop.se.com/in/media/shoptimize/blog/post/b/l/blog-4_3.jpg') no-repeat center center fixed; background-size: cover; height: 300px;">
+        <div class="overlay" style="background: rgba(0, 0, 0, 0.5); position: absolute; top: 0; left: 0; right: 0; bottom: 0;"></div>
+        <div class="content" style="position: relative; z-index: 1; display: flex; flex-direction: column; padding-left: 1rem; padding-right: 1rem; text-align: center; gap: 1rem;">
+            <h1 style="font-size: 2.5rem; color: white; font-weight: 100; margin-bottom: 1.5rem;">Smart Switch Service</h1>
+            <p style="font-size: 1rem; color: antiquewhite;">Home / Service / Smart Switch Service</p>
         </div>
     </section>
 
-    <div class="flex items-end justify-end fixed bottom-0 right-0 mb-4 mr-4 z-10">
-        <div>
-            <a title="Let's Start Chat" href="https://wa.me/6596585757" target="_blank" class="block w-16 h-16 rounded-full transition-all shadow hover:shadow-lg transform hover:scale-110 hover:rotate-12">
-                <img class="object-cover object-center w-full h-full rounded-full" src="{{ url('img/social.png') }}" />
-            </a>
+
+
+    <!-- component -->
+    <section class="relative pt-16 bg-blueGray-50">
+        <div class="container mx-auto">
+            <div class="flex flex-wrap items-center">
+                <div class="w-10/12 md:w-6/12 lg:w-4/12 px-12 md:px-4 mr-auto ml-auto -mt-78">
+                    <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-pink-500">
+                        <img alt="..." src="https://static1.pocketlintimages.com/wordpress/wp-content/uploads/wm/151394-phones-feature-samsung-smart-switch-transfer-contacts-and-data-from-iphone-image1-a2n9yu4kqr.jpg" class="w-full align-middle rounded-t-lg">
+                        <blockquote class="relative p-8 mb-4">
+                            <h4 class="text-xl font-bold text-white">
+                                Smart Switch Service SERVICES
+                            </h4>
+                            <p class="text-md font-light mt-2 text-white">
+                                Smart Switch Service services include leak repairs, fixture Repairations, and maintenance for efficient water systems in homes and businesses, ensuring reliable operation and minimizing disruptions.
+                            </p>
+                        </blockquote>
+                    </div>
+                </div>
+
+                <div class="w-full md:w-6/12 px-4">
+                    <div class="flex flex-wrap">
+                        <div class="w-full md:w-6/12 px-4">
+                            <div class="relative flex flex-col mt-4">
+                                <div class="px-4 py-5 flex-auto">
+                                    <div class="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white" style="border: 1px solid #0097a7;">
+                                        <img src={{ url('img/service-tools.gif') }} alt="">
+                                    </div>
+                                    <h6 class="text-xl mb-1 font-semibold">Smart Switch Service EXPERTS</h6>
+                                    <p class="mb-4 text-blueGray-500">
+                                        Our Smart Switch Services have over 35 years of experience in the industry, serving 1000s of residential & commercial estates.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="relative flex flex-col min-w-0">
+                                <div class="px-4 py-5 flex-auto">
+                                    <div class="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white" style="border: 1px solid #0097a7;">
+                                        <img src={{ url('img/under-construction.gif') }} alt="">
+                                    </div>
+                                    <h6 class="text-xl mb-1 font-semibold">
+                                        FULL 1-STOP Smart Switch Service SERVICES
+                                    </h6>
+                                    <p class="mb-4 text-blueGray-500">
+                                        Our top-to-bottom Smart Switch Service service is designed to be fuss-free for you. Besides having your Electrical fixtures repaired or replace.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-full md:w-6/12 px-4">
+                            <div class="relative flex flex-col min-w-0 mt-4">
+                                <div class="px-4 py-5 flex-auto">
+                                    <div class="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white" style="border: 1px solid #0097a7;">
+                                        <img src={{ url('img/tools.gif') }} alt="">
+                                    </div>
+                                    <h6 class="text-xl mb-1 font-semibold">RANGE OF Smart Switch Service SERVICES</h6>
+                                    <p class="mb-4 text-blueGray-500">
+                                        Our Smart Switch Services carry out a comprehensive list of Smart Switch Service works including clearing chokes, fixing leaks, water heater services.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="relative flex flex-col min-w-0">
+                                <div class="px-4 py-5 flex-auto">
+                                    <div class="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white" style="border: 1px solid #0097a7;">
+                                        <img src={{ url('img/toolbox.gif') }} alt="">
+                                    </div>
+                                    <h6 class="text-xl mb-1 font-semibold">Service Assistance Now!</h6>
+                                    <p class="mb-4 text-blueGray-500">
+                                    <ol>
+                                        <li class="flex"> <img src="{{ url('img/hastag.png') }}" alt=""> Message us on Whatsapp</li>
+                                        <br>
+                                        <li class="flex"> <img src="{{ url('img/hastag.png') }}" alt=""> Chat with us</li>
+                                        <br>
+                                        <li class="flex"> <img src="{{ url('img/hastag.png') }}" alt=""> Get Job Done!</li>
+                                    </ol>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
-
-
+    </section>
 
     <section class="mt-10">
         <div class="relative flex flex-col md:flex-row items-center md:items-start mt-8">
             <span class="bg-yellow-500 yellow-triangle absolute left-0 h-20 hidden md:block"></span>
             <h3 class="bg-black text-white black-polygon h-auto md:h-20 flex items-center justify-center ml-0 md:ml-24 pl-4 pr-4 md:pr-24 text-center md:text-left w-full md:max-w-2/3" style="font-size: 18px; font-family: cursive; text-shadow: 3px 3px 0 rgb(255 255 255 / 25%);">
-                <span class="inner-span">One-Stop Handyman Solutions For Convenience in Modern Living</span>
+                <span class="inner-span">One-Stop Home Solutions For Your Convenience</span>
             </h3>
             <style>
                 @media (max-width: 768px) {
@@ -605,7 +598,7 @@
                                         </path>
                                     </svg>
                                     <h3 class="mt-8 text-lg font-semibold text-black group-hover:text-white ">One-Stop Convenience</h3>
-                                    <p class="mt-4 text-base text-gray-600 group-hover:text-white">Our services are designed to be a fuss-free experience for you. Just choose the services or product installations you need, and allow us to fulfil the rest.</p>
+                                    <p class="mt-4 text-base text-gray-600 group-hover:text-white">Our services are designed to be a fuss-free experience for you. Just choose the services or product Repairations you need, and allow us to fulfil the rest.</p>
                                 </div>
                             </a>
 
@@ -627,307 +620,444 @@
         </section>
     </section>
 
-    <section class="mt-10">
-        <div class="flex flex-col md:flex-row">
-            <!-- Black Polygon Section -->
-            <div class="bg-black text-white h-auto md:h-72 w-full md:w-8/12 flex flex-col items-center justify-center ww-polygon" style="text-align: center; font-size: 26px; font-family: cursive;">
-                <div style="width: 90%; max-width: 710px; margin: 20px auto 0; text-align: start; font-size: 28px; font-weight: 800; font-family: serif;">
-                    <p>We've Completed More Than 20,000 Jobs In Singapore With 6000s Of Strong Reviews.</p>
-                </div>
-                <div>
-                    <img src="https://www.shutterstock.com/image-vector/builder-crossed-hammers-new-construction-600nw-2246936013.jpg" alt="" class="h-32 mt-6 border-b-4 border-white" style="margin: 20px auto 0;">
+    <!-- component -->
+
+    <hr class="hr-1">
+
+
+    <!-- PLUMBING WORKS -->
+    <section class="bg-white mt-4">
+        <div class="flex flex-wrap -mx-4">
+            <div class="w-full px-4">
+                <div class="text-center mx-auto mb-[60px] lg:mb-20 max-w-[510px]">
+                    <h2 class=" font-bold  text-3xl sm:text-4xl md:text-[40px] text-dark mb-4 ">
+                        OUR COMPLETED Smart Switch Service
+                    </h2>
                 </div>
             </div>
-            <!-- Purple Polygon Section -->
-            <div class="bg-yellow-500 text-white h-auto md:h-72 w-full md:w-4/12 flex items-center justify-center purple-polygon" style="padding: 20px; text-align: center;">
-                <p id="help" style="font-size: 24px;">How Can We <br> Help You <br> Today?</p>
-            </div>
         </div>
-    </section>
-
-
-    <!-- Popular Home Maintenance Services -->
-    <section class="mt-14">
-        <div class="max-w-sm p-6 bg-white rounded-lg dark:border-gray-700 text-center mx-auto">
-            <svg class="mx-auto mb-6" fill="#000000" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48px" height="48px" viewBox="0 0 495.398 495.398" xml:space="preserve">
-                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
-                <g id="SVGRepo_iconCarrier">
-                    <g>
-                        <g>
-                            <g>
-                                <path d="M487.083,225.514l-75.08-75.08V63.704c0-15.682-12.708-28.391-28.413-28.391c-15.669,0-28.377,12.709-28.377,28.391v29.941L299.31,37.74c-27.639-27.624-75.694-27.575-103.27,0.05L8.312,225.514c-11.082,11.104-11.082,29.071,0,40.158c11.087,11.101,29.089,11.101,40.172,0l187.71-187.729c6.115-6.083,16.893-6.083,22.976-0.018l187.742,187.747c5.567,5.551,12.825,8.312,20.081,8.312c7.271,0,14.541-2.764,20.091-8.312C498.17,254.586,498.17,236.619,487.083,225.514z"></path>
-                                <path d="M257.561,131.836c-5.454-5.451-14.285-5.451-19.723,0L72.712,296.913c-2.607,2.606-4.085,6.164-4.085,9.877v120.401c0,28.253,22.908,51.16,51.16,51.16h81.754v-126.61h92.299v126.61h81.755c28.251,0,51.159-22.907,51.159-51.159V306.79c0-3.713-1.465-7.271-4.085-9.877L257.561,131.836z"></path>
-                            </g>
-                        </g>
-                    </g>
-                </g>
-            </svg>
-            <a href="#">
-                <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">Popular Home Maintenance Services</h5>
-            </a>
-            <p class="mb-3 font-normal text-gray-500 dark:text-gray-400">Message us to diagnose & get an instant quote for all home maintenance & handyman tasks including aircon, plumbing, and electrical services.</p>
-        </div>
-
-        <div class="flex flex-wrap gap-6 justify-center mt-6">
-            <!-- card-1 -->
-            <div class="max-w-xs bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                <a href="#">
-                    <img class="rounded-t-lg" src="https://images.squarespace-cdn.com/content/v1/540e2e30e4b0a9fac1c138ac/1555607622300-I0MHNBHGZ7897IS5SIC8/IMG_4781.jpeg" alt="" style="border-top: 5px solid #f7a80c;" />
-                </a>
-                <div class="p-5">
-                    <a href="#">
-                        <h5 class="mb-2 text-xl text-center font-medium tracking-tight text-gray-900 dark:text-white">PLUMBER SERVICES</h5>
+        <div class="py-4 px-2 mx-auto max-w-screen-xl sm:py-4 lg:px-6">
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-4 h-full">
+                <div class="col-span-2 sm:col-span-1 md:col-span-2 bg-gray-50 h-auto md:h-full flex flex-col">
+                    <a href="" class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40 flex-grow">
+                        <img src="https://enerjsmart.co.uk/cdn/shop/products/MainImage_5baad354-4412-45fe-b2ec-91eb0825b57b.jpg?v=1673333256" alt="" class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
+                        <div class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
+                    </a>
+                </div>
+                <div class="col-span-2 sm:col-span-1 md:col-span-2 bg-stone-50">
+                    <a href="" class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40 mb-4">
+                        <img src="https://img.etimg.com/thumb/width-1200,height-900,imgsize-14458,resizemode-75,msid-109508082/top-trending-products/home-improvement/smart-switches-under-2000-for-modern-convenience-upgrade-your-home.jpg" alt="" class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
+                        <div class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
+                    </a>
+                    <div class="grid gap-4 grid-cols-2 sm:grid-cols-2 lg:grid-cols-2">
+                        <a href="" class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa7rjGM85kPrBuQmCJYFFRcXwh7KkD4WHCCw&s" alt="" class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
+                            <div class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
+                        </a>
+                        <a href="" class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlHWIifrHYzeTVQsBfM18vro1bzPO4Ube5Nw&s" alt="" class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
+                            <div class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-span-2 sm:col-span-1 md:col-span-1 bg-sky-50 h-auto md:h-full flex flex-col">
+                    <a href="" class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40 flex-grow">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTsDepXDXU1dNOlKqe8vv5zarOkMB6CU5k5Q&s" alt="" class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
+                        <div class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
                     </a>
                 </div>
             </div>
-            <!-- card-1 -->
-            <!-- card-2 -->
-            <div class="max-w-xs bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                <a href="#">
-                    <img class="rounded-t-lg" src="https://www.ambroseair.com/wp-content/uploads/2022/07/what-does-an-air-conditioning-service-consist-of-1080x675-1.jpg" alt="" style="border-top: 5px solid #f7a80c;" />
-                </a>
-                <div class="p-5">
-                    <a href="#">
-                        <h5 class="mb-2 text-xl text-center font-medium tracking-tight text-gray-900 dark:text-white">AIRCON SERVICES</h5>
-                    </a>
-                </div>
-            </div>
-            <!-- card-2 -->
-            <!-- card-3 -->
-            <div class="max-w-xs bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                <a href="#">
-                    <img class="rounded-t-lg" src="https://www.mrhandyman.com/us/en-us/mr-handyman/_assets/expert-tips/images/Local-blogs-images/mrh-blog-top-15-reasons-to-have-a-handyman-service-on-you2.webp" alt="" style="border-top: 5px solid #f7a80c;" />
-                </a>
-                <div class="p-5">
-                    <a href="#">
-                        <h5 class="mb-2 text-xl text-center font-medium tracking-tight text-gray-900 dark:text-white">HANDYMAN SERVICES</h5>
-                    </a>
-                </div>
-            </div>
-            <!-- card-3 -->
         </div>
     </section>
-
-    <!-- Popular Home Maintenance Services -->
-
-
-    <!-- All House Work's Happiness, Guaranteed -->
-    <div class="flex" style="margin-left: 13%;width: 77%;">
-        <section class="mt-32">
-            <a href="#" class="flex flex-col items-center bg-white  md:flex-row hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <img class="object-cover w-425 h-350 md:h-96 md:w-425 md:rounded-none md:rounded-s-lg" src="https://storage.googleapis.com/carousell-wordpress-files/1/2022/10/sg_homeservice-autos_blogcover5.jpg" alt="">
-                <div class="flex flex-col justify-between p-4 leading-normal">
-                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                        All House Works Happiness, Guaranteed
-                        <span style="display: block;width: 114px;height: 3px;background-color: black;margin-top: 10px;"></span>
-                        <span style="display: block;width: 49%;height: 2px;background-image: linear-gradient(to right, black 60%, #f7a80c 40%);">
-                        </span>
-                    </h5>
-                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Your happiness is our goal. If you’re not happy, we’ll work to make it right. Our friendly customer service agents are available, 7 days a week. The All House Work's Happiness Guarantee only applies when you book and pay for a service directly through the All House Work's platform.</p>
-                    <button style="background-color: #dd9933;width: 99px;height: 32px;font-family: math;">Learn More</button>
-                </div>
-            </a>
-        </section>
-    </div>
-    <!-- All House Work's Happiness, Guaranteed -->
+    <!-- PLUMBING WORKS -->
 
 
-    <section class="mt-10 mb-10">
-        <div class="p-4" id="timeline">
-            <h2 class="text-3xl text-black font-bold mb-10 text-center">All House Work's For Businesses</h2>
-            <p class="text-lg mb-10 text-black text-center">EveryWeworks provides easy access to quality home services at <br>affordable prices. This allows businesses to value-add their services for their customers.</p>
-            <div class="flex flex-col grid-cols-9 p-2 mx-auto md:grid">
-                <div class="flex md:contents flex-row-reverse">
-                    <div class="relative p-4 my-6 text-gray-800 bg-white rounded-xl col-start-1 col-end-5 mr-auto md:mr-0 md:ml-auto" id="timebor">
-                        <svg fill="#000000" class="ml-16 mb-2" height="45px" width="45px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 485.017 485.017" xml:space="preserve">
-                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
-                            <g id="SVGRepo_iconCarrier">
-                                <g>
-                                    <path d="M361.205,68.899c-14.663,0-28.447,5.71-38.816,16.078c-21.402,21.403-21.402,56.228,0,77.631 c10.368,10.368,24.153,16.078,38.815,16.078s28.447-5.71,38.816-16.078c21.402-21.403,21.402-56.228,0-77.631 C389.652,74.609,375.867,68.899,361.205,68.899z M378.807,141.394c-4.702,4.702-10.953,7.292-17.603,7.292 s-12.901-2.59-17.603-7.291c-9.706-9.706-9.706-25.499,0-35.205c4.702-4.702,10.953-7.291,17.603-7.291s12.9,2.589,17.603,7.291 C388.513,115.896,388.513,131.688,378.807,141.394z"></path>
-                                    <path d="M441.961,43.036C414.21,15.284,377.311,0,338.064,0c-39.248,0-76.146,15.284-103.897,43.036 c-42.226,42.226-54.491,105.179-32.065,159.698L0.254,404.584l-0.165,80.268l144.562,0.165v-55.722h55.705l0-55.705h55.705v-64.492 l26.212-26.212c17.615,7.203,36.698,10.976,55.799,10.976c39.244,0,76.14-15.282,103.889-43.032 C499.25,193.541,499.25,100.325,441.961,43.036z M420.748,229.617c-22.083,22.083-51.445,34.245-82.676,34.245 c-18.133,0-36.237-4.265-52.353-12.333l-9.672-4.842l-49.986,49.985v46.918h-55.705l0,55.705h-55.705v55.688l-84.5-0.096 l0.078-37.85L238.311,208.95l-4.842-9.672c-22.572-45.087-13.767-99.351,21.911-135.029C277.466,42.163,306.83,30,338.064,30 c31.234,0,60.598,12.163,82.684,34.249C466.34,109.841,466.34,184.025,420.748,229.617z"></path>
-                                </g>
-                            </g>
+    <!-- PLUMBING RepairATION -->
+    <!-- component -->
+    <section class="text-gray-400 bg-gray-800 body-font mt-10">
+        <div class="container px-5 py-24 mx-auto">
+            <h1 class="sm:text-3xl text-2xl font-medium title-font text-center text-white mb-20">
+                THE MOST TRUSTED SERVICE
+                <br class="hidden sm:block">PROVIDER FOR PLUMBING SERVICES
+            </h1>
+            <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
+                <div class="p-4 md:w-1/2 flex">
+                    <div class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-gray-800 text-indigo-400 mb-4 flex-shrink-0">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                            <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
                         </svg>
-                        <h3 class="text-lg font-semibold lg:text-xl">Landlords & Tenants</h3>
                     </div>
-                    <div class="relative col-start-5 col-end-6 mr-7 md:mx-auto">
-                        <div class="flex items-center justify-center w-6 h-full">
-                            <div class="w-1 h-full bg-indigo-300 rounded-t-full bg-gradient-to-b from-indigo-400 to-indigo-300">
-                            </div>
-                        </div>
-                        <div class="absolute w-6 h-6 -mt-3 bg-white border-4 border-indigo-400 rounded-full top-1/2"></div>
+                    <div class="flex-grow pl-6">
+                        <h2 class="text-white text-lg title-font font-medium mb-2">EXPERIENCED</h2>
+                        <p class="leading-relaxed text-base">AllHouseWorks has helped connect thousands of happy customers to home service professionals. When troubleshooting your home repair or maintenance issues, both our customer service agents and technicians are knowledgeable in answering your queries. Feel free to message us about the products or services you are looking for, and we will respond to you promptly.</p>
                     </div>
                 </div>
-
-                <div class="flex md:contents">
-                    <div class="relative col-start-5 col-end-6 mr-7 md:mx-auto">
-                        <div class="flex items-center justify-center w-6 h-full">
-                            <div class="w-1 h-full bg-indigo-300"></div>
-                        </div>
-                        <div class="absolute w-6 h-6 -mt-3 bg-white border-4 border-indigo-400 rounded-full top-1/2"></div>
-                    </div>
-                    <div class="relative p-4 my-6 text-gray-800 bg-white rounded-xl col-start-6 col-end-10 mr-auto" id="timebor">
-                        <svg class="ml-16 mb-2" height="45px" width="45px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
-                            <g id="SVGRepo_iconCarrier">
-                                <path d="M15.5777 3.38197L17.5777 4.43152C19.7294 5.56066 20.8052 6.12523 21.4026 7.13974C22 8.15425 22 9.41667 22 11.9415V12.0585C22 14.5833 22 15.8458 21.4026 16.8603C20.8052 17.8748 19.7294 18.4393 17.5777 19.5685L15.5777 20.618C13.8221 21.5393 12.9443 22 12 22C11.0557 22 10.1779 21.5393 8.42229 20.618L6.42229 19.5685C4.27063 18.4393 3.19479 17.8748 2.5974 16.8603C2 15.8458 2 14.5833 2 12.0585V11.9415C2 9.41667 2 8.15425 2.5974 7.13974C3.19479 6.12523 4.27063 5.56066 6.42229 4.43152L8.42229 3.38197C10.1779 2.46066 11.0557 2 12 2C12.9443 2 13.8221 2.46066 15.5777 3.38197Z" stroke="#1C274C" stroke-width="1.5" stroke-linecap="round"></path>
-                                <path d="M21 7.5L17 9.5M12 12L3 7.5M12 12V21.5M12 12C12 12 14.7426 10.6287 16.5 9.75C16.6953 9.65237 17 9.5 17 9.5M17 9.5V13M17 9.5L7.5 4.5" stroke="#1C274C" stroke-width="1.5" stroke-linecap="round"></path>
-                            </g>
+                <div class="p-4 md:w-1/2 flex">
+                    <div class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-gray-800 text-indigo-400 mb-4 flex-shrink-0">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                            <circle cx="6" cy="6" r="3"></circle>
+                            <circle cx="6" cy="18" r="3"></circle>
+                            <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
                         </svg>
-                        <h3 class="text-lg font-semibold lg:text-xl">Interior Designers</h3>
+                    </div>
+                    <div class="flex-grow pl-6">
+                        <h2 class="text-white text-lg title-font font-medium mb-2">HONEST & TRANSPARENT PRICES</h2>
+                        <p class="leading-relaxed text-base">We are transparent about our prices and will only carry out the works upon your approval of the final quotation. Be assured that we will only recommend services or products you would need, and nothing more than that!</p>
                     </div>
                 </div>
-
-                <div class="flex md:contents flex-row-reverse">
-                    <div class="relative p-4 my-6 text-gray-800 bg-white rounded-xl col-start-1 col-end-5 mr-auto md:mr-0 md:ml-auto" id="timebor">
-                        <svg fill="#000000" class="ml-16 mb-2" height="45px" width="45px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg">
-                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
-                            <g id="SVGRepo_iconCarrier">
-                                <title>stack2</title>
-                                <path d="M28.608 11.246l-12.608-8.632-12.608 8.632 12.608 8.631 12.608-8.631zM16 21.803l-11.129-7.338-1.479 1.535 12.608 8.631 12.608-8.631-1.499-1.568-11.109 7.371zM16 26.559l-11.129-7.338-1.479 1.535 12.608 8.631 12.608-8.631-1.499-1.568-11.109 7.371z"></path>
-                            </g>
+                <div class="p-4 md:w-1/2 flex">
+                    <div class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-gray-800 text-indigo-400 mb-4 flex-shrink-0">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                            <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                            <circle cx="12" cy="7" r="4"></circle>
                         </svg>
-                        <h3 class="text-lg font-semibold lg:text-xl">Service Partners</h3>
                     </div>
-                    <div class="relative col-start-5 col-end-6 mr-7 md:mx-auto">
-                        <div class="flex items-center justify-center w-6 h-full">
-                            <div class="w-1 h-full bg-indigo-300 rounded-t-full bg-gradient-to-b from-indigo-400 to-indigo-300">
-                            </div>
-                        </div>
-                        <div class="absolute w-6 h-6 -mt-3 bg-white border-4 border-indigo-400 rounded-full top-1/2"></div>
+                    <div class="flex-grow pl-6">
+                        <h2 class="text-white text-lg title-font font-medium mb-2">FLEXIBILITY</h2>
+                        <p class="leading-relaxed text-base">Booking just one or multiple home services is easy on the AllHouseWorks platform. Our professional service providers will be arranged to fit a date and time that is convenient for you.</p>
                     </div>
                 </div>
-
-                <div class="flex md:contents">
-                    <div class="relative col-start-5 col-end-6 mr-7 md:mx-auto">
-                        <div class="flex items-center justify-center w-6 h-full">
-                            <div class="w-1 h-full bg-indigo-300"></div>
-                        </div>
-                        <div class="absolute w-6 h-6 -mt-3 bg-white border-4 border-indigo-400 rounded-full top-1/2"></div>
-                    </div>
-                    <div class="relative p-4 my-6 text-gray-800 bg-white rounded-xl col-start-6 col-end-10 mr-auto" id="timebor">
-                        <svg fill="#000000" class="ml-16 mb-2" height="45px" width="45px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg">
-                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
-                            <g id="SVGRepo_iconCarrier">
-                                <title>barcode1</title>
-                                <path d="M23.807 19.398h-1.758v0.586h1.758v-0.586zM17.248 21.156v0.586h1.758v0.586h0.586v-2.344h-0.586v1.172h-1.758zM17.248 23.5h1.172v-0.586h-1.172v0.586zM18.42 22.914h0.586v-0.586h-0.586v0.586zM17.248 19.984h-0.586v1.172h0.586v-1.172zM14 8h-2v10h2v-10zM16 8h-1v10h1v-10zM22.049 23.5h1.758v-0.586h-1.758v0.586zM19.006 19.398h-1.758v0.586h1.758v-0.586zM24.393 22.914v-2.93h-0.586v2.93h0.586zM25 8h-1v10h1v-10zM12.448 22.328h-0.586v0.586h0.586v-0.586zM20 8h-2v10h2v-10zM22 8h-1v10h1v-10zM21.463 22.914h0.586v-2.93h-0.586v2.93zM7.062 23.5h2.93v-0.586h-2.344v-0.586h-0.586v1.172zM7.062 20.57h0.586v-0.586h-0.586v0.586zM8.234 21.742h1.172v-0.586h-1.172v0.586zM13.034 21.156v0.586h1.172v-0.586h-1.172zM7.648 19.398v0.586h1.758v-0.586h-1.758zM8 8h-1v10h1v-10zM30 4h-28c-1.104 0-2 0.896-2 2v20c0 1.104 0.896 2 2 2h28c1.104 0 2-0.896 2-2v-20c0-1.104-0.896-2-2-2zM30 26h-28v-20h28v20zM6 8h-2v16h2v-16zM7.648 22.328h0.586v-0.586h-0.586v0.586zM14.792 19.984h-0.586v1.172h0.586v-1.172zM12.448 19.398v0.586h1.758v-0.586h-1.758zM9.992 21.156v-1.172h-0.586v1.172h0.586zM11.862 20.57h0.586v-0.586h-0.586v0.586zM11 8h-1v10h1v-10zM14.792 21.742h-0.586v1.172h0.586v-1.172zM14.206 23.5v-0.586h-1.758v0.586h1.758zM28 8h-2v16h2v-16z"></path>
-                            </g>
+                <div class="p-4 md:w-1/2 flex">
+                    <div class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-gray-800 text-indigo-400 mb-4 flex-shrink-0">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                            <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                            <circle cx="12" cy="7" r="4"></circle>
                         </svg>
-                        <h3 class="text-lg font-semibold lg:text-xl">Commercial Clients</h3>
+                    </div>
+                    <div class="flex-grow pl-6">
+                        <h2 class="text-white text-lg title-font font-medium mb-2">RELIABILITY</h2>
+                        <p class="leading-relaxed text-base">AllHouseWorks is home to a curated list of certified and reliable professionals from reputable home repair companies in Singapore. We also co-operate with accredited and legitimate partners to value-add their services to give you a holistic solution to your home services needs.</p>
                     </div>
                 </div>
-
             </div>
         </div>
     </section>
+    <!-- PLUMBING RepairATION -->
 
-    <section>
-        <!-- <div class="mt-20 relative" style="margin-left: 36%;height: 73px;width: 438px;padding: 18px;border-right: 3px solid #810CA8;border-left: 3px solid #810CA8;">
-            <h1 class="text-center" style="font-size: 36px;">OUR WORKS</h1>
-            <div class="absolute top-0 left-0 right-0 " style="background-color: #810CA8;height: 2px;"></div>
-            <div class="absolute bottom-12 left-1/2 transform -translate-x-1/2 px-2 " style="background-color: #fff;">
-                <span>
-                    <svg width="64px" height="64px" viewBox="0 0 1024 1024" class="icon" version="1.1" xmlns="http://www.w3.org/2000/svg" fill="#000000">
-                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
-                        <g id="SVGRepo_iconCarrier">
-                            <path d="M512 512m-10 0a10 10 0 1 0 20 0 10 10 0 1 0-20 0Z" fill="#E73B37"></path>
-                            <path d="M512 306.8c27.7 0 54.6 5.4 79.8 16.1 24.4 10.3 46.4 25.1 65.2 44s33.6 40.8 44 65.2c10.7 25.3 16.1 52.1 16.1 79.8 0 27.7-5.4 54.6-16.1 79.8-10.3 24.4-25.1 46.4-44 65.2-18.8 18.8-40.8 33.6-65.2 44-25.3 10.7-52.1 16.1-79.8 16.1-27.7 0-54.6-5.4-79.8-16.1-24.4-10.3-46.4-25.1-65.2-44-18.8-18.8-33.6-40.8-44-65.2-10.7-25.3-16.1-52.1-16.1-79.8 0-27.7 5.4-54.6 16.1-79.8 10.3-24.4 25.1-46.4 44-65.2s40.8-33.6 65.2-44c25.2-10.6 52.1-16.1 79.8-16.1m0-22c-125.4 0-227.1 101.7-227.1 227.1S386.6 739.1 512 739.1c125.4 0 227.1-101.7 227.1-227.1S637.4 284.8 512 284.8z" fill="#39393A"></path>
-                            <path d="M512 618.7c-58.9 0-106.8-47.9-106.8-106.8S453.1 405.1 512 405.1 618.8 453 618.8 511.9 570.9 618.7 512 618.7z m0-193.5c-47.9 0-86.8 38.9-86.8 86.8s38.9 86.8 86.8 86.8 86.8-38.9 86.8-86.8-38.9-86.8-86.8-86.8z" fill="#E73B37"></path>
-                            <path d="M544.2 107.3l34.1 92.3 7.4 19.9 20.2 6.6c10.3 3.4 32.1 12.9 43.4 18.1l18.7 8.6 18.6-8.9 87.9-41.8 46.4 46.5-41.2 89.4-8.9 19.3 9.6 19c6.8 13.4 12.6 27.5 17.4 41.9l6.7 20.5 20.3 7.2 91.7 32.6v65.7l-92.3 34.1-19.9 7.4-6.6 20.2c-4.7 14.4-10.6 28.4-17.4 41.9l-9.8 19.3 9.3 19.5 41.8 87.9-46.5 46.5-89.1-41.3-19.3-8.9-19 9.6c-13.4 6.8-27.5 12.6-41.9 17.4l-20.5 6.7-7.2 20.3-32.6 91.7h-65.7l-34.1-92.3-7.4-19.9-20.2-6.6c-10.3-3.4-32.1-12.9-43.4-18.1L356 771l-18.6 8.9-87.9 41.8-46.4-46.5 41.2-89.3 8.9-19.3-9.6-19c-6.8-13.4-12.6-27.5-17.4-41.9l-6.7-20.5-20.3-7.2-91.7-32.6v-65.7l92.3-34.1 19.9-7.4 6.6-20.2c3.4-10.3 12.9-32.1 18.1-43.4l8.6-18.7-8.9-18.6-41.8-87.9 46.4-46.4 89.3 41.2 19.3 8.9 19-9.6c13.4-6.8 27.5-12.6 41.9-17.4l20.5-6.7 7.2-20.3 32.6-91.7h65.7m30.7-44.1H447.4l-43 121c-16.6 5.5-32.7 12.1-48.1 19.9l-117.2-54-90.1 90.1 55.2 116s-14.5 31.4-19.9 48.1l-121 44.7v127.4l121 43c5.5 16.6 12.1 32.6 19.9 48l-54 117.2 90.1 90.1 116-55.2s31.4 14.5 48.1 19.9l44.7 121h127.4l43-121c16.6-5.5 32.6-12.1 48-19.9l117.2 54 90.1-90.1-55.2-116c7.8-15.4 14.5-31.4 19.9-48l121-44.7V447.4l-121-43c-5.5-16.6-12.1-32.6-19.9-48l54-117.2-90.1-90.1-115.9 55.2s-31.5-14.5-48.1-19.9L574.9 63.3z" fill="#39393A"></path>
-                        </g>
+
+    <!-- FAQ -->
+    <div class="py-24 px-8 max-w-5xl mx-auto flex flex-col md:flex-row gap-12 mt-10">
+        <div class="flex flex-col text-left basis-1/2">
+            <p class="inline-block font-semibold text-primary mb-4">Insurance FAQ</p>
+            <p class="sm:text-4xl text-3xl font-extrabold text-base-content">Frequently Asked Questions</p>
+        </div>
+        <ul class="basis-1/2">
+            <li>
+                <button class="relative flex gap-2 items-center w-full py-5 text-base font-semibold text-left border-t md:text-lg border-base-content/10" aria-expanded="false" onclick="toggleFAQ(this)">
+                    <span class="flex-1 text-base-content">What to Know Before Engaging an Plumbing Service Company</span>
+                    <svg class="flex-shrink-0 w-4 h-4 ml-auto fill-current" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                        <rect y="7" width="16" height="2" rx="1" class="transform origin-center transition duration-200 ease-out false"></rect>
+                        <rect y="7" width="16" height="2" rx="1" class="transform origin-center rotate-90 transition duration-200 ease-out false"></rect>
                     </svg>
-                </span>
-            </div>
-            <div class="absolute bottom-0 left-0 right-0 " style="background-color: #810CA8;height: 2px;"></div>
-        </div> -->
+                </button>
+                <div class="transition-all duration-300 ease-in-out max-h-0 overflow-hidden" style="transition: max-height 0.3s ease-in-out 0s;">
+                    <div class="pb-5 leading-relaxed">
+                        <div class="space-y-2 leading-relaxed">Whether it comes to broken pipes, leaky faucets, or clogged drains, it is best to call up a professional Singapore Smart Switch Service who has the license, skills, tools and expertise to deal with the task. Here are some things to consider before looking to engage a Smart Switch Service.
+                            License / Accreditations
+                            A PUB license is important for big plumbing projects, especially for HDB or commerciarenovations that require hacking into the plumbing systems. However, most Smart Switch Services should bBCA-licensed for common domestic plumbing works like solving water leaks and water pipe works.
+                            Experience
+                            Looking for an experienced Smart Switch Service is key if you do not want the plumbing issue they are fixinto come back again. A Smart Switch Service who is confident in their skills is equivalent to how many yearthey have been working in the industry.
+                            Look at Their Plumbing Services Reviews
+                            If the company has been in business for at least 5 years and consistently receives gooreviews, you can expect quality work.
+                            Warranty
+                            Look at Singapore Smart Switch Service services that offers plumbing works with workmanship or servicwarranty, and check if the warranty is extended to the plumbing products as well.
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <button class="relative flex gap-2 items-center w-full py-5 text-base font-semibold text-left border-t md:text-lg border-base-content/10" aria-expanded="false" onclick="toggleFAQ(this)">
+                    <span class="flex-1 text-base-content">Ways to Save Money On Plumbing</span>
+                    <svg class="flex-shrink-0 w-4 h-4 ml-auto fill-current" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                        <rect y="7" width="16" height="2" rx="1" class="transform origin-center transition duration-200 ease-out false"></rect>
+                        <rect y="7" width="16" height="2" rx="1" class="transform origin-center rotate-90 transition duration-200 ease-out false"></rect>
+                    </svg>
+                </button>
+                <div class="transition-all duration-300 ease-in-out max-h-0 overflow-hidden" style="transition: max-height 0.3s ease-in-out 0s;">
+                    <div class="pb-5 leading-relaxed">
+                        <div class="space-y-2 leading-relaxed">Plumbing emergencies do happen, and calling a Smart Switch Service will be necessary. But you can certainly save money on plumbing works by preventing them from disrepair in the first place. Just follow these easy steps:
 
-        <div style="display: flex; justify-content: center;">
-            <p style="width: 510px;height: 120px;text-align: center;font-size: 17px;line-height: 24px;font-family: system-ui;font-weight: 600;margin-top: 3%;color: #777;line-height: 25px;">
-                We have served thousands of clients island-wide. Here are some of our trusted commercial customers.
-            </p>
-        </div>
-        <div id="header_slider" class="relative w-10/12 h-96 overflow-hidden mx-auto mt-10">
-            <div id="slide_item" class="absolute px-10 pb-10 inset-0 bg-pink-500 flex items-end justify-center transition-all ease-in-out duration-1000 transform translate-x-0 slide">
-                <p class="bg-gray-900 px-7 py-3 text-white font-bold uppercase rounded-md opacity-80">Plumbing is the system for water distribution and waste removal in buildings.</p>
+                            Prevention and maintenance
+                            Prevent a small sign of plumbing issue from getting bigger, such as a leaky faucet or build-up of blockage in your drains.
+
+                            Replace rather than Repair
+                            If regular repairs become a routine in your home, consider replacing the parts that need replacement. A product replacement tends to be cheaper in the long run than constant repairs.
+
+                            Compare prices
+                            Plumbing is a competitive business, and many different companies offer different plumbing services at differing prices. Make sure you do your own research in order to compare prices and find the right Smart Switch Service who can do the job well for you.</div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <button class="relative flex gap-2 items-center w-full py-5 text-base font-semibold text-left border-t md:text-lg border-base-content/10" aria-expanded="false" onclick="toggleFAQ(this)">
+                    <span class="flex-1 text-base-content">How Much Are Plumbing Services</span>
+                    <svg class="flex-shrink-0 w-4 h-4 ml-auto fill-current" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                        <rect y="7" width="16" height="2" rx="1" class="transform origin-center transition duration-200 ease-out false"></rect>
+                        <rect y="7" width="16" height="2" rx="1" class="transform origin-center rotate-90 transition duration-200 ease-out false"></rect>
+                    </svg>
+                </button>
+                <div class="transition-all duration-300 ease-in-out max-h-0 overflow-hidden" style="transition: max-height 0.3s ease-in-out 0s;">
+                    <div class="pb-5 leading-relaxed">
+                        <div class="space-y-2 leading-relaxed">Plumbing Services start from $90 per job. See here for full list of our plumbing services prices.
+
+                            Our Plumbing Services include:
+
+                            Plumbing Chokes Services
+                            Plumbing Repairation Services
+                            Plumbing Leaks Services
+                            Water Heater Services
+                            Toilet Bowl Services
+                            Toilet Flush System Services
+                            Shower Services</div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <!-- FAQ -->
+
+    <!-- Revew -->
+    <section id="testimonies" class="py-20 bg-gray-900">
+        <div class="max-w-6xl mx-8 md:mx-10 lg:mx-20 xl:mx-auto">
+            <div class="transition duration-500 ease-in-out transform scale-100 translate-x-0 translate-y-0 opacity-100">
+                <div class="mb-12 space-y-5 md:mb-16 md:text-center">
+                    <h1 class="mb-5 text-3xl font-semibold text-white md:text-center md:text-5xl">
+                        CUSTOMER REVIEWS absolute
+                    </h1>
+                    <p class="text-xl text-gray-100 md:text-center md:text-2xl">
+                        OUR PLUMBING SERVICES
+                    </p>
+                </div>
             </div>
-            <div id="slide_item" class="absolute px-10 pb-10 inset-0 bg-purple-500 flex items-end justify-center transition-all ease-in-out duration-1000 transform translate-x-full slide">
-                <p class="bg-gray-900 px-7 py-3 text-white font-bold uppercase rounded-md opacity-80">Aircon service is the maintenance and repair of air conditioning units.</p>
-            </div>
-            <div id="slide_item" class="absolute px-10 pb-10 inset-0 bg-blue-500 flex items-end justify-center transition-all ease-in-out duration-1000 transform translate-x-full slide">
-                <p class="bg-gray-900 px-7 py-3 text-white font-bold uppercase rounded-md opacity-80">Aircon service is the maintenance and repair of air conditioning units.</p>
-            </div>
-            <div class="absolute z-10 ml-16 bg-gray-200 w-16 h-16 flex items-center justify-center text-black cursor-pointer" onclick="nextSlide()">
-                &#x276F;
-            </div>
-            <div class="absolute z-10 bg-gray-200 w-16 h-16 mr-16 border-r border-gray-400 flex items-center justify-center text-black cursor-pointer" onclick="previousSlide()">
-                &#x276E;
+
+
+            <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 lg:gap-8">
+
+
+                <ul class="space-y-8">
+                    <li class="text-sm leading-6">
+                        <div class="relative group">
+                            <div class="absolute transition rounded-lg opacity-25 -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 blur duration-400 group-hover:opacity-100 group-hover:duration-200">
+                            </div><a href="https://twitter.com/kanyewest" class="cursor-pointer">
+                                <div class="relative p-6 space-y-6 leading-none rounded-lg bg-slate-800 ring-1 ring-gray-900/5">
+                                    <div class="flex items-center space-x-4"><img src="https://pbs.twimg.com/profile_images/1276461929934942210/cqNhNk6v_400x400.jpg" class="w-12 h-12 bg-center bg-cover border rounded-full" alt="Kanye West">
+                                        <div>
+                                            <h3 class="text-lg font-semibold text-white">Kanye West</h3>
+                                            <p class="text-gray-500 text-md">Rapper &amp; Entrepreneur</p>
+                                        </div>
+                                    </div>
+                                    <p class="leading-normal text-gray-300 text-md">Find God.</p>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="text-sm leading-6">
+                        <div class="relative group">
+                            <div class="absolute transition rounded-lg opacity-25 -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 blur duration-400 group-hover:opacity-100 group-hover:duration-200">
+                            </div><a href="https://twitter.com/tim_cook" class="cursor-pointer">
+                                <div class="relative p-6 space-y-6 leading-none rounded-lg bg-slate-800 ring-1 ring-gray-900/5">
+                                    <div class="flex items-center space-x-4"><img src="https://pbs.twimg.com/profile_images/1535420431766671360/Pwq-1eJc_400x400.jpg" class="w-12 h-12 bg-center bg-cover border rounded-full" alt="Tim Cook">
+                                        <div>
+                                            <h3 class="text-lg font-semibold text-white">Tim Cook</h3>
+                                            <p class="text-gray-500 text-md">CEO of Apple</p>
+                                        </div>
+                                    </div>
+                                    <p class="leading-normal text-gray-300 text-md">Diam quis enim lobortis scelerisque
+                                        fermentum dui faucibus in ornare. Donec pretium vulputate sapien nec sagittis
+                                        aliquam malesuada bibendum.</p>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="text-sm leading-6">
+                        <div class="relative group">
+                            <div class="absolute transition rounded-lg opacity-25 -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 blur duration-400 group-hover:opacity-100 group-hover:duration-200">
+                            </div><a href="https://twitter.com/kanyewest" class="cursor-pointer">
+                                <div class="relative p-6 space-y-6 leading-none rounded-lg bg-slate-800 ring-1 ring-gray-900/5">
+                                    <div class="flex items-center space-x-4"><img src="https://pbs.twimg.com/profile_images/1276461929934942210/cqNhNk6v_400x400.jpg" class="w-12 h-12 bg-center bg-cover border rounded-full" alt="Kanye West">
+                                        <div>
+                                            <h3 class="text-lg font-semibold text-white">Kanye West</h3>
+                                            <p class="text-gray-500 text-md">Rapper &amp; Entrepreneur</p>
+                                        </div>
+                                    </div>
+                                    <p class="leading-normal text-gray-300 text-md">Find God.</p>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="text-sm leading-6">
+                        <div class="relative group">
+                            <div class="absolute transition rounded-lg opacity-25 -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 blur duration-400 group-hover:opacity-100 group-hover:duration-200">
+                            </div><a href="https://twitter.com/tim_cook" class="cursor-pointer">
+                                <div class="relative p-6 space-y-6 leading-none rounded-lg bg-slate-800 ring-1 ring-gray-900/5">
+                                    <div class="flex items-center space-x-4"><img src="https://pbs.twimg.com/profile_images/1535420431766671360/Pwq-1eJc_400x400.jpg" class="w-12 h-12 bg-center bg-cover border rounded-full" alt="Tim Cook">
+                                        <div>
+                                            <h3 class="text-lg font-semibold text-white">Tim Cook</h3>
+                                            <p class="text-gray-500 text-md">CEO of Apple</p>
+                                        </div>
+                                    </div>
+                                    <p class="leading-normal text-gray-300 text-md">Diam quis enim lobortis scelerisque
+                                        fermentum dui faucibus in ornare. Donec pretium vulputate sapien nec sagittis
+                                        aliquam malesuada bibendum.</p>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+
+
+                <ul class="hidden space-y-8 sm:block">
+                    <li class="text-sm leading-6">
+                        <div class="relative group">
+                            <div class="absolute transition rounded-lg opacity-25 -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 blur duration-400 group-hover:opacity-100 group-hover:duration-200">
+                            </div><a href="https://twitter.com/paraga" class="cursor-pointer">
+                                <div class="relative p-6 space-y-6 leading-none rounded-lg bg-slate-800 ring-1 ring-gray-900/5">
+                                    <div class="flex items-center space-x-4"><img src="https://pbs.twimg.com/profile_images/1375285353146327052/y6jeByyD_400x400.jpg" class="w-12 h-12 bg-center bg-cover border rounded-full" alt="Parag Agrawal">
+                                        <div>
+                                            <h3 class="text-lg font-semibold text-white">Parag Agrawal</h3>
+                                            <p class="text-gray-500 text-md">CEO of Twitter</p>
+                                        </div>
+                                    </div>
+                                    <p class="leading-normal text-gray-300 text-md">Enim neque volutpat ac tincidunt vitae
+                                        semper. Mattis aliquam faucibus purus in massa tempor. Neque vitae tempus quam
+                                        pellentesque nec. Turpis cursus in hac habitasse platea dictumst.</p>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="text-sm leading-6">
+                        <div class="relative group">
+                            <div class="absolute transition rounded-lg opacity-25 -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 blur duration-400 group-hover:opacity-100 group-hover:duration-200">
+                            </div><a href="https://twitter.com/tim_cook" class="cursor-pointer">
+                                <div class="relative p-6 space-y-6 leading-none rounded-lg bg-slate-800 ring-1 ring-gray-900/5">
+                                    <div class="flex items-center space-x-4"><img src="https://pbs.twimg.com/profile_images/1535420431766671360/Pwq-1eJc_400x400.jpg" class="w-12 h-12 bg-center bg-cover border rounded-full" alt="Tim Cook">
+                                        <div>
+                                            <h3 class="text-lg font-semibold text-white">Tim Cook</h3>
+                                            <p class="text-gray-500 text-md">CEO of Apple</p>
+                                        </div>
+                                    </div>
+                                    <p class="leading-normal text-gray-300 text-md">Diam quis enim lobortis scelerisque
+                                        fermentum dui faucibus in ornare. Donec pretium vulputate sapien nec sagittis
+                                        aliquam malesuada bibendum.</p>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="text-sm leading-6">
+                        <div class="relative group">
+                            <div class="absolute transition rounded-lg opacity-25 -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 blur duration-400 group-hover:opacity-100 group-hover:duration-200">
+                            </div><a href="https://twitter.com/paraga" class="cursor-pointer">
+                                <div class="relative p-6 space-y-6 leading-none rounded-lg bg-slate-800 ring-1 ring-gray-900/5">
+                                    <div class="flex items-center space-x-4"><img src="https://pbs.twimg.com/profile_images/1375285353146327052/y6jeByyD_400x400.jpg" class="w-12 h-12 bg-center bg-cover border rounded-full" alt="Parag Agrawal">
+                                        <div>
+                                            <h3 class="text-lg font-semibold text-white">Parag Agrawal</h3>
+                                            <p class="text-gray-500 text-md">CEO of Twitter</p>
+                                        </div>
+                                    </div>
+                                    <p class="leading-normal text-gray-300 text-md">Enim neque volutpat ac tincidunt vitae
+                                        semper. Mattis aliquam faucibus purus in massa tempor. Neque vitae tempus quam
+                                        pellentesque nec. Turpis cursus in hac habitasse platea dictumst.</p>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="text-sm leading-6">
+                        <div class="relative group">
+                            <div class="absolute transition rounded-lg opacity-25 -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 blur duration-400 group-hover:opacity-100 group-hover:duration-200">
+                            </div><a href="https://twitter.com/tim_cook" class="cursor-pointer">
+                                <div class="relative p-6 space-y-6 leading-none rounded-lg bg-slate-800 ring-1 ring-gray-900/5">
+                                    <div class="flex items-center space-x-4"><img src="https://pbs.twimg.com/profile_images/1535420431766671360/Pwq-1eJc_400x400.jpg" class="w-12 h-12 bg-center bg-cover border rounded-full" alt="Tim Cook">
+                                        <div>
+                                            <h3 class="text-lg font-semibold text-white">Tim Cook</h3>
+                                            <p class="text-gray-500 text-md">CEO of Apple</p>
+                                        </div>
+                                    </div>
+                                    <p class="leading-normal text-gray-300 text-md">Diam quis enim lobortis scelerisque
+                                        fermentum dui faucibus in ornare. Donec pretium vulputate sapien nec sagittis
+                                        aliquam malesuada bibendum.</p>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+
+
+                <ul class="hidden space-y-8 lg:block">
+                    <li class="text-sm leading-6">
+                        <div class="relative group">
+                            <div class="absolute transition rounded-lg opacity-25 -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 blur duration-400 group-hover:opacity-100 group-hover:duration-200">
+                            </div><a href="https://twitter.com/satyanadella" class="cursor-pointer">
+                                <div class="relative p-6 space-y-6 leading-none rounded-lg bg-slate-800 ring-1 ring-gray-900/5">
+                                    <div class="flex items-center space-x-4"><img src="https://pbs.twimg.com/profile_images/1221837516816306177/_Ld4un5A_400x400.jpg" class="w-12 h-12 bg-center bg-cover border rounded-full" alt="Satya Nadella">
+                                        <div>
+                                            <h3 class="text-lg font-semibold text-white">Satya Nadella</h3>
+                                            <p class="text-gray-500 text-md">CEO of Microsoft</p>
+                                        </div>
+                                    </div>
+                                    <p class="leading-normal text-gray-300 text-md">Tortor dignissim convallis aenean et
+                                        tortor at. At ultrices mi tempus imperdiet nulla malesuada. Id cursus metus aliquam
+                                        eleifend mi. Quis ipsum suspendisse ultrices gravida dictum fusce ut.</p>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="text-sm leading-6">
+                        <div class="relative group">
+                            <div class="absolute transition rounded-lg opacity-25 -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 blur duration-400 group-hover:opacity-100 group-hover:duration-200">
+                            </div><a href="https://twitter.com/dan_schulman" class="cursor-pointer">
+                                <div class="relative p-6 space-y-6 leading-none rounded-lg bg-slate-800 ring-1 ring-gray-900/5">
+                                    <div class="flex items-center space-x-4"><img src="https://pbs.twimg.com/profile_images/516916920482672641/3jCeLgFb_400x400.jpeg" class="w-12 h-12 bg-center bg-cover border rounded-full" alt="Dan Schulman">
+                                        <div>
+                                            <h3 class="text-lg font-semibold text-white">Dan Schulman</h3>
+                                            <p class="text-gray-500 text-md">CEO of PayPal</p>
+                                        </div>
+                                    </div>
+                                    <p class="leading-normal text-gray-300 text-md">Quam pellentesque nec nam aliquam sem
+                                        et tortor consequat id. Enim sit amet venenatis urna cursus.</p>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="text-sm leading-6">
+                        <div class="relative group">
+                            <div class="absolute transition rounded-lg opacity-25 -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 blur duration-400 group-hover:opacity-100 group-hover:duration-200">
+                            </div><a href="https://twitter.com/satyanadella" class="cursor-pointer">
+                                <div class="relative p-6 space-y-6 leading-none rounded-lg bg-slate-800 ring-1 ring-gray-900/5">
+                                    <div class="flex items-center space-x-4"><img src="https://pbs.twimg.com/profile_images/1221837516816306177/_Ld4un5A_400x400.jpg" class="w-12 h-12 bg-center bg-cover border rounded-full" alt="Satya Nadella">
+                                        <div>
+                                            <h3 class="text-lg font-semibold text-white">Satya Nadella</h3>
+                                            <p class="text-gray-500 text-md">CEO of Microsoft</p>
+                                        </div>
+                                    </div>
+                                    <p class="leading-normal text-gray-300 text-md">Tortor dignissim convallis aenean et
+                                        tortor at. At ultrices mi tempus imperdiet nulla malesuada. Id cursus metus aliquam
+                                        eleifend mi. Quis ipsum suspendisse ultrices gravida dictum fusce ut.</p>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="text-sm leading-6">
+                        <div class="relative group">
+                            <div class="absolute transition rounded-lg opacity-25 -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 blur duration-400 group-hover:opacity-100 group-hover:duration-200">
+                            </div><a href="https://twitter.com/dan_schulman" class="cursor-pointer">
+                                <div class="relative p-6 space-y-6 leading-none rounded-lg bg-slate-800 ring-1 ring-gray-900/5">
+                                    <div class="flex items-center space-x-4"><img src="https://pbs.twimg.com/profile_images/516916920482672641/3jCeLgFb_400x400.jpeg" class="w-12 h-12 bg-center bg-cover border rounded-full" alt="Dan Schulman">
+                                        <div>
+                                            <h3 class="text-lg font-semibold text-white">Dan Schulman</h3>
+                                            <p class="text-gray-500 text-md">CEO of PayPal</p>
+                                        </div>
+                                    </div>
+                                    <p class="leading-normal text-gray-300 text-md">Quam pellentesque nec nam aliquam sem
+                                        et tortor consequat id. Enim sit amet venenatis urna cursus.</p>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
             </div>
         </div>
     </section>
-
-
-    <div class="parallax py-24 sm:py-32 mt-16 mb-16">
-        <div class="mx-auto max-w-7xl px-6 lg:px-8">
-            <div class="mx-auto grid max-w-2xl grid-cols-1 items-start gap-x-8 gap-y-16 sm:gap-y-24 lg:mx-0 lg:max-w-none lg:grid-cols-2">
-                <div class="lg:pr-4">
-                    <div class="relative overflow-hidden rounded-3xl bg-gray-900 px-6 pb-9 pt-64 shadow-2xl sm:px-12 lg:max-w-lg lg:px-8 lg:pb-8 xl:px-10 xl:pb-10">
-                        <img class="absolute inset-0 h-full w-full object-cover brightness-125 saturate-0" src="https://media.istockphoto.com/id/1458711335/photo/male-wood-furniture-joiner-work-in-diy-wooden-workshop-real-authentic-people-worker.webp?b=1&s=170667a&w=0&k=20&c=MYhOSwYt7QwT4c8gBp3lCZZMje4r3QydPKFx4zBN2mI=" alt="">
-                        <div class="absolute inset-0 bg-gray-900 mix-blend-multiply"></div>
-                        <div class="absolute left-1/2 top-1/2 -ml-16 -translate-x-1/2 -translate-y-1/2 transform-gpu blur-3xl" aria-hidden="true">
-                            <div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[#ff4694] to-[#776fff] opacity-40" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
-                        </div>
-                        <figure class="relative isolate">
-                            <svg viewBox="0 0 162 128" fill="none" aria-hidden="true" class="absolute -left-2 -top-4 -z-10 h-32 stroke-white/20">
-                                <path id="0ef284b8-28c2-426e-9442-8655d393522e" d="M65.5697 118.507L65.8918 118.89C68.9503 116.314 71.367 113.253 73.1386 109.71C74.9162 106.155 75.8027 102.28 75.8027 98.0919C75.8027 94.237 75.16 90.6155 73.8708 87.2314C72.5851 83.8565 70.8137 80.9533 68.553 78.5292C66.4529 76.1079 63.9476 74.2482 61.0407 72.9536C58.2795 71.4949 55.276 70.767 52.0386 70.767C48.9935 70.767 46.4686 71.1668 44.4872 71.9924L44.4799 71.9955L44.4726 71.9988C42.7101 72.7999 41.1035 73.6831 39.6544 74.6492C38.2407 75.5916 36.8279 76.455 35.4159 77.2394L35.4047 77.2457L35.3938 77.2525C34.2318 77.9787 32.6713 78.3634 30.6736 78.3634C29.0405 78.3634 27.5131 77.2868 26.1274 74.8257C24.7483 72.2185 24.0519 69.2166 24.0519 65.8071C24.0519 60.0311 25.3782 54.4081 28.0373 48.9335C30.703 43.4454 34.3114 38.345 38.8667 33.6325C43.5812 28.761 49.0045 24.5159 55.1389 20.8979C60.1667 18.0071 65.4966 15.6179 71.1291 13.7305C73.8626 12.8145 75.8027 10.2968 75.8027 7.38572C75.8027 3.6497 72.6341 0.62247 68.8814 1.1527C61.1635 2.2432 53.7398 4.41426 46.6119 7.66522C37.5369 11.6459 29.5729 17.0612 22.7236 23.9105C16.0322 30.6019 10.618 38.4859 6.47981 47.558L6.47976 47.558L6.47682 47.5647C2.4901 56.6544 0.5 66.6148 0.5 77.4391C0.5 84.2996 1.61702 90.7679 3.85425 96.8404L3.8558 96.8445C6.08991 102.749 9.12394 108.02 12.959 112.654L12.959 112.654L12.9646 112.661C16.8027 117.138 21.2829 120.739 26.4034 123.459L26.4033 123.459L26.4144 123.465C31.5505 126.033 37.0873 127.316 43.0178 127.316C47.5035 127.316 51.6783 126.595 55.5376 125.148L55.5376 125.148L55.5477 125.144C59.5516 123.542 63.0052 121.456 65.9019 118.881L65.5697 118.507Z" />
-                                <use href="#0ef284b8-28c2-426e-9442-8655d393522e" x="86" />
-                            </svg>
-                            <blockquote class="mt-6 text-xl font-semibold leading-8 text-white">
-                                <p>“"What happens is not as important as how you react to what happens." "The journey of a thousand miles begins with one step." "The only true wisdom is in knowing you know nothing." "Just as treasures are uncovered from the earth, so virtue appears from good deeds, and wisdom appears from a pure and peaceful mind..”</p>
-                            </blockquote>
-                            <!--<figcaption class="mt-6 text-sm leading-6 text-gray-300"><strong class="font-semibold text-white">Shehab Najib,</strong> ceo of ISREN</figcaption>-->
-                        </figure>
-                    </div>
-                </div>
-                <div>
-                    <div class="text-base leading-7 text-gray-700 lg:max-w-lg">
-                        <p class="text-base font-semibold leading-7 text-yellow-400">MORE ABOUT US</p>
-                        <h1 class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Oue Testimonial</h1>
-                        <div class="max-w-xl">
-                            <p class="mt-6">I recently used their handyman, plumbing, and electrical services and was thoroughly impressed. Marc and Rhae coordinated a responsive and professional handyman team, ensuring timely and efficient service. </p>
-                            <p class="mt-8">The plumber quickly fixed a water leakage issue, and the electrician was prompt, clear about charges, and effective. Overall, the services were excellent, affordable, and highly recommended.</p>
-                            <p class="mt-8">Zero Degree AC Limited also offers tailored Air Conditioning installation packages. Their systems are inverter-driven, energy-efficient, stylish, silent, and provide both cooling and heating. </p>
-                        </div>
-                    </div>
-                    <dl class="mt-10 grid grid-cols-2 gap-8 border-t border-gray-900/10 pt-10 sm:grid-cols-4">
-                        <div>
-                            <img src={{ url('img/electrical-energy.png') }} alt="">
-                        </div>
-                        <div>
-                            <img src={{ url('img/technician.png') }} alt="">
-                        </div>
-                        <div>
-                            <img src={{ url('img/24-hours.png') }} alt="">
-                        </div>
-                        <div>
-                            <img src={{ url('img/rating.png') }} alt="">
-                        </div>
-                    </dl>
-                    <div class="mt-10 flex">
-                        <a href="#" class="text-base font-semibold leading-7 text-yellow-500">Learn more about our company <span aria-hidden="true">&rarr;</span></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-
+    <!-- Revew -->
     <footer class="footer bg-blue-100/80 font-sans dark:bg-gray-900">
         <div class="container px-6 py-12 mx-auto">
             <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-4">
@@ -1020,8 +1150,6 @@
             previousSlide.classList.add('translate-x-0');
         }
     }
-</script>
-<script>
     window.onscroll = function() {
         var navbar = document.getElementById("navbar");
         if (window.pageYOffset > 0) {
@@ -1042,155 +1170,9 @@
         }
     };
 
-    function checkAndRedirect(event) {
-        event.preventDefault();
-        const input = document.getElementById('search-input').value.toLowerCase().replace(/\s+/g, '');
-        const routes = {
-            'plumber': '/searchPlumber',
-            'electrician': '/searchElectric',
-            'handyman': '/searchHandyMan',
-            'deepclean': '/searchDeepclean',
-            'floorpolish': '/searchFloorPolish',
-            'floorclean': '/searchFloorClean',
-            'wood': '/searchWood',
-            'decking': '/searchDecking'
-        };
-
-        let foundRoute = false;
-
-        for (const keyword in routes) {
-            if (keyword.includes(input)) {
-                window.location.href = routes[keyword];
-                foundRoute = true;
-                break;
-            }
-        }
-
-        if (!foundRoute) {
-            window.location.href = '/noSearch';
-        }
-    }
-</script>
-<script>
-    function showSubmenu() {
-        document.getElementById('decking-submenu').classList.remove('hidden-submenu');
-    }
-
-    function hideSubmenu() {
-        document.getElementById('decking-submenu').classList.add('hidden-submenu');
-    }
-</script>
-<script>
-    // decking-submenu
-    function showSubmenu() {
-        document.getElementById('decking-submenu').classList.remove('hidden-submenu');
-    }
-
-    function hideSubmenu() {
-        document.getElementById('decking-submenu').classList.add('hidden-submenu');
-    }
-    // decking-submenu
-    function showSubmenu1() {
-        document.getElementById('varnish-submenu').classList.remove('hidden-submenu');
-    }
-
-    function hideSubmenu1() {
-        document.getElementById('varnish-submenu').classList.add('hidden-submenu');
-    }
-    // Vanish-submenu
-    function showSubmenu2() {
-        document.getElementById('fClean-submenu').classList.remove('hidden-submenu');
-    }
-
-    function hideSubmenu2() {
-        document.getElementById('fClean-submenu').classList.add('hidden-submenu');
-    }
-    // fpolish-submenu
-    function showSubmenu3() {
-        document.getElementById('fpolish-submenu').classList.remove('hidden-submenu');
-    }
-
-    function hideSubmenu3() {
-        document.getElementById('fpolish-submenu').classList.add('hidden-submenu');
-    }
-    // dClean-submenu
-    function showSubmenu4() {
-        document.getElementById('dClean-submenu').classList.remove('hidden-submenu');
-    }
-
-    function hideSubmenu4() {
-        document.getElementById('dClean-submenu').classList.add('hidden-submenu');
-    }
-    // handy-submenu
-    function showSubmenu5() {
-        document.getElementById('handy-submenu').classList.remove('hidden-submenu');
-    }
-
-    function hideSubmenu5() {
-        document.getElementById('handy-submenu').classList.add('hidden-submenu');
-    }
-    // handy-submenu
-    function showSubmenu6() {
-        document.getElementById('electric-submenu').classList.remove('hidden-submenu');
-    }
-
-    function hideSubmenu6() {
-        document.getElementById('electric-submenu').classList.add('hidden-submenu');
-    }
-    // handy-submenu
-    function showSubmenu7() {
-        document.getElementById('service-submenu').classList.remove('hidden-submenu');
-    }
-
-    function hideSubmenu7() {
-        document.getElementById('service-submenu').classList.add('hidden-submenu');
-    }
-
-    function showLightServiceSubmenu() {
-        document.getElementById('light-service-submenu').classList.remove('hidden-submenu');
-    }
-
-    function hideLightServiceSubmenu() {
-        document.getElementById('light-service-submenu').classList.add('hidden-submenu');
-    }
-
-    function showPlumbingInstallSubmenu() {
-        document.getElementById('plumbing-install-submenu').classList.remove('hidden-submenu');
-    }
-
-    function hidePlumbingInstallSubmenu() {
-        document.getElementById('plumbing-install-submenu').classList.add('hidden-submenu');
-    }
-
-    function showPlumbingLeakSubmenu() {
-        document.getElementById('plumbing-leak-submenu').classList.remove('hidden-submenu');
-    }
-
-    function hidePlumbingLeakSubmenu() {
-        document.getElementById('plumbing-leak-submenu').classList.add('hidden-submenu');
-    }
-
-    function showWaterHeaterSubmenu() {
-        document.getElementById('water-heater-submenu').classList.remove('hidden-submenu');
-    }
-
-    function hideWaterHeaterSubmenu() {
-        document.getElementById('water-heater-submenu').classList.add('hidden-submenu');
-    }
-
-    function showToiletBowlSubmenu() {
-        document.getElementById('toilet-bowl-submenu').classList.remove('hidden-submenu');
-    }
-
-    function hideToiletBowlSubmenu() {
-        document.getElementById('toilet-bowl-submenu').classList.add('hidden-submenu');
-    }
-
-    function showShowerServiceSubmenu() {
-        document.getElementById('shower-service-submenu').classList.remove('hidden-submenu');
-    }
-
-    function hideShowerServiceSubmenu() {
-        document.getElementById('shower-service-submenu').classList.add('hidden-submenu');
+    function toggleFAQ(button) {
+        const content = button.nextElementSibling;
+        button.setAttribute("aria-expanded", button.getAttribute("aria-expanded") === "false" ? "true" : "false");
+        content.style.maxHeight = button.getAttribute("aria-expanded") === "true" ? content.scrollHeight + "px" : "0";
     }
 </script>
