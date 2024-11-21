@@ -22,62 +22,125 @@ class UserController extends Controller
         ], 200);
     }
 
+    // public function createUser(Request $request)
+    // {
+    //     try {
+    //         $request->validate([
+    //             'name' => 'required|string',
+    //             'password' => 'required|string',
+    //             'phone' => 'required|string|unique:user,phone',
+    //         ]);
+
+    //         $otp = rand(1000, 9999);
+
+    //         $userData = [
+    //             'name' => $request->input('name'),
+    //             'password' => Hash::make($request->input('password')),
+    //             'phone' => $request->input('phone'),
+    //             'otp' => $otp,
+    //         ];
+
+    //         $user = User::create($userData);
+
+    //         Otp::create([
+    //             'phone' => $request->input('phone'),
+    //             'otp_code' => $otp,
+    //         ]);
+
+    //         $url = "http://103.53.84.15:8746/sendtext";
+    //         $response = Http::get($url, [
+    //             'apikey' => 'dfbd6568d15577db',
+    //             'secretkey' => '61784eda',
+    //             'callerID' => '8809612444767',
+    //             'toUser' => $request->input('phone'),
+    //             'messageContent' => 'Your OTP: ' . $otp,
+    //         ]);
+
+    //         if ($response->successful()) {
+    //             $token = JWTAuth::fromUser($user);
+
+    //             $user->token = $token;
+    //             $user->save();
+
+    //             return response()->json([
+    //                 'name' => $user->name,
+    //                 'phone' => $user->phone,
+    //                 'token' => $token,
+    //                 'message' => 'User created and OTP sent successfully.',
+    //                 'status_code' => 200,
+    //             ], 200);
+    //         } else {
+    //             $user->delete();
+    //             return response()->json([
+    //                 'error' => 'Failed to send OTP. Please try again.',
+    //                 'status_code' => 500,
+    //             ], 500);
+    //         }
+
+    //     } catch (ValidationException $e) {
+    //         $errors = $e->errors();
+    //         return response()->json([
+    //             'error' => 'Validation Error',
+    //             'details' => $errors,
+    //             'status_code' => 400,
+    //         ], 400);
+    //     } catch (\Exception $e) {
+    //         return response()->json([
+    //             'error' => 'Internal Server Error',
+    //             'message' => $e->getMessage(),
+    //             'status_code' => 500,
+    //         ], 500);
+    //     }
+    // }
+
+
     public function createUser(Request $request)
     {
         try {
+            // Validate request data
             $request->validate([
                 'name' => 'required|string',
                 'password' => 'required|string',
                 'phone' => 'required|string|unique:user,phone',
             ]);
 
-            $otp = rand(1000, 9999);
+            $otp = rand(1000, 9999); // OTP generation (optional, but no longer used)
 
+            // User data with 'verified' set to 1
             $userData = [
                 'name' => $request->input('name'),
                 'password' => Hash::make($request->input('password')),
                 'phone' => $request->input('phone'),
-                'otp' => $otp,
+                'otp' => $otp, // Keeping this field in case it's required later
+                'verified' => 1, // User is always verified
             ];
 
+            // Create user
             $user = User::create($userData);
 
+            // Optional: Save OTP in the Otp table (if needed for any future use)
             Otp::create([
                 'phone' => $request->input('phone'),
                 'otp_code' => $otp,
             ]);
 
-            $url = "http://103.53.84.15:8746/sendtext";
-            $response = Http::get($url, [
-                'apikey' => 'dfbd6568d15577db',
-                'secretkey' => '61784eda',
-                'callerID' => '8809612444767',
-                'toUser' => $request->input('phone'),
-                'messageContent' => 'Your OTP: ' . $otp,
-            ]);
+            // Generate JWT token
+            $token = JWTAuth::fromUser($user);
 
-            if ($response->successful()) {
-                $token = JWTAuth::fromUser($user);
+            // Save token to the user (optional if token persistence isn't needed)
+            $user->token = $token;
+            $user->save();
 
-                $user->token = $token;
-                $user->save();
-
-                return response()->json([
-                    'name' => $user->name,
-                    'phone' => $user->phone,
-                    'token' => $token,
-                    'message' => 'User created and OTP sent successfully.',
-                    'status_code' => 200,
-                ], 200);
-            } else {
-                $user->delete();
-                return response()->json([
-                    'error' => 'Failed to send OTP. Please try again.',
-                    'status_code' => 500,
-                ], 500);
-            }
-
+            // Return success response
+            return response()->json([
+                'name' => $user->name,
+                'phone' => $user->phone,
+                'token' => $token,
+                'message' => 'User created successfully.',
+                'status_code' => 200,
+            ], 200);
         } catch (ValidationException $e) {
+            // Handle validation errors
             $errors = $e->errors();
             return response()->json([
                 'error' => 'Validation Error',
@@ -85,6 +148,7 @@ class UserController extends Controller
                 'status_code' => 400,
             ], 400);
         } catch (\Exception $e) {
+            // Handle other exceptions
             return response()->json([
                 'error' => 'Internal Server Error',
                 'message' => $e->getMessage(),
@@ -92,6 +156,7 @@ class UserController extends Controller
             ], 500);
         }
     }
+
 
     public function otpVerification(Request $request)
     {
@@ -116,7 +181,6 @@ class UserController extends Controller
                     'status_code' => 400,
                 ], 400);
             }
-
         } catch (\Exception $e) {
             return response()->json([
                 'error' => 'Unauthorized',
