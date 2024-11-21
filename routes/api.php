@@ -19,7 +19,12 @@ Route::middleware('auth-api')->group(function () {
 
     // Securing complaints routes
     Route::post('/complaints', [ComplaintController::class, 'store']);
+<<<<<<< HEAD
     Route::get('/complaints/{topic?}', [ComplaintController::class, 'getComplaints']);
+=======
+    Route::get('/complaints', [ComplaintController::class, 'getComplaints']);
+
+>>>>>>> 098c7b5099fcd016642b2cc328a79a3fb15a7af0
 
 });
 //Division routes

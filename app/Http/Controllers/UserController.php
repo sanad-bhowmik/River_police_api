@@ -127,9 +127,32 @@ class UserController extends Controller
             // Generate JWT token
             $token = JWTAuth::fromUser($user);
 
+<<<<<<< HEAD
             // Save token to the user (optional if token persistence isn't needed)
             $user->token = $token;
             $user->save();
+=======
+            if ($response->successful()) {
+                $token = JWTAuth::fromUser($user);
+
+                $user->token = $token;
+                $user->save();
+
+                return response()->json([
+                    'name' => $user->name,
+                    'phone' => $user->phone,
+                    'token' => $token,
+                    'message' => 'User created and OTP sent successfully.',
+                    'status_code' => 200,
+                ], 200);
+            } else {
+                $user->delete();
+                return response()->json([
+                    'error' => 'Failed to send OTP. Please try again.',
+                    'status_code' => 500,
+                ], 500);
+            }
+>>>>>>> 098c7b5099fcd016642b2cc328a79a3fb15a7af0
 
             // Return success response
             return response()->json([
@@ -157,7 +180,10 @@ class UserController extends Controller
         }
     }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 098c7b5099fcd016642b2cc328a79a3fb15a7af0
     public function otpVerification(Request $request)
     {
         try {
@@ -181,6 +207,10 @@ class UserController extends Controller
                     'status_code' => 400,
                 ], 400);
             }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 098c7b5099fcd016642b2cc328a79a3fb15a7af0
         } catch (\Exception $e) {
             return response()->json([
                 'error' => 'Unauthorized',

@@ -39,6 +39,7 @@ class ComplaintController extends Controller
         ], 201);
     }
 
+<<<<<<< HEAD
     public function getComplaints($topic = null)
     {
         if ($topic) {
@@ -54,6 +55,11 @@ class ComplaintController extends Controller
         } else {
             $complaints = Complaint::all();
         }
+=======
+    public function getComplaints()
+    {
+        $complaints = Complaint::all();
+>>>>>>> 098c7b5099fcd016642b2cc328a79a3fb15a7af0
 
         $complaints->transform(function ($complaint) {
             $complaint->file_url = url(Storage::url($complaint->file));
@@ -66,5 +72,8 @@ class ComplaintController extends Controller
         ], 200);
     }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 098c7b5099fcd016642b2cc328a79a3fb15a7af0
 }

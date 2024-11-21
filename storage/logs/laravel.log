@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [2024-08-30 12:36:45] local.ERROR: View [about] not found. {"exception":"[object] (InvalidArgumentException(code: 0): View [about] not found. at C:\\xampp\\htdocs\\HelloRP\\vendor\\laravel\\framework\\src\\Illuminate\\View\\FileViewFinder.php:137)
 [stacktrace]
 #0 C:\\xampp\\htdocs\\HelloRP\\vendor\\laravel\\framework\\src\\Illuminate\\View\\FileViewFinder.php(79): Illuminate\\View\\FileViewFinder->findInPaths('about', Array)
@@ -214,3 +215,5 @@
 #5 C:\\xampp\\htdocs\\HelloRP\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #6 {main}
 "} 
+=======
+>>>>>>> 098c7b5099fcd016642b2cc328a79a3fb15a7af0
