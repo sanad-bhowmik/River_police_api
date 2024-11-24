@@ -49,7 +49,7 @@
 #45 C:\\xampp\\htdocs\\HelloRP\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #46 C:\\xampp\\htdocs\\HelloRP\\server.php(21): require_once('C:\\\\xampp\\\\htdocs...')
 #47 {main}
-"} 
+"}
 [2024-08-30 13:04:59] local.ERROR: View [test] not found. {"exception":"[object] (InvalidArgumentException(code: 0): View [test] not found. at C:\\xampp\\htdocs\\HelloRP\\vendor\\laravel\\framework\\src\\Illuminate\\View\\FileViewFinder.php:137)
 [stacktrace]
 #0 C:\\xampp\\htdocs\\HelloRP\\vendor\\laravel\\framework\\src\\Illuminate\\View\\FileViewFinder.php(79): Illuminate\\View\\FileViewFinder->findInPaths('test', Array)
@@ -100,7 +100,7 @@
 #45 C:\\xampp\\htdocs\\HelloRP\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #46 C:\\xampp\\htdocs\\HelloRP\\server.php(21): require_once('C:\\\\xampp\\\\htdocs...')
 #47 {main}
-"} 
+"}
 [2024-08-30 13:05:35] local.ERROR: View [test] not found. {"exception":"[object] (InvalidArgumentException(code: 0): View [test] not found. at C:\\xampp\\htdocs\\HelloRP\\vendor\\laravel\\framework\\src\\Illuminate\\View\\FileViewFinder.php:137)
 [stacktrace]
 #0 C:\\xampp\\htdocs\\HelloRP\\vendor\\laravel\\framework\\src\\Illuminate\\View\\FileViewFinder.php(79): Illuminate\\View\\FileViewFinder->findInPaths('test', Array)
@@ -151,7 +151,7 @@
 #45 C:\\xampp\\htdocs\\HelloRP\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #46 C:\\xampp\\htdocs\\HelloRP\\server.php(21): require_once('C:\\\\xampp\\\\htdocs...')
 #47 {main}
-"} 
+"}
 [2024-11-21 06:00:23] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\xampp\\htdocs\\HelloRP\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:200)
 [stacktrace]
 #0 C:\\xampp\\htdocs\\HelloRP\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(125): Illuminate\\Log\\LogManager->resolve(NULL, NULL)
@@ -162,7 +162,7 @@
 #5 C:\\xampp\\htdocs\\HelloRP\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Foundation\\Console\\Kernel->reportException(Object(Error))
 #6 C:\\xampp\\htdocs\\HelloRP\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #7 {main}
-"} 
+"}
 [2024-11-21 06:00:23] laravel.ERROR: Undefined constant Tymon\JWTAuth\Providers\JWT\Provider::ALGO_HS256 {"exception":"[object] (Error(code: 0): Undefined constant Tymon\\JWTAuth\\Providers\\JWT\\Provider::ALGO_HS256 at C:\\xampp\\htdocs\\HelloRP\\config\\jwt.php:134)
 [stacktrace]
 #0 C:\\xampp\\htdocs\\HelloRP\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(72): require()
@@ -172,7 +172,7 @@
 #4 C:\\xampp\\htdocs\\HelloRP\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
 #5 C:\\xampp\\htdocs\\HelloRP\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #6 {main}
-"} 
+"}
 [2024-11-21 06:00:42] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\xampp\\htdocs\\HelloRP\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:200)
 [stacktrace]
 #0 C:\\xampp\\htdocs\\HelloRP\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(125): Illuminate\\Log\\LogManager->resolve(NULL, NULL)
@@ -183,7 +183,7 @@
 #5 C:\\xampp\\htdocs\\HelloRP\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Foundation\\Console\\Kernel->reportException(Object(Error))
 #6 C:\\xampp\\htdocs\\HelloRP\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #7 {main}
-"} 
+"}
 [2024-11-21 06:00:42] laravel.ERROR: Undefined constant Tymon\JWTAuth\Providers\JWT\Provider::ALGO_HS256 {"exception":"[object] (Error(code: 0): Undefined constant Tymon\\JWTAuth\\Providers\\JWT\\Provider::ALGO_HS256 at C:\\xampp\\htdocs\\HelloRP\\config\\jwt.php:134)
 [stacktrace]
 #0 C:\\xampp\\htdocs\\HelloRP\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(72): require()
@@ -193,7 +193,7 @@
 #4 C:\\xampp\\htdocs\\HelloRP\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
 #5 C:\\xampp\\htdocs\\HelloRP\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #6 {main}
-"} 
+"}
 [2024-11-21 06:02:36] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\xampp\\htdocs\\HelloRP\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:200)
 [stacktrace]
 #0 C:\\xampp\\htdocs\\HelloRP\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(125): Illuminate\\Log\\LogManager->resolve(NULL, NULL)
@@ -204,7 +204,7 @@
 #5 C:\\xampp\\htdocs\\HelloRP\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Foundation\\Console\\Kernel->reportException(Object(Error))
 #6 C:\\xampp\\htdocs\\HelloRP\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #7 {main}
-"} 
+"}
 [2024-11-21 06:02:36] laravel.ERROR: Undefined constant Tymon\JWTAuth\Providers\JWT\Provider::ALGO_HS256 {"exception":"[object] (Error(code: 0): Undefined constant Tymon\\JWTAuth\\Providers\\JWT\\Provider::ALGO_HS256 at C:\\xampp\\htdocs\\HelloRP\\config\\jwt.php:134)
 [stacktrace]
 #0 C:\\xampp\\htdocs\\HelloRP\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(72): require()
@@ -214,6 +214,36 @@
 #4 C:\\xampp\\htdocs\\HelloRP\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
 #5 C:\\xampp\\htdocs\\HelloRP\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #6 {main}
-"} 
+"}
 =======
 >>>>>>> 098c7b5099fcd016642b2cc328a79a3fb15a7af0
+[2024-11-24 09:28:34] local.ERROR: syntax error, unexpected token "<<" {"exception":"[object] (ParseError(code: 0): syntax error, unexpected token \"<<\" at C:\\xampp\\htdocs\\HelloRP\\routes\\api.php:22)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\HelloRP\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(425): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\xampp\\\\htdocs...')
+#1 C:\\xampp\\htdocs\\HelloRP\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(382): Illuminate\\Routing\\Router->loadRoutes('C:\\\\xampp\\\\htdocs...')
+#2 C:\\xampp\\htdocs\\HelloRP\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteRegistrar.php(163): Illuminate\\Routing\\Router->group(Array, 'C:\\\\xampp\\\\htdocs...')
+#3 C:\\xampp\\htdocs\\HelloRP\\app\\Providers\\RouteServiceProvider.php(44): Illuminate\\Routing\\RouteRegistrar->group('C:\\\\xampp\\\\htdocs...')
+#4 C:\\xampp\\htdocs\\HelloRP\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Providers\\RouteServiceProvider->App\\Providers\\{closure}()
+#5 C:\\xampp\\htdocs\\HelloRP\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#6 C:\\xampp\\htdocs\\HelloRP\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#7 C:\\xampp\\htdocs\\HelloRP\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#8 C:\\xampp\\htdocs\\HelloRP\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(653): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#9 C:\\xampp\\htdocs\\HelloRP\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(120): Illuminate\\Container\\Container->call(Object(Closure))
+#10 C:\\xampp\\htdocs\\HelloRP\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(45): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#11 C:\\xampp\\htdocs\\HelloRP\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->Illuminate\\Foundation\\Support\\Providers\\{closure}()
+#12 C:\\xampp\\htdocs\\HelloRP\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#13 C:\\xampp\\htdocs\\HelloRP\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#14 C:\\xampp\\htdocs\\HelloRP\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#15 C:\\xampp\\htdocs\\HelloRP\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(653): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#16 C:\\xampp\\htdocs\\HelloRP\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(119): Illuminate\\Container\\Container->call(Object(Closure))
+#17 C:\\xampp\\htdocs\\HelloRP\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(929): Illuminate\\Support\\ServiceProvider->callBootedCallbacks()
+#18 C:\\xampp\\htdocs\\HelloRP\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(907): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\RouteServiceProvider))
+#19 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\RouteServiceProvider), 24)
+#20 C:\\xampp\\htdocs\\HelloRP\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(906): array_walk(Array, Object(Closure))
+#21 C:\\xampp\\htdocs\\HelloRP\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#22 C:\\xampp\\htdocs\\HelloRP\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#23 C:\\xampp\\htdocs\\HelloRP\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#24 C:\\xampp\\htdocs\\HelloRP\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#25 C:\\xampp\\htdocs\\HelloRP\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#26 {main}
+"} 
